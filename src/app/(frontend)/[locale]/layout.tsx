@@ -12,7 +12,11 @@ import { Footer } from '@/components/layout/Footer';
 import { Header } from '@/components/layout/Header';
 import { ThemeInit } from '@/components/layout/ThemeInit';
 import { resolveLocale, routing } from '@/i18n/routing';
-import { resolveGraphqlEndpoint, resolveHubspotPortalId } from '@/lib/hubspot/settings';
+import {
+  resolveAgentEnabled,
+  resolveGraphqlEndpoint,
+  resolveHubspotPortalId,
+} from '@/lib/hubspot/settings';
 import { buildRootMetadata } from '@/lib/payload/metadata';
 import { getSiteSettings } from '@/lib/payload/queries';
 import {
@@ -78,7 +82,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
   const serverTheme = resolveServerTheme(isThemeId(themeCookie) ? themeCookie : undefined, defaultTheme);
   const hubspotPortalId = resolveHubspotPortalId(settings);
   const graphqlEndpoint = resolveGraphqlEndpoint(settings);
-  const agentEnabled = settings?.agentEnabled ?? false;
+  const agentEnabled = resolveAgentEnabled(settings);
 
   return (
     <html

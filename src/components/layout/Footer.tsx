@@ -2,6 +2,7 @@ import { getLocale, getTranslations } from 'next-intl/server';
 
 import { Link } from '@/i18n/navigation';
 import { resolveLocale } from '@/i18n/routing';
+import { resolveAgentEnabled } from '@/lib/hubspot/settings';
 import {
   getDemoCtaHref,
   getFooterLegal,
@@ -26,7 +27,7 @@ export async function Footer() {
   const footerLegal = getFooterLegal(settings);
   const signInHref = getSignInHref(settings);
   const demoCtaHref = getDemoCtaHref(settings);
-  const agentEnabled = settings?.agentEnabled ?? false;
+  const agentEnabled = resolveAgentEnabled(settings);
 
   return (
     <footer className="border-t border-border-subtle pb-12 pt-16">
