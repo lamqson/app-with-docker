@@ -8,8 +8,24 @@ import type { DatabaseAdapterObj } from 'payload';
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
 
-function postgresConnectionString(): string | undefined {
+export function postgresConnectionString(): string | undefined {
   return process.env.DATABASE_URL || process.env.NETLIFY_DATABASE_URL;
+}
+
+export function isServerlessRuntime(): boolean {
+  return Boolean(
+    process.env.AWS_LAMBDA_FUNCTION_NAME ||
+    process.env.LAMBDA_TASK_ROOT,
+  );
+}
+
+/** SQLite is local-only; serverless hosts require Postgres. */
+export function isDatabaseConfigured(): boolean {
+  if (postgresConnectionString()) {
+    return true;
+  }
+
+  return !isServerlessRuntime();
 }
 
 function sqliteUrl(): string {

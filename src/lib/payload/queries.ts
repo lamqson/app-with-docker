@@ -2,8 +2,9 @@ import { cache } from 'react';
 
 import type { AppLocale } from '@/i18n/routing';
 import type { CaseStudy, Page, Post, SiteSetting } from '@/payload/payload-types';
+import type { Payload } from 'payload';
 
-import { getPayload } from './getPayload';
+import { getPayloadSafe } from './getPayload';
 
 const isDev = process.env.NODE_ENV !== 'production';
 
@@ -12,23 +13,37 @@ const collectionQueryDefaults = {
   overrideAccess: isDev,
 } as const;
 
-export const getSiteSettings = cache(async (locale: AppLocale): Promise<SiteSetting | null> => {
-  try {
-    const payload = await getPayload();
-    return await payload.findGlobal({
-      slug: 'site-settings',
-      locale,
-      depth: 1,
-    });
-  } catch {
-    return null;
+async function withPayload<T>(
+  fn: (payload: Payload) => Promise<T>,
+  fallback: T,
+): Promise<T> {
+  const payload = await getPayloadSafe();
+  if (!payload) {
+    return fallback;
   }
-});
+
+  try {
+    return await fn(payload);
+  } catch {
+    return fallback;
+  }
+}
+
+export const getSiteSettings = cache(async (locale: AppLocale): Promise<SiteSetting | null> =>
+  withPayload(
+    (payload) =>
+      payload.findGlobal({
+        slug: 'site-settings',
+        locale,
+        depth: 1,
+      }),
+    null,
+  ),
+);
 
 export const getPageBySlug = cache(
-  async (slug: string, locale: AppLocale): Promise<Page | null> => {
-    try {
-      const payload = await getPayload();
+  async (slug: string, locale: AppLocale): Promise<Page | null> =>
+    withPayload(async (payload) => {
       const result = await payload.find({
         collection: 'pages',
         depth: 2,
@@ -43,15 +58,11 @@ export const getPageBySlug = cache(
       });
 
       return result.docs[0] ?? null;
-    } catch {
-      return null;
-    }
-  },
+    }, null),
 );
 
-export const getAllPageSlugs = cache(async (): Promise<string[]> => {
-  try {
-    const payload = await getPayload();
+export const getAllPageSlugs = cache(async (): Promise<string[]> =>
+  withPayload(async (payload) => {
     const result = await payload.find({
       collection: 'pages',
       limit: 100,
@@ -65,14 +76,11 @@ export const getAllPageSlugs = cache(async (): Promise<string[]> => {
     return result.docs
       .map((doc) => doc.slug)
       .filter((slug) => slug !== 'home');
-  } catch {
-    return [];
-  }
-});
+  }, []),
+);
 
-export const getPosts = cache(async (locale: AppLocale): Promise<Post[]> => {
-  try {
-    const payload = await getPayload();
+export const getPosts = cache(async (locale: AppLocale): Promise<Post[]> =>
+  withPayload(async (payload) => {
     const result = await payload.find({
       collection: 'posts',
       depth: 1,
@@ -83,15 +91,12 @@ export const getPosts = cache(async (locale: AppLocale): Promise<Post[]> => {
     });
 
     return result.docs;
-  } catch {
-    return [];
-  }
-});
+  }, []),
+);
 
 export const getPostBySlug = cache(
-  async (slug: string, locale: AppLocale): Promise<Post | null> => {
-    try {
-      const payload = await getPayload();
+  async (slug: string, locale: AppLocale): Promise<Post | null> =>
+    withPayload(async (payload) => {
       const result = await payload.find({
         collection: 'posts',
         depth: 2,
@@ -106,15 +111,11 @@ export const getPostBySlug = cache(
       });
 
       return result.docs[0] ?? null;
-    } catch {
-      return null;
-    }
-  },
+    }, null),
 );
 
-export const getAllPostSlugs = cache(async (): Promise<string[]> => {
-  try {
-    const payload = await getPayload();
+export const getAllPostSlugs = cache(async (): Promise<string[]> =>
+  withPayload(async (payload) => {
     const result = await payload.find({
       collection: 'posts',
       limit: 100,
@@ -126,14 +127,11 @@ export const getAllPostSlugs = cache(async (): Promise<string[]> => {
     });
 
     return result.docs.map((doc) => doc.slug);
-  } catch {
-    return [];
-  }
-});
+  }, []),
+);
 
-export const getCaseStudies = cache(async (locale: AppLocale): Promise<CaseStudy[]> => {
-  try {
-    const payload = await getPayload();
+export const getCaseStudies = cache(async (locale: AppLocale): Promise<CaseStudy[]> =>
+  withPayload(async (payload) => {
     const result = await payload.find({
       collection: 'case-studies',
       depth: 1,
@@ -144,15 +142,12 @@ export const getCaseStudies = cache(async (locale: AppLocale): Promise<CaseStudy
     });
 
     return result.docs;
-  } catch {
-    return [];
-  }
-});
+  }, []),
+);
 
 export const getCaseStudyBySlug = cache(
-  async (slug: string, locale: AppLocale): Promise<CaseStudy | null> => {
-    try {
-      const payload = await getPayload();
+  async (slug: string, locale: AppLocale): Promise<CaseStudy | null> =>
+    withPayload(async (payload) => {
       const result = await payload.find({
         collection: 'case-studies',
         depth: 2,
@@ -167,15 +162,11 @@ export const getCaseStudyBySlug = cache(
       });
 
       return result.docs[0] ?? null;
-    } catch {
-      return null;
-    }
-  },
+    }, null),
 );
 
-export const getAllCaseStudySlugs = cache(async (): Promise<string[]> => {
-  try {
-    const payload = await getPayload();
+export const getAllCaseStudySlugs = cache(async (): Promise<string[]> =>
+  withPayload(async (payload) => {
     const result = await payload.find({
       collection: 'case-studies',
       limit: 100,
@@ -187,7 +178,5 @@ export const getAllCaseStudySlugs = cache(async (): Promise<string[]> => {
     });
 
     return result.docs.map((doc) => doc.slug);
-  } catch {
-    return [];
-  }
-});
+  }, []),
+);
