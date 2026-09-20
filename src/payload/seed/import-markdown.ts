@@ -265,45 +265,52 @@ function bodyToParagraphs(body: string): string[] {
 	return paragraphs;
 }
 
+export function documentFromMarkdown(
+	raw: string,
+	file: string,
+): ImportedDocument {
+	const { meta, body } = parseFrontMatter(raw);
+	const imagesRaw = Array.isArray(meta.images) ? meta.images : [];
+	const layoutRaw = Array.isArray(meta.layout) ? meta.layout : [];
+
+	return {
+		sourceUrl: String(meta.source_url || ""),
+		title: String(meta.title || meta.h1 || file.replace(/\.md$/, "")),
+		description: String(meta.description || ""),
+		h1: String(meta.h1 || meta.title || ""),
+		slug: String(
+			meta.slug || file.replace(/\.md$/, "").replace(/__/g, "/"),
+		),
+		body,
+		importStatus: meta.status ? String(meta.status) : undefined,
+		layout: layoutRaw as LayoutSection[],
+		images: imagesRaw.map((image) => {
+			const record = image as Record<string, unknown>;
+			return {
+				id: String(record.id || ""),
+				src: String(record.src || ""),
+				alt: String(record.alt || ""),
+				role: String(record.role || "ui"),
+				sourceUrl: String(record.source_url || ""),
+				reused: Boolean(record.reused),
+				downloadFailed: Boolean(record.download_failed),
+			};
+		}),
+	};
+}
+
 export function loadImportedDocuments(): ImportedDocument[] {
 	if (!fs.existsSync(IMPORT_DIR)) return [];
 
 	return fs
 		.readdirSync(IMPORT_DIR)
 		.filter((file) => file.endsWith(".md"))
-		.map((file) => {
-			const raw = fs.readFileSync(path.join(IMPORT_DIR, file), "utf8");
-			const { meta, body } = parseFrontMatter(raw);
-			const imagesRaw = Array.isArray(meta.images) ? meta.images : [];
-			const layoutRaw = Array.isArray(meta.layout) ? meta.layout : [];
-
-			return {
-				sourceUrl: String(meta.source_url || ""),
-				title: String(
-					meta.title || meta.h1 || file.replace(/\.md$/, ""),
-				),
-				description: String(meta.description || ""),
-				h1: String(meta.h1 || meta.title || ""),
-				slug: String(
-					meta.slug || file.replace(/\.md$/, "").replace(/__/g, "/"),
-				),
-				body,
-				importStatus: meta.status ? String(meta.status) : undefined,
-				layout: layoutRaw as LayoutSection[],
-				images: imagesRaw.map((image) => {
-					const record = image as Record<string, unknown>;
-					return {
-						id: String(record.id || ""),
-						src: String(record.src || ""),
-						alt: String(record.alt || ""),
-						role: String(record.role || "ui"),
-						sourceUrl: String(record.source_url || ""),
-						reused: Boolean(record.reused),
-						downloadFailed: Boolean(record.download_failed),
-					};
-				}),
-			};
-		});
+		.map((file) =>
+			documentFromMarkdown(
+				fs.readFileSync(path.join(IMPORT_DIR, file), "utf8"),
+				file,
+			),
+		);
 }
 
 function normalizeLink(

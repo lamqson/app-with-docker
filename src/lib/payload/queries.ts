@@ -5,6 +5,7 @@ import type { CaseStudy, Page, Post, SiteSetting } from '@/payload/payload-types
 import type { Payload } from 'payload';
 
 import { getPayloadSafe } from './getPayload';
+import { getStaticPageBySlug, getStaticPageSlugs } from './static-pages';
 
 const isDev = process.env.NODE_ENV !== 'production';
 
@@ -42,8 +43,8 @@ export const getSiteSettings = cache(async (locale: AppLocale): Promise<SiteSett
 );
 
 export const getPageBySlug = cache(
-  async (slug: string, locale: AppLocale): Promise<Page | null> =>
-    withPayload(async (payload) => {
+  async (slug: string, locale: AppLocale): Promise<Page | null> => {
+    const fromDb = await withPayload(async (payload) => {
       const result = await payload.find({
         collection: 'pages',
         depth: 2,
@@ -58,11 +59,14 @@ export const getPageBySlug = cache(
       });
 
       return result.docs[0] ?? null;
-    }, null),
+    }, null);
+
+    return fromDb ?? getStaticPageBySlug(slug);
+  },
 );
 
-export const getAllPageSlugs = cache(async (): Promise<string[]> =>
-  withPayload(async (payload) => {
+export const getAllPageSlugs = cache(async (): Promise<string[]> => {
+  const fromDb = await withPayload(async (payload) => {
     const result = await payload.find({
       collection: 'pages',
       limit: 100,
@@ -73,11 +77,14 @@ export const getAllPageSlugs = cache(async (): Promise<string[]> =>
       ...collectionQueryDefaults,
     });
 
-    return result.docs
-      .map((doc) => doc.slug)
-      .filter((slug) => slug !== 'home');
-  }, []),
-);
+    return result.docs.map((doc) => doc.slug);
+  }, []);
+
+  const slugs = new Set([...fromDb, ...getStaticPageSlugs()]);
+  slugs.delete('home');
+
+  return [...slugs];
+});
 
 export const getPosts = cache(async (locale: AppLocale): Promise<Post[]> =>
   withPayload(async (payload) => {

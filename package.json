@@ -5,6 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "next dev -p 3200",
+    "predev": "npm run generate:static-pages",
+    "generate:static-pages": "tsx scripts/generate-static-pages.mjs",
+    "prebuild": "npm run generate:static-pages",
     "build": "next build",
     "start": "next start -p 3200",
     "lint": "eslint",
