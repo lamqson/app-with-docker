@@ -18,7 +18,15 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Embedded not added",
         "body": "AI isn’t bolted onto Raindrop. It’s built in. With agentic capabilities embedded across the S2P workflow, Rain helps procurement teams analyze data, surface recommendations, and initiate governed action across the platform.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/agentic-procurement/all-1536x808.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureGrid",
@@ -55,6 +63,14 @@ const pages: Page[] = [
         "headline": "What Agentic AI means for Procurement",
         "body": "Traditional AI can summarize information or answer isolated questions. Raindrop’s Agentic AI goes further: it interprets intent, dynamically queries the right data, creates action plans, and helps execute the next step inside governed procurement workflows. It's adding value to the process, not just automating it.",
         "imagePosition": "left",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/agentic-procurement/cover-image-agentic-ebook-1024x576.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        },
         "cta": {
           "href": "/understanding-agentic-ai-and-its-role-in-procurement",
           "label": "Read our series breaking down Agentic AI"
@@ -493,15 +509,39 @@ const pages: Page[] = [
         "features": [
           {
             "title": "Built for How You Want to Work",
-            "description": "Raindrop is the modern, intuitive solution that works the way you do."
+            "description": "Raindrop is the modern, intuitive solution that works the way you do.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/images/home/value-built.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "An Authentic Solution Guided by Innovators",
-            "description": "Led by industry disruptors with cross-disciplinary experience solving real problems with empathy and expertise."
+            "description": "Led by industry disruptors with cross-disciplinary experience solving real problems with empathy and expertise.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/images/home/value-authentic.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Create Value by Managing Commitments",
-            "description": "Raindrop empowers modern spend leaders to steer strategy, not just savings – turning commitments into catalysts for business value."
+            "description": "Raindrop empowers modern spend leaders to steer strategy, not just savings – turning commitments into catalysts for business value.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/images/home/value-commitments.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       },
@@ -656,17 +696,41 @@ const pages: Page[] = [
           {
             "name": "Jyoti Bansal",
             "role": "Advisor",
-            "bio": "Technology industry entrepreneur and leader from startup through acquisition."
+            "bio": "Technology industry entrepreneur and leader from startup through acquisition.",
+            "photo": {
+              "id": 0,
+              "url": "/assets/imported/company__advisor-team/advisory_jyoti-bansal.webp",
+              "alt": "Portrait",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "name": "Paul Patterson",
             "role": "Advisor",
-            "bio": "Revenue function industry executive driving company growth and customer strategy."
+            "bio": "Revenue function industry executive driving company growth and customer strategy.",
+            "photo": {
+              "id": 0,
+              "url": "/assets/imported/company__advisor-team/advisory_paul-patterson.webp",
+              "alt": "Portrait",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "name": "Gary Bischoping",
             "role": "Advisor",
-            "bio": "Finance leader experienced in private equity, investor relations, international business, consulting, treasury, and technology."
+            "bio": "Finance leader experienced in private equity, investor relations, international business, consulting, treasury, and technology.",
+            "photo": {
+              "id": 0,
+              "url": "/assets/imported/company__advisor-team/advisory_gary-bischoping.webp",
+              "alt": "Portrait",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       }
@@ -691,7 +755,140 @@ const pages: Page[] = [
         "blockType": "logoCloud",
         "headline": "Trusted by industry leaders",
         "variant": "logos",
-        "logos": []
+        "logos": [
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/company__partners/sada_logo_rgb_fushia-300x75.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/company__partners/carahsoft-blue-logo-web-300x59.webp",
+              "alt": "Logo",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/company__partners/mpc-consulting-logo-300x208.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/company__partners/wns-procurement-logo-300x47.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/company__partners/beltrees_brandmarklogo-300x182.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/company__partners/newdominion_logo-300x208.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/company__partners/the-procurement-hive-logo-300x208.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/company__partners/extropy_logo_color_vertical_png-1024x1024.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/company__partners/sada_logo_rgb_fushia-1024x258.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/company__partners/mpc-consulting-logo_cropped.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/company__partners/wns-procurement-logo-1024x161.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/company__partners/groves-and-co-transparent-logo-1024x335.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          }
+        ]
       },
       {
         "blockType": "cta",
@@ -724,27 +921,67 @@ const pages: Page[] = [
           {
             "name": "Vijay Caveripakkam",
             "role": "CEO",
-            "bio": "Entrepreneur and visionary thought leader. Deep experience in building and scaling global companies."
+            "bio": "Entrepreneur and visionary thought leader. Deep experience in building and scaling global companies.",
+            "photo": {
+              "id": 0,
+              "url": "/assets/imported/company__raindrop-team/team_vijay-caveripakkam.webp",
+              "alt": "Portrait",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "name": "Ward Karson",
             "role": "COO",
-            "bio": "Entrepreneur. Procurement industry leader and subject matter expert."
+            "bio": "Entrepreneur. Procurement industry leader and subject matter expert.",
+            "photo": {
+              "id": 0,
+              "url": "/assets/imported/company__raindrop-team/team_ward-karson.webp",
+              "alt": "Portrait",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "name": "John Moore",
             "role": "Head of Development",
-            "bio": "Software design and development executive leader. Builder of world-class industrial-grade enterprise software."
+            "bio": "Software design and development executive leader. Builder of world-class industrial-grade enterprise software.",
+            "photo": {
+              "id": 0,
+              "url": "/assets/imported/company__raindrop-team/team_john-moore.webp",
+              "alt": "Portrait",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "name": "Rohita Joshi",
             "role": "SVP Customer Success",
-            "bio": "Entrepreneur. Executive focused on creating equality and diversity in the workforce."
+            "bio": "Entrepreneur. Executive focused on creating equality and diversity in the workforce.",
+            "photo": {
+              "id": 0,
+              "url": "/assets/imported/company__raindrop-team/team_rohita-joshi.webp",
+              "alt": "Portrait",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "name": "Gokul Muthuswamy",
             "role": "Head of Product",
-            "bio": "Technology program leader with deep experience across enterprise software."
+            "bio": "Technology program leader with deep experience across enterprise software.",
+            "photo": {
+              "id": 0,
+              "url": "/assets/imported/company__raindrop-team/team_gokul-muthuswamy.webp",
+              "alt": "Portrait",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       }
@@ -827,13 +1064,29 @@ const pages: Page[] = [
         "secondaryCta": {
           "href": "/solutions",
           "label": "View Our Solutions"
+        },
+        "image": {
+          "id": 0,
+          "url": "/assets/images/home/rain-in-action.webp",
+          "alt": "Hero",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
         }
       },
       {
         "blockType": "featureSplit",
         "headline": "Agentic procurement for a transforming world",
         "body": "Agentic AI is only as powerful as the platform behind it. Raindrop runs on a single codebase with procurement data, workflows, and permissions built in — giving Rain the context to reason across S2P and the governance to act responsibly. -Single-codebase S2P architecture\n• First-class permissions\n• Dynamic query-building\n• Self-correcting agentic reasoning\n• Moving from answers to action\n• Procurement-specific clause/risk intelligence\n• Outcome-led instead of module-led results\n[Learn More About Agentic Learn More About Agentic](/agentic-procurement)",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/images/home/rain-base.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureGrid",
@@ -841,15 +1094,39 @@ const pages: Page[] = [
         "features": [
           {
             "title": "Built for How You Want to Work",
-            "description": ""
+            "description": "",
+            "icon": {
+              "id": 0,
+              "url": "/assets/images/home/value-built.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "An Authentic Solution Guided by Innovators",
-            "description": ""
+            "description": "",
+            "icon": {
+              "id": 0,
+              "url": "/assets/images/home/value-authentic.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Creating Value By Commitments, Not Just Costs",
-            "description": ""
+            "description": "",
+            "icon": {
+              "id": 0,
+              "url": "/assets/images/home/value-commitments.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       },
@@ -857,13 +1134,323 @@ const pages: Page[] = [
         "blockType": "logoCloud",
         "headline": "Trusted by industry leaders",
         "variant": "logos",
-        "logos": []
+        "logos": [
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/jazeera_airways_logo-360x320.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/iress_logo.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/iot-logo.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/gcelogo-360x172.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/drivewealthlogo-360x102.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/worldpay_logo-360x131.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/yum-brand-logo-360x320.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/ada-logo-360x320.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/buckman_logo-360x320.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/cablelabslogo-360x89.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/cordis_logo-360x320.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/west-elm-logo-360x91.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          }
+        ]
       },
       {
         "blockType": "logoCloud",
         "headline": "Don't Just Take Our Word for It",
         "variant": "cards",
-        "logos": []
+        "logos": [
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/p2p-spring-2026-1-360x320.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/s2p-spring-2026-1-360x320.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/s2c-spring-2026-1-360x320.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/e-procurment-spring-2026-1-360x320.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/io-spring-2026-1-360x320.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/ap-automation-invoice-to-pay-spring-2026-1-360x320.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/clm-spring-2026-1-360x320.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/spend-analytics-spring-2026-1-360x320.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/sourcing-spring-2026-1-360x320.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/50-to-watch-image.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/idc-badge-360x320.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/50-to-watch-2024.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/hackett-clm-user-adoption-and-experience-badge-360x320.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/hackett-clm-implementation-metrics-badge-360x320.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/hackett-clm-contract-creation-and-authoring-badge-360x320.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/supplier-management-2026-1-360x320.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          }
+        ]
       },
       {
         "blockType": "featureGrid",
@@ -1116,597 +1703,1549 @@ const pages: Page[] = [
           {
             "title": "What Features Should You Look for in a Source-to-Pay Solution?",
             "excerpt": "",
-            "href": "/what-features-should-you-look-for-in-a-source-to-pay-solution"
+            "href": "/what-features-should-you-look-for-in-a-source-to-pay-solution",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/what-features-should-you-look-for-in-a-source-to-pay-solution.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "What Are the Key Benefits of Using an AI-Powered Spend Management Platform?",
             "excerpt": "",
-            "href": "/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform"
+            "href": "/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Tail Spend Management: Why the Last 20% of Spend Deserves the Same Rigor as the First 80%",
             "excerpt": "",
-            "href": "/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80"
+            "href": "/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80-2.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Governance Isn’t a Feature. It’s a Relationship.",
             "excerpt": "",
-            "href": "/governance-isnt-a-feature-its-a-relationship"
+            "href": "/governance-isnt-a-feature-its-a-relationship",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Deploy AI Agents in Procurement: A Roadmap to Success",
             "excerpt": "",
-            "href": "/deploy-ai-agents-in-procurement-a-roadmap-to-success"
+            "href": "/deploy-ai-agents-in-procurement-a-roadmap-to-success",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/gartner-flex-report-deploying-ai-agents-images-2.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop vs. LightSource: Which Platform Fits Your Procurement Problem?",
             "excerpt": "",
-            "href": "/raindrop-vs-lightsource-which-platform-fits-your-procurement-problem"
+            "href": "/raindrop-vs-lightsource-which-platform-fits-your-procurement-problem",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/raindrop-systems-vs.-lightsource-which-platform-fits-your-procurement-problem.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How to Choose the Right Supplier Management and RFx Platform",
             "excerpt": "",
-            "href": "/how-to-choose-the-right-supplier-management-and-rfx-platform"
+            "href": "/how-to-choose-the-right-supplier-management-and-rfx-platform",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/who-actually-owns-contracts-in-your-organization-14.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How to Replace Email Purchase Requests with Structured Intake",
             "excerpt": "",
-            "href": "/how-to-replace-email-purchase-requests-with-structured-intake"
+            "href": "/how-to-replace-email-purchase-requests-with-structured-intake",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/who-actually-owns-contracts-in-your-organization-15.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How to Standardize RFP Processes Across Procurement Categories",
             "excerpt": "",
-            "href": "/how-to-standardize-rfp-processes-across-procurement-categories"
+            "href": "/how-to-standardize-rfp-processes-across-procurement-categories",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/who-actually-owns-contracts-in-your-organization-12.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Rain In Action Agentic AI: From Analysis To Action",
             "excerpt": "",
-            "href": "/rain-in-action-agentic-ai-from-analysis-to-action"
+            "href": "/rain-in-action-agentic-ai-from-analysis-to-action",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/reach-out-to-raindrop-today-slide-29.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Risks That the Agentic CLM Process Overtakes",
             "excerpt": "",
-            "href": "/risks-that-the-agentic-clm-process-overtakes"
+            "href": "/risks-that-the-agentic-clm-process-overtakes",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/who-actually-owns-contracts-in-your-organization-9.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Human Eye Isn’t Disappearing From Contract Review. It’s Looking Where It Counts.",
             "excerpt": "",
-            "href": "/the-human-eye-isnt-disappearing-from-contract-review-its-looking-where-it-counts"
+            "href": "/the-human-eye-isnt-disappearing-from-contract-review-its-looking-where-it-counts",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/who-actually-owns-contracts-in-your-organization-6.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Lawyers Are Expensive: How Agentic CLM Cuts Contract Costs",
             "excerpt": "",
-            "href": "/lawyers-are-expensive-how-agentic-clm-cuts-contract-costs"
+            "href": "/lawyers-are-expensive-how-agentic-clm-cuts-contract-costs",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/who-actually-owns-contracts-in-your-organization-10.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Hype Cycle for Procurement & Sourcing, 2026",
             "excerpt": "",
-            "href": "/hype-cycle-for-procurement-sourcing-2026"
+            "href": "/hype-cycle-for-procurement-sourcing-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/agent-washing-social-post-5.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Intake and Orchestration, Reimagined by Agentic AI",
             "excerpt": "",
-            "href": "/intake-and-orchestration-reimagined-by-agentic-ai"
+            "href": "/intake-and-orchestration-reimagined-by-agentic-ai",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/intake-and-orchestration-reimagined-by-agentic-ai-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "5 Signs Your Contract Process Is Broken",
             "excerpt": "",
-            "href": "/5-signs-your-contract-process-is-broken"
+            "href": "/5-signs-your-contract-process-is-broken",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/who-actually-owns-contracts-in-your-organization-4.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop vs. Icertis: Why Companies are Questioning the Fortune 500 CLM Assumption",
             "excerpt": "",
-            "href": "/raindrop-vs-icertis-why-companies-are-questioning-the-fortune-500-clm-assumption"
+            "href": "/raindrop-vs-icertis-why-companies-are-questioning-the-fortune-500-clm-assumption",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/who-actually-owns-contracts-in-your-organization-4.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop vs. DocuSign CLM: Why Procurement Teams Are Outgrowing the e-Signature Giant’s Contract Play",
             "excerpt": "",
-            "href": "/raindrop-vs-docusign-clm-why-procurement-teams-are-outgrowing-the-e-signature-giants-contract-play"
+            "href": "/raindrop-vs-docusign-clm-why-procurement-teams-are-outgrowing-the-e-signature-giants-contract-play",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/who-actually-owns-contracts-in-your-organization-3-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Case Study: Cordis",
             "excerpt": "",
-            "href": "/case-study-cordis"
+            "href": "/case-study-cordis",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/cordis-case-study-standing-up-ap-at-speed.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Agentic Glossary of Terms",
             "excerpt": "",
-            "href": "/agentic-glossary-of-terms"
+            "href": "/agentic-glossary-of-terms",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/cover-image-agentic-ebook-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 1 – Agentic AI: The Next Evolution of Artificial Intelligence in Enterprise Software",
             "excerpt": "",
-            "href": "/section-1-agentic-ai-the-next-evolution-of-artificial-intelligence-in-enterprise-software"
+            "href": "/section-1-agentic-ai-the-next-evolution-of-artificial-intelligence-in-enterprise-software",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/section-1-agentic-ai-the-next-evolution-of-artificial-intelligence-in-enterprise-software.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "TransferMate partners with Raindrop Systems to embed global payment capabilities into source-to-pay workflows",
             "excerpt": "",
-            "href": "/transfermate-partners-with-raindrop-systems-to-embed-global-payment-capabilities-into-source-to-pay-workflows"
+            "href": "/transfermate-partners-with-raindrop-systems-to-embed-global-payment-capabilities-into-source-to-pay-workflows",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/image-3.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 2 – What to Know About Agentic AI",
             "excerpt": "",
-            "href": "/section-2-what-to-know-about-agentic-ai"
+            "href": "/section-2-what-to-know-about-agentic-ai",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/section-2-what-to-know-about-agentic-ai-3.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 3 – The Technology Behind Agentic AI",
             "excerpt": "",
-            "href": "/section-3-the-technology-behind-agentic-ai"
+            "href": "/section-3-the-technology-behind-agentic-ai",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/reach-out-to-raindrop-today-slide-11.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 4 – Why Procurement is Ideal for Agentic AI",
             "excerpt": "",
-            "href": "/section-4-why-procurement-is-ideal-for-agentic-ai"
+            "href": "/section-4-why-procurement-is-ideal-for-agentic-ai",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/section-4-why-procurement-is-ideal.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 5 – Examining Core Use Cases for Agentic AI in Procurement and Finance",
             "excerpt": "",
-            "href": "/section-5-examining-core-use-cases-for-agentic-ai-in-procurement-and-finance"
+            "href": "/section-5-examining-core-use-cases-for-agentic-ai-in-procurement-and-finance",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/section-5-cover.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 6 – The Operating Model of Agentic Procurement",
             "excerpt": "",
-            "href": "/section-6-the-operating-model-of-agentic-procurement"
+            "href": "/section-6-the-operating-model-of-agentic-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/section-6-cover.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 7 – The Architecture Required To Enable Agentic AI",
             "excerpt": "",
-            "href": "/section-7-the-architecture-required-to-enable-agentic-ai"
+            "href": "/section-7-the-architecture-required-to-enable-agentic-ai",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/cover-image-agentic-ebook-5-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 8 – Limitations of Agentic AI and Why we still need humans",
             "excerpt": "",
-            "href": "/section-8-limitations-of-agentic-ai-and-why-we-still-need-humans"
+            "href": "/section-8-limitations-of-agentic-ai-and-why-we-still-need-humans",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/cover-image-agentic-ebook-6.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 9 – How Raindrop Enables Agentic Procurement",
             "excerpt": "",
-            "href": "/section-9-how-raindrop-enables-agentic-procurement"
+            "href": "/section-9-how-raindrop-enables-agentic-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/cover-image-agentic-ebook-20.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 10 – Are You Ready for Agentic Procurement?",
             "excerpt": "",
-            "href": "/section-10-are-you-ready-for-agentic-procurement"
+            "href": "/section-10-are-you-ready-for-agentic-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/cover-image-agentic-ebook-22.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Tools That Align Finance and Procurement Teams",
             "excerpt": "",
-            "href": "/tools-that-align-finance-and-procurement-teams"
+            "href": "/tools-that-align-finance-and-procurement-teams",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/who-actually-owns-contracts-in-your-organization-3.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Procurement Software That Works With FP&A and Budgeting Tools",
             "excerpt": "",
-            "href": "/procurement-software-that-works-with-fpa-and-budgeting-tools"
+            "href": "/procurement-software-that-works-with-fpa-and-budgeting-tools",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/who-actually-owns-contracts-in-your-organization-2.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Best Tools to Replace Manual PO and Approval Workflows",
             "excerpt": "",
-            "href": "/tools-to-replace-manual-po-and-approval-workflows"
+            "href": "/tools-to-replace-manual-po-and-approval-workflows",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/who-actually-owns-contracts-in-your-organization-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Who Actually Owns Contracts in Your Organization?",
             "excerpt": "",
-            "href": "/who-actually-owns-contracts-in-your-organization"
+            "href": "/who-actually-owns-contracts-in-your-organization",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/who-actually-owns-contracts-in-your-organization.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Why Most Procurement AI Strategies Stall Before They Start",
             "excerpt": "",
-            "href": "/why-most-procurement-ai-strategies-stall-before-they-start"
+            "href": "/why-most-procurement-ai-strategies-stall-before-they-start",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/gartner-cpos-guide-to-integrating-ai-into-procurement-workflows-defining-workflow-ai-strategy.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "CPO’s Guide to Integrating AI Into Procurement Workflows: Defining Workflow AI Strategy",
             "excerpt": "",
-            "href": "/cpos-guide-to-integrating-ai-into-procurement-workflows-defining-workflow-ai-strategy"
+            "href": "/cpos-guide-to-integrating-ai-into-procurement-workflows-defining-workflow-ai-strategy",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/gartner-cpos-guide-to-integrating-ai-into-procurement-workflows-defining-workflow-ai-strategygartner-cpos-guide-to-integrating-ai-into-procurement-workflows-defining-workflow-ai-strategy.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Understanding Agentic AI and Its Role in Procurement",
             "excerpt": "",
-            "href": "/understanding-agentic-ai-and-its-role-in-procurement"
+            "href": "/understanding-agentic-ai-and-its-role-in-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/cover-image-agentic-ebook.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "AI-Powered Redlining In MS Word",
             "excerpt": "",
-            "href": "/ai-powered-redlining-in-ms-word"
+            "href": "/ai-powered-redlining-in-ms-word",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/reach-out-to-raindrop-today-slide-26.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "One Click NDA Creation",
             "excerpt": "",
-            "href": "/one-click-nda-creation"
+            "href": "/one-click-nda-creation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/screenshot-2026-06-05-at-11.14.54-am.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Why Lloyd’s Register Chose Raindrop: A Sales Perspective on Modern Procurement",
             "excerpt": "",
-            "href": "/why-lloyds-register-chose-raindrop-a-sales-perspective-on-modern-procurement"
+            "href": "/why-lloyds-register-chose-raindrop-a-sales-perspective-on-modern-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/lloyds-register-blog-image.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "CFO Dive: Lloyd’s Register Selects Raindrop to Power a New Era of Procurement",
             "excerpt": "",
-            "href": "/cfo-dive-lloyds-register-selects-raindrop-to-power-a-new-era-of-procurement"
+            "href": "/cfo-dive-lloyds-register-selects-raindrop-to-power-a-new-era-of-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/screenshot-2026-06-03-at-12.54.51-pm-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Supply Chain Dive: Lloyd’s Register Selects Raindrop to Power a New Era of Procurement",
             "excerpt": "",
-            "href": "/lloyds-register-selects-raindrop-to-power-a-new-era-of-procurement"
+            "href": "/lloyds-register-selects-raindrop-to-power-a-new-era-of-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/screenshot-2026-06-03-at-11.47.30-am-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "AI Procurement ROI: The CFO Business Case (Real Numbers From Real Customers)",
             "excerpt": "",
-            "href": "/ai-procurement-roi-cfo-business-case"
+            "href": "/ai-procurement-roi-cfo-business-case",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/ai-procurement-roi-cfo-business-case.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Agentic AI in Contract Management: What It Actually Does",
             "excerpt": "",
-            "href": "/agentic-ai-in-contract-management"
+            "href": "/agentic-ai-in-contract-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/the-real-difference-between-ai-agents-and-agentic-ai-and-why-it-matters-for-spend-management.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "What Tools Help Procurement Teams Run Structured RFI and RFP Processes?",
             "excerpt": "",
-            "href": "/what-tools-help-procurement-teams-run-structured-rfi-and-rfp-processes"
+            "href": "/what-tools-help-procurement-teams-run-structured-rfi-and-rfp-processes",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/what-tools-help-procurement-teams-run-structured-rfi-and-rfp-processes.webp",
+              "alt": "Portrait",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Tools That Automate Procurement Request Routing Based on Category and Spend Threshold",
             "excerpt": "",
-            "href": "/procurement-request-routing-automation-tools"
+            "href": "/procurement-request-routing-automation-tools",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/tools-that-automate-procurement-request-routing-based-on-category-and-spend-threshold-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Fastest Procurement Platforms With ERP Integrations",
             "excerpt": "",
-            "href": "/fastest-procurement-platforms-with-erp-integrations"
+            "href": "/fastest-procurement-platforms-with-erp-integrations",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/fastest-procurement-platforms-with-erp-integrations-.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "RAIN In Action Agentic Sourcing Optimization",
             "excerpt": "",
-            "href": "/rain-in-action-agentic-sourcing-optimization"
+            "href": "/rain-in-action-agentic-sourcing-optimization",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/reach-out-to-raindrop-today-slide-25.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop vs. Ironclad: Why Procurement-Led Teams Are Rethinking the CLM Conversation",
             "excerpt": "",
-            "href": "/raindrop-vs-ironclad-why-procurement-led-teams-are-rethinking-the-clm-conversation"
+            "href": "/raindrop-vs-ironclad-why-procurement-led-teams-are-rethinking-the-clm-conversation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/raindrop-vs.-ironclad-why-procurement-led-teams-are-rethinking-the-clm-conversation.webp",
+              "alt": "Portrait",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "What Is the Value of a Unified Procurement and Sourcing Platform, & Why Agentic AI Makes It Matter More Than Ever",
             "excerpt": "",
-            "href": "/what-is-the-value-of-a-unified-procurement-and-sourcing-platform-why-agentic-ai-makes-it-matter-more-than-ever"
+            "href": "/what-is-the-value-of-a-unified-procurement-and-sourcing-platform-why-agentic-ai-makes-it-matter-more-than-ever",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/what-is-the-value-of-a-unified-procurement-and-sourcing-platform-why-agentic-ai-makes-it-matter-more-than-ever.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Earns The Hackett Group Customer Value Badge For Contract Lifecycle Management",
             "excerpt": "",
-            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-contract-lifecycle-management"
+            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-contract-lifecycle-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/blue-medical-slide-presentation-project-proposal-15.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "RAIN In Action Agentic AI For Sourcing",
             "excerpt": "",
-            "href": "/rain-in-action-agentic-ai-for-sourcing"
+            "href": "/rain-in-action-agentic-ai-for-sourcing",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/reach-out-to-raindrop-today-slide-24.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Earns The Hackett Group Customer Value Badge For Sourcing",
             "excerpt": "",
-            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-sourcing"
+            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-sourcing",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/blue-medical-slide-presentation-project-proposal-13.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "RAIN In Action Agentic AI For Spend Management",
             "excerpt": "",
-            "href": "/rain-in-action-agentic-ai-for-spend-management"
+            "href": "/rain-in-action-agentic-ai-for-spend-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/reach-out-to-raindrop-today-slide-20.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Rain In Action Third-Party Contract Review",
             "excerpt": "",
-            "href": "/rain-in-action-third-party-contract-review"
+            "href": "/rain-in-action-third-party-contract-review",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/reach-out-to-raindrop-today-slide-21.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "90-Day Plan For CFOs in 2026",
             "excerpt": "",
-            "href": "/90-day-plan-for-cfos-in-2026"
+            "href": "/90-day-plan-for-cfos-in-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/screenshot-2026-05-12-at-10.07.22-am.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Earns The Hackett Group Customer Value Badge For S2C",
             "excerpt": "",
-            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-s2c"
+            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-s2c",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/blue-medical-slide-presentation-project-proposal-10.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Earns The Hackett Group Customer Value Badge For P2P",
             "excerpt": "",
-            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-p2p"
+            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-p2p",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/blue-medical-slide-presentation-project-proposal-8.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Earns The Hackett Group Customer Value Badge Across Every Module",
             "excerpt": "",
-            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-across-every-module"
+            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-across-every-module",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/blue-medical-slide-presentation-project-proposal-6.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Makes a Splash in The Hackett Group Spring 2026 SolutionMap",
             "excerpt": "",
-            "href": "/raindrop-makes-a-splash-in-the-hackett-group-spring-2026-solutionmap"
+            "href": "/raindrop-makes-a-splash-in-the-hackett-group-spring-2026-solutionmap",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/blue-medical-slide-presentation-project-proposal-3.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Reduce IT Sourcing Risk and Regret Through an Agile Procurement Framework",
             "excerpt": "",
-            "href": "/reduce-it-sourcing-risk-and-regret-through-an-agile-procurement-framework"
+            "href": "/reduce-it-sourcing-risk-and-regret-through-an-agile-procurement-framework",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/gartner-flex-reprint-reduce-it-sourcing-risk-and-regret-through-an-agile-procurement-framework.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Procurement Software Integrations",
             "excerpt": "",
-            "href": "/procurement-software-integrations"
+            "href": "/procurement-software-integrations",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/procurement-software-integrations-the-complete-guide-for-cpos-cfos-and-it-leaders.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Best Platforms to Control Supplier Spend in a Growing Business",
             "excerpt": "",
-            "href": "/best-platforms-control-vendor-spend-growing-business"
+            "href": "/best-platforms-control-vendor-spend-growing-business",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/best-platforms-to-control-vendor-spend-in-a-growing-business-4.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How Teams Orchestrate Requests Across Finance, Procurement, and Operations",
             "excerpt": "",
-            "href": "/how-teams-orchestrate-requests-across-finance-procurement-and-operations"
+            "href": "/how-teams-orchestrate-requests-across-finance-procurement-and-operations",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/how-teams-orchestrate-requests-across-finance-procurement-and-operations-.webp",
+              "alt": "Portrait",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Unified Procurement Platforms for Sourcing, Contracts, and Purchasing | Raindrop Systems",
             "excerpt": "",
-            "href": "/unified-procurement-platforms-sourcing-contracts-purchasing"
+            "href": "/unified-procurement-platforms-sourcing-contracts-purchasing",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/unified-procurement-platforms-for-sourcing-contracts-and-purchasing-raindrop-systems-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "5 Things I’d Tell a New CFO In 2026",
             "excerpt": "",
-            "href": "/5-things-id-tell-a-new-cfo-in-2026"
+            "href": "/5-things-id-tell-a-new-cfo-in-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/5-things-id-tell-a-new-cfo-in-2026.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Fast to Deploy Procurement Systems: A Complete Guide",
             "excerpt": "",
-            "href": "/fast-to-deploy-procurement-systems-a-complete-guide"
+            "href": "/fast-to-deploy-procurement-systems-a-complete-guide",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/fast-to-deploy-procurement-systems-a-complete-guide.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Intake & Orchestration Built In, Not Bolted On",
             "excerpt": "",
-            "href": "/intake-orchestration-built-in-not-bolted-on"
+            "href": "/intake-orchestration-built-in-not-bolted-on",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/raindrop-intake-and-orchestration-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "4 Lessons Learned From Real S2P Implementations, According to Gartner",
             "excerpt": "",
-            "href": "/4-lessons-learned-from-real-s2p-implementations-according-to-gartner"
+            "href": "/4-lessons-learned-from-real-s2p-implementations-according-to-gartner",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/gartner-peer-lessons-learned-for-source-to-pau-suite-implementation-7.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop at ProcureCon West: What We Took Away",
             "excerpt": "",
-            "href": "/raindrop-at-procurecon-west-what-we-took-away"
+            "href": "/raindrop-at-procurecon-west-what-we-took-away",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/1773082082273.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How to Fix Supplier Onboarding: From Weeks of Email to Days of Automation",
             "excerpt": "",
-            "href": "/how-to-fix-supplier-onboarding-from-weeks-of-email-to-days-of-automation"
+            "href": "/how-to-fix-supplier-onboarding-from-weeks-of-email-to-days-of-automation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/how-to-fix-supplier-onboarding-from-weeks-of-email-to-days-of-automation.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "What Is Supplier Management? The Complete Guide for Procurement Teams",
             "excerpt": "",
-            "href": "/what-is-supplier-management-the-complete-guide-for-procurement-teams"
+            "href": "/what-is-supplier-management-the-complete-guide-for-procurement-teams",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/what-is-supplier-management-the-complete-guide-for-procurement-teams.webp",
+              "alt": "Portrait",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in Procurement Magazine: Simplifying Procurement Using AI Is Essential In 2026",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-procurement-magazine-simplifying-procurement-using-ai-is-essential-in-2026"
+            "href": "/raindrop-report-featured-in-procurement-magazine-simplifying-procurement-using-ai-is-essential-in-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/screenshot-2026-03-05-at-2.36.19-pm-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How AI Simplifies Procurement For Finance Teams",
             "excerpt": "",
-            "href": "/ai-simplifies-procurement-for-finance-teams"
+            "href": "/ai-simplifies-procurement-for-finance-teams",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/how-ai-simplifies-procurement-for-finance-teams.webp",
+              "alt": "Portrait",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Why Interoperability Between Finance Tools Matters More Than Ever",
             "excerpt": "",
-            "href": "/why-interoperability-between-finance-tools-matters"
+            "href": "/why-interoperability-between-finance-tools-matters",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/why-interoperability-between-finance-tools-matters-more-than-ever.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "What Good Intake Management Looks Like in Modern Procurement",
             "excerpt": "",
-            "href": "/modern-procurement-intake-management-best-practices"
+            "href": "/modern-procurement-intake-management-best-practices",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/what-good-intake-management-looks-like-in-modern-procurement-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Gartner: Peer Lessons Learned For Source-to-Pay Suite Implementation",
             "excerpt": "",
-            "href": "/gartner-peer-lessons-learned-for-source-to-pay-suite-implementation"
+            "href": "/gartner-peer-lessons-learned-for-source-to-pay-suite-implementation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/gartner-peer-lessons-learned-for-source-to-pau-suite-implementation.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "A Day In The Life Of A Requester",
             "excerpt": "",
-            "href": "/a-day-in-the-life-of-a-requester"
+            "href": "/a-day-in-the-life-of-a-requester",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/reach-out-to-raindrop-today-slide-18.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop vs. Zycus: AI-Native Source-to-Pay Platform Comparison for 2026",
             "excerpt": "",
-            "href": "/raindrop-vs-zycus-ai-native-source-to-pay-platform-comparison-for-2026"
+            "href": "/raindrop-vs-zycus-ai-native-source-to-pay-platform-comparison-for-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/raindrop-vs.-zycus-ai-native-source-to-pay-platform-comparison-for-2026.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Fast, Easy-To-Use Procurement Software",
             "excerpt": "",
-            "href": "/fast-easy-to-use-procurement-software"
+            "href": "/fast-easy-to-use-procurement-software",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/fast-easy-to-use-procurement-software-5.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Named to The Hackett Group 2025–2026 “50 to Watch” Procurement Technology List",
             "excerpt": "",
-            "href": "/raindrop-named-to-the-hackett-group-2025-2026-50-to-watch-procurement-technology-list"
+            "href": "/raindrop-named-to-the-hackett-group-2025-2026-50-to-watch-procurement-technology-list",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/the-hackett-group-50-to-watch-2.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "AP Automation with AI",
             "excerpt": "",
-            "href": "/ap-automation-with-ai"
+            "href": "/ap-automation-with-ai",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/screenshot-2026-02-19-at-7.52.48-am-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "What Is Intake and Orchestration? The Complete Guide for Procurement Teams",
             "excerpt": "",
-            "href": "/what-is-intake-and-orchestration"
+            "href": "/what-is-intake-and-orchestration",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/what-is-intake-and-orchestration-the-complete-guide-for-procurement-teams.webp",
+              "alt": "Portrait",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Attending CPO Leadership Kodi Connect Event",
             "excerpt": "",
-            "href": "/raindrop-attending-cpo-leadership-kodi-connect-event"
+            "href": "/raindrop-attending-cpo-leadership-kodi-connect-event",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/tech-conference-welcome-slide-in-blue-black-modern-style-4.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Attending ProcureCon West 2026",
             "excerpt": "",
-            "href": "/raindrop-attending-procurecon-west-2026"
+            "href": "/raindrop-attending-procurecon-west-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/see-you-at-procurecon-west.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Tools To Streamline Supplier Onboarding and RFx",
             "excerpt": "",
-            "href": "/tools-to-streamline-supplier-onboarding-and-rfx"
+            "href": "/tools-to-streamline-supplier-onboarding-and-rfx",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/fast-easy-to-use-procurement-software-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How Lands’ End Built a Scalable, AI-Ready Procurement Operation​",
             "excerpt": "",
-            "href": "/how-lands-end-built-a-scalable-ai-ready-procurement-operation"
+            "href": "/how-lands-end-built-a-scalable-ai-ready-procurement-operation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/stage-use-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Procurement in 2026: Why AI-First Is No Longer Optional",
             "excerpt": "",
-            "href": "/procurement-in-2026-why-ai-first-is-no-longer-optional"
+            "href": "/procurement-in-2026-why-ai-first-is-no-longer-optional",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/predicts-2026-procurement-taking-steps-to-become-ai-first-3.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Supplier Management: Profiles, Transactions, and Collaboration",
             "excerpt": "",
-            "href": "/supplier-management-profiles-transactions-and-collaboration"
+            "href": "/supplier-management-profiles-transactions-and-collaboration",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/reach-out-to-raindrop-today-slide-13.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Sourcing: Evidence-Based Decision Built In",
             "excerpt": "",
-            "href": "/sourcing-evidence-based-decision-built-in"
+            "href": "/sourcing-evidence-based-decision-built-in",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/reach-out-to-raindrop-today-slide-16.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Contract Management: From Creation to Control",
             "excerpt": "",
-            "href": "/contract-management-from-creation-to-control"
+            "href": "/contract-management-from-creation-to-control",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/reach-out-to-raindrop-today-slide-15.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Raindrop Platform: UI, Navigation, and Core Experience",
             "excerpt": "",
-            "href": "/sourcing-evidence-based-decisions-built-in"
+            "href": "/sourcing-evidence-based-decisions-built-in",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/reach-out-to-raindrop-today-slide-14.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "S2P Made Easy",
             "excerpt": "",
-            "href": "/s2p-made-easy"
+            "href": "/s2p-made-easy",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/reach-out-to-raindrop-today-slide-11.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Eprocurement: From Request To Approval",
             "excerpt": "",
-            "href": "/eprocurement-from-request-to-approval"
+            "href": "/eprocurement-from-request-to-approval",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/reach-out-to-raindrop-today-slide-8.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend & Performance Analytics: From Data to Actionable Insights",
             "excerpt": "",
-            "href": "/spend-performance-analytics-from-data-to-actionable-insights"
+            "href": "/spend-performance-analytics-from-data-to-actionable-insights",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/reach-out-to-raindrop-today-slide-10.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Lessons From Lands’ End At NRF: Smart Commitment Management With CLM",
             "excerpt": "",
-            "href": "/lessons-from-lands-end-at-nrf-smart-commitment-management-with-clm"
+            "href": "/lessons-from-lands-end-at-nrf-smart-commitment-management-with-clm",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/stage-use-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "AI Makes Things Easier",
             "excerpt": "",
-            "href": "/ai-makes-things-easier"
+            "href": "/ai-makes-things-easier",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/reach-out-to-raindrop-today-slide-12.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Predicts 2026: Procurement Taking Steps to Become AI-First",
             "excerpt": "",
-            "href": "/predicts-2026-procurement-taking-steps-to-become-ai-first"
+            "href": "/predicts-2026-procurement-taking-steps-to-become-ai-first",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/predicts-2026-procurement-taking-steps-to-become-ai-first-2.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "90-Day Plan For CPOs in 2026",
             "excerpt": "",
-            "href": "/90-day-plan-for-cpos"
+            "href": "/90-day-plan-for-cpos",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/reach-out-to-raindrop-today-slide-4.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "7 Things I’d Tell A New CPO Stepping Into 2026",
             "excerpt": "",
-            "href": "/7-things-id-tell-a-new-cpo-stepping-into-2026"
+            "href": "/7-things-id-tell-a-new-cpo-stepping-into-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/7-things-id-tell-a-new-cpo-stepping-into-2026-graphic-.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "7 Procurement Moves That Will Separate Leaders From Laggards In 2026",
             "excerpt": "",
-            "href": "/7-procurement-moves-that-will-separate-leaders-from-laggards-in-2026"
+            "href": "/7-procurement-moves-that-will-separate-leaders-from-laggards-in-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/7-procurement-moves-that-will-separate-leaders-from-laggards-in-2026.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Watch Ward Karson, Raindrop’s COO, for a quick breakdown of the top challenges for Supply Chain",
             "excerpt": "",
-            "href": "/watch-ward-karson-raindrops-coo-for-a-quick-breakdown-of-the-top-challenges-for-supply-chain"
+            "href": "/watch-ward-karson-raindrops-coo-for-a-quick-breakdown-of-the-top-challenges-for-supply-chain",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/screenshot-2025-12-22-at-2.38.10-pm-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Only 27% of Procurement and Finance leaders feel fully able to deliver on their innovation goals",
             "excerpt": "",
-            "href": "/only-27-of-procurement-and-finance-leaders-feel-fully-able-to-deliver-on-their-innovation-goals"
+            "href": "/only-27-of-procurement-and-finance-leaders-feel-fully-able-to-deliver-on-their-innovation-goals",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/screenshot-2025-12-22-at-1.39.17-pm.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "AI Adoption Vs. Reality with Ward Karson, Raindrop COO",
             "excerpt": "",
-            "href": "/ai-adoption-vs-reality-with-weard-karson-raindrop-coo"
+            "href": "/ai-adoption-vs-reality-with-weard-karson-raindrop-coo",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/ai-adoption-vs-reality-with-ward.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Systems vs Basware: 7 Key Differences for 2026",
             "excerpt": "",
-            "href": "/raindrop-systems-vs-basware-7-key-differences-for-2026"
+            "href": "/raindrop-systems-vs-basware-7-key-differences-for-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/basware-comp-blog-graphic-1-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "7 Lessons Learned in 2025 About Procurement, AI, and What Comes Next",
             "excerpt": "",
-            "href": "/7-lessons-learned-in-2025-about-procurement-ai-and-what-comes-next"
+            "href": "/7-lessons-learned-in-2025-about-procurement-ai-and-what-comes-next",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/7-lessons-2025-taught-us-about-procurement-ai-and-what-comes-next.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Systems vs. Zip: The Difference Between Orchestration and AI- Native, Commitment-Driven Procurement",
             "excerpt": "",
-            "href": "/raindrop-systems-vs-zip"
+            "href": "/raindrop-systems-vs-zip",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/zip-blog-image.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop vs. JAGGAER: 6 Key Differences Defining the Future of Procurement",
             "excerpt": "",
-            "href": "/raindrop-systems-vs-jaggaer"
+            "href": "/raindrop-systems-vs-jaggaer",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/jaggaer-blog-image-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Attending NRF, Retail’s Big Show",
             "excerpt": "",
-            "href": "/raindrop-attending-procureconwest"
+            "href": "/raindrop-attending-procureconwest",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/nrf-retails-big-show-post-1-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in Retail Dive: Only 27% of Procurement Leaders Feel Fully Able to Deliver, Raindrop Systems’ Research Finds",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-retail-dive-only-27-of-procurement-leaders-feel-fully-able-to-deliver-raindrop-systems-research-finds"
+            "href": "/raindrop-report-featured-in-retail-dive-only-27-of-procurement-leaders-feel-fully-able-to-deliver-raindrop-systems-research-finds",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/screenshot-2025-12-01-at-12.38.28-pm-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in Supply Chain Dive: 83% of Procurement and Finance Leaders Feel Accountable for Innovation",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-supply-chain-dive-83-of-procurement-and-finance-leaders-feel-accountable-for-innovation"
+            "href": "/raindrop-report-featured-in-supply-chain-dive-83-of-procurement-and-finance-leaders-feel-accountable-for-innovation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/screenshot-2025-12-01-at-12.08.35-pm-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in CFO Dive: Survey Reveals 73% of Procurement Leaders Want More Flexibility in Their Strategies",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-cfo-dive-survey-reveals-73-of-procurement-leaders-want-more-flexibility-in-their-strategies"
+            "href": "/raindrop-report-featured-in-cfo-dive-survey-reveals-73-of-procurement-leaders-want-more-flexibility-in-their-strategies",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/screenshot-2025-12-01-at-10.50.47-am-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in CPA Practice Advisor: 83% of Finance Leaders Feel Responsible for Innovation",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-cpa-practice-advisor-83-of-finance-leaders-feel-responsible-for-innovation"
+            "href": "/raindrop-report-featured-in-cpa-practice-advisor-83-of-finance-leaders-feel-responsible-for-innovation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/screenshot-2025-12-01-at-10.42.09-am-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in Supply & Demand Chain Executive: 83% of Procurement and Finance Leaders Feel Accountable for Innovation",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-supply-demand-chain-executive-83-of-procurement-and-finance-leaders-feel-accountable-for-innovation"
+            "href": "/raindrop-report-featured-in-supply-demand-chain-executive-83-of-procurement-and-finance-leaders-feel-accountable-for-innovation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/screenshot-2025-12-01-at-10.26.52-am-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in Procurement Magazine: Procurement Leaders Feel Unable to Deliver Innovation",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-procurement-magazine-procurement-leaders-feel-unable-to-deliver-innovation"
+            "href": "/raindrop-report-featured-in-procurement-magazine-procurement-leaders-feel-unable-to-deliver-innovation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/screenshot-2025-12-01-at-10.21.49-am-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in Supply Chain 24/7: Most Procurement Leaders Want Innovation But Can’t Execute",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-supply-chain-24-7-most-procurement-leaders-want-innovation-but-cant-execute"
+            "href": "/raindrop-report-featured-in-supply-chain-24-7-most-procurement-leaders-want-innovation-but-cant-execute",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/screenshot-2025-11-26-at-9.19.30-am-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in Supply Chain Digital: Leaders Reveal Innovation and Execution Gap",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-supply-chain-digital-leaders-reveal-innovation-and-execution-gap"
+            "href": "/raindrop-report-featured-in-supply-chain-digital-leaders-reveal-innovation-and-execution-gap",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/screenshot-2025-11-26-at-7.52.23-am.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Setting Smarter Objectives for 2026: The Key to Procurement’s AI Success",
             "excerpt": "",
-            "href": "/setting-smarter-objectives-for-2026-the-key-to-procurements-ai-success"
+            "href": "/setting-smarter-objectives-for-2026-the-key-to-procurements-ai-success",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/procurements-ai-success-starts-with-setting-smarter-objectives.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Systems vs SAP Ariba: 6 Key Differences—and a Clear Path to ROI",
@@ -1716,517 +3255,1341 @@ const pages: Page[] = [
           {
             "title": "Raindrop Systems vs Coupa: Which Procurement Platform Delivers Faster Value in 2026",
             "excerpt": "",
-            "href": "/raindrop-systems-vs-coupa-which-procurement-platform-delivers-faster-value-in-2026"
+            "href": "/raindrop-systems-vs-coupa-which-procurement-platform-delivers-faster-value-in-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/raindrop-systems-vs.-coupa-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Recognized as a Customer Favorite Across Four Categories in Fall 2025 Spend Matters SolutionMap; Expands into Four New Capabilities",
             "excerpt": "",
-            "href": "/raindrop-recognized-as-a-customer-favorite-across-four-categories-in-fall-2025-spend-matters-solutionmap-expands-into-four-new-capabilities"
+            "href": "/raindrop-recognized-as-a-customer-favorite-across-four-categories-in-fall-2025-spend-matters-solutionmap-expands-into-four-new-capabilities",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/sm-sxm-customer-scores-fall-25.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in Retail Dive: Retail Leaders Strive for Innovation Amid Shifting Market Demands",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-retail-dive-retail-leaders-strive-for-innovation-amid-shifting-market-demands"
+            "href": "/raindrop-report-featured-in-retail-dive-retail-leaders-strive-for-innovation-amid-shifting-market-demands",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/ambition-vs.-reality-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in Supply Chain Dive: Innovation and Agility Top Priorities for 2025",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-supply-chain-dive-innovation-and-agility-top-priorities-for-2025"
+            "href": "/raindrop-report-featured-in-supply-chain-dive-innovation-and-agility-top-priorities-for-2025",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/most-common-obstacles-for-supply-chain-agility-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "CFO Dive Highlights Raindrop Research: 83% of Finance and Procurement Leaders Feel Accountable for Innovation",
             "excerpt": "",
-            "href": "/raindrop-featured-in-cfo-dive-for-new-research-report"
+            "href": "/raindrop-featured-in-cfo-dive-for-new-research-report",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/screenshot-2025-10-27-at-2.47.27-pm-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Ambition Meets Attrition: Bridge the Gap Between Ambition and Real-World Agility",
             "excerpt": "",
-            "href": "/ambition-meets-attrition-bridge-the-gap-between-ambition-and-real-world-agility"
+            "href": "/ambition-meets-attrition-bridge-the-gap-between-ambition-and-real-world-agility",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/screenshot-2025-10-16-at-3.02.54-pm.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "5 Hidden Costs of Legacy Procurement Systems",
             "excerpt": "",
-            "href": "/5-hidden-costs-of-legacy-procurement-systems"
+            "href": "/5-hidden-costs-of-legacy-procurement-systems",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/5-hidden-costs-of-legacy-procurement-systems-.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop As A Customer Favorite For Spend Analytics",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-spend-analytics"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-spend-analytics",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/sm-spend-analytics-customer-scores-fall-25.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop P2P In Fall 2025 SolutionMap",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-p2p"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-p2p",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/sm-solutionmap-value-generation-p2p.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop’s eProcurement In Fall 2025 SolutionMap",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-eprocurement"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-eprocurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/sm-solutionmap-most-differentiating-epro-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop’s AP/I2P In Fall 2025 SolutionMap",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-ap-i2p"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-ap-i2p",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/sm-solutionmap-ap_i2p-supplier-management-25.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop’s Intake & Orchestration In Fall 2025 SolutionMap",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-intake-and-orchestration"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-intake-and-orchestration",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/sm-solution-map-io-most-differentiating-.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop As A Customer Favorite For Sourcing",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-sourcing"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-sourcing",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/sm-sourcing-most-differentiating-fall-25.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop As A Customer Favorite For S2C",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-s2c"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-s2c",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/s2c-most-differentiating-fall-2025.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop’s CLM In Spend Matters SolutionMap Fall 2025",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-contract-lifecycle-management-clm"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-contract-lifecycle-management-clm",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/sm-value-beyond-tech-clm-fall-25.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop’s Supplier Management In Fall 2025 SolutionMap",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-supplier-management"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-supplier-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/sm-sxm-customer-scores-fall-25.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Supplier Onboarding Made Simple with Raindrop",
             "excerpt": "",
-            "href": "/supplier-onboarding-made-simple-with-raindrop"
+            "href": "/supplier-onboarding-made-simple-with-raindrop",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/supplier-onboarding-made-simple-with-raindrop.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop As A Customer Favorite For S2P",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-s2p"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-s2p",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/s2p-expectation-delivery.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Quick Answer: What Are the Quick-Win Use Cases When Selling GenAI to Finance Leaders?",
             "excerpt": "",
-            "href": "/quick-answer-what-are-the-quick-win-use-cases-when-selling-genai-to-finance-leaders"
+            "href": "/quick-answer-what-are-the-quick-win-use-cases-when-selling-genai-to-finance-leaders",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/gartner-felx-reprint-carousel-2-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "What Does AI Native Mean in an S2P Platform?",
             "excerpt": "",
-            "href": "/what-does-ai-native-mean-in-an-s2p-platform"
+            "href": "/what-does-ai-native-mean-in-an-s2p-platform",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/what-does-ai-native-mean-in-an-s2p-platform.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Show Me the Money: Hard-Hitting ROI from AI-Driven Procurement",
             "excerpt": "",
-            "href": "/show-me-the-money-hard-hitting-roi-from-ai-driven-procurement"
+            "href": "/show-me-the-money-hard-hitting-roi-from-ai-driven-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/show-me-the-money.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Why Data & Analytics Are the Foundation of AI-Ready Procurement",
             "excerpt": "",
-            "href": "/why-data-analytics-are-the-foundation-of-ai-ready-procurement"
+            "href": "/why-data-analytics-are-the-foundation-of-ai-ready-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/why-data-v-analytics-are-the-foundation-of-ai-ready-procurement-graphic-.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Hype Cycle for Strategic Cost Optimization, 2025",
             "excerpt": "",
-            "href": "/hype-cycle-for-strategic-cost-optimization-2025"
+            "href": "/hype-cycle-for-strategic-cost-optimization-2025",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/gartner-hype-cylce-strategic-cost-optimization-5.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "RainConnect recognized by IDC for Integration and Connectivity",
             "excerpt": "",
-            "href": "/rainconnect-recognized-by-idc-for-integration-and-connectivity"
+            "href": "/rainconnect-recognized-by-idc-for-integration-and-connectivity",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/raindconnectidc-4.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Missing Link: Why Integrations Are the Backbone of Modern Spend Management",
             "excerpt": "",
-            "href": "/the-missing-link-why-integrations-are-the-backbone-of-modern-spend-management"
+            "href": "/the-missing-link-why-integrations-are-the-backbone-of-modern-spend-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/the-missing-link-why-integrations-are-the-backbone-of-modern-spend-management-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Stop the Agentic Confusion. What You Need To Know Now.",
             "excerpt": "",
-            "href": "/the-future-is-ai"
+            "href": "/the-future-is-ai",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/the-future-is-ai-4-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The End of Endless Forms: How Modern Intake Finally Gets Work Moving",
             "excerpt": "",
-            "href": "/the-end-of-endless-forms-how-modern-intake-finally-gets-work-moving"
+            "href": "/the-end-of-endless-forms-how-modern-intake-finally-gets-work-moving",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/intake-orchestration-blog-image-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Real Difference Between AI Agents and Agentic AI (and Why It Matters for Spend Management)",
             "excerpt": "",
-            "href": "/the-real-difference-between-ai-agents-and-agentic-ai-and-why-it-matters-for-spend-management"
+            "href": "/the-real-difference-between-ai-agents-and-agentic-ai-and-why-it-matters-for-spend-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/the-real-difference-between-ai-agents-and-agentic-ai-and-why-it-matters-for-spend-management.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Gartner Flex When to Use or Not Use AI Agents",
             "excerpt": "",
-            "href": "/gartner-flex-when-to-use-or-not-use-ai-agents"
+            "href": "/gartner-flex-when-to-use-or-not-use-ai-agents",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/agent-washing-social-post-3.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Case Study: Jazeera Airways",
             "excerpt": "",
-            "href": "/case-study-jazeera-airways"
+            "href": "/case-study-jazeera-airways",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/jazeera-airways-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Summer School: AI 101 for Spend Management",
             "excerpt": "",
-            "href": "/summerschool-ai101-for-spend-management"
+            "href": "/summerschool-ai101-for-spend-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/summer-school-webinar-smp3.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Hype Cycle for Procurement and Sourcing Solutions, 2025",
             "excerpt": "",
-            "href": "/hype-cycle-for-procurement-and-sourcing-solutions-2025"
+            "href": "/hype-cycle-for-procurement-and-sourcing-solutions-2025",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/gartner-hype-cycle-make-it-rain-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Hackett Group’s Digital World Class® Matrix Contract Lifecycle Management (CLM) and Intelligent Software Provider Perspective",
             "excerpt": "",
-            "href": "/the-hackett-groups-digital-world-class-matrix-contract-lifecycle-management-clm-and-intelligent-software-provider-perspective"
+            "href": "/the-hackett-groups-digital-world-class-matrix-contract-lifecycle-management-clm-and-intelligent-software-provider-perspective",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/hackettclmbannerimage.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The 2030 Team Interview: AI Agents, CPOs, and Operating Models Reimagined",
             "excerpt": "",
-            "href": "/the-2030-team-interview-ai-agents-cpos-and-operating-models-reimagined-2"
+            "href": "/the-2030-team-interview-ai-agents-cpos-and-operating-models-reimagined-2",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/hackett-group-webinar-resources.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Why Top Teams Are Betting on Google Cloud and Raindrop",
             "excerpt": "",
-            "href": "/why-top-teams-are-betting-on-google-cloud-and-raindrop"
+            "href": "/why-top-teams-are-betting-on-google-cloud-and-raindrop",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/googleand-raindrop-img.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Touchless vs. Autonomous Procurement and Payables",
             "excerpt": "",
-            "href": "/touchless-vs-autonomous-procurement-and-payables"
+            "href": "/touchless-vs-autonomous-procurement-and-payables",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/touchlessvsautonomous-banner-img.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Road to Agentic AI",
             "excerpt": "",
-            "href": "/driving-toward-agentic-are-you-in-the-right-lane-what-agentic-ai-really-means-for-procurement"
+            "href": "/driving-toward-agentic-are-you-in-the-right-lane-what-agentic-ai-really-means-for-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/agentic-ai-img.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Wrap Up Video 2024",
             "excerpt": "",
-            "href": "/raindrop-wrap-up-video-2024"
+            "href": "/raindrop-wrap-up-video-2024",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/wrap-up-2024-scaled.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Wrap Up Video 2023",
             "excerpt": "",
-            "href": "/raindrop-wrap-up-video-2023"
+            "href": "/raindrop-wrap-up-video-2023",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/wrap-up-2023.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Contract Intelligence",
             "excerpt": "",
-            "href": "/raindrop-contract-intelligence"
+            "href": "/raindrop-contract-intelligence",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/raindrop-contract-intelligence.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Analytics",
             "excerpt": "",
-            "href": "/raindrop-analytics"
+            "href": "/raindrop-analytics",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/raindrop-analytics.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Warren Smith – Senior Manager at Workwear Outfitters",
             "excerpt": "",
-            "href": "/warren-smith-senior-manager-at-workwear-outfitters"
+            "href": "/warren-smith-senior-manager-at-workwear-outfitters",
+            "image": {
+              "id": 0,
+              "url": "/assets/images/home/logo-workwear.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Episode 09 – Procurement and Sales, Two Sides of the Same Coin",
             "excerpt": "",
-            "href": "/episode-09-procurement-and-sales-two-sides-of-the-same-coin"
+            "href": "/episode-09-procurement-and-sales-two-sides-of-the-same-coin",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/episode-09.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Episode 08 – Moneyball and Spend Management",
             "excerpt": "",
-            "href": "/episode-08-moneyball-and-spend-management"
+            "href": "/episode-08-moneyball-and-spend-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/episode-08.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Episode 07 – Innovation and Strategy in Supply Chain",
             "excerpt": "",
-            "href": "/episode-07-innovation-and-strategy-in-supply-chain"
+            "href": "/episode-07-innovation-and-strategy-in-supply-chain",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/episode-07.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Episode 06 – Value Creation Beyond Cost Savings",
             "excerpt": "",
-            "href": "/episode-06-value-creation-beyond-cost-savings"
+            "href": "/episode-06-value-creation-beyond-cost-savings",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/episode-06.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Episode 05 – Successful Procurement Transformation Advice",
             "excerpt": "",
-            "href": "/episode-05-successful-procurement-transformation-advice"
+            "href": "/episode-05-successful-procurement-transformation-advice",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/episode-05.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Episode 04 – Procurement Talent: Current State and Future Direction",
             "excerpt": "",
-            "href": "/episode-04-procurement-talent-current-state-and-future-direction"
+            "href": "/episode-04-procurement-talent-current-state-and-future-direction",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/episode-04.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Episode 03 – Making The Business Case For Small And Diverse Suppliers",
             "excerpt": "",
-            "href": "/episode-03-making-the-business-case-for-small-and-diverse-suppliers"
+            "href": "/episode-03-making-the-business-case-for-small-and-diverse-suppliers",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/episode-03.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Episode 02 – The Future of Procurement Operations and the Impact of Emerging Technologies",
             "excerpt": "",
-            "href": "/episode-02-the-future-of-procurement-operations-and-the-impact-of-emerging-technologies"
+            "href": "/episode-02-the-future-of-procurement-operations-and-the-impact-of-emerging-technologies",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/episode-02.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Episode 01 – Procurement and Supply Chain in the Post Pandemic Era",
             "excerpt": "",
-            "href": "/episode-01-procurement-and-supply-chain-in-the-post-pandemic-era"
+            "href": "/episode-01-procurement-and-supply-chain-in-the-post-pandemic-era",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/episode-01.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Gartner Analyst Research – How Generative AI Progress Will Shape the Future of Procurement",
             "excerpt": "",
-            "href": "/gartner-analyst-research-how-generative-ai-progress-will-shape-the-future-of-procurement"
+            "href": "/gartner-analyst-research-how-generative-ai-progress-will-shape-the-future-of-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/gartner-reprint-gen-ai-paper-resources-card-img.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Why Responsible AI Matters for Your Procurement Future",
             "excerpt": "",
-            "href": "/why-responsible-ai-matters-for-your-procurement-future"
+            "href": "/why-responsible-ai-matters-for-your-procurement-future",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/responsible-ai-banner.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Why Security Teams Block Software Purchases (And How to Prevent It)",
             "excerpt": "",
-            "href": "/why-security-teams-block-software-purchases-and-how-to-prevent-it"
+            "href": "/why-security-teams-block-software-purchases-and-how-to-prevent-it",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/it-compliance-banner.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Point Solution Pendulum: Why Procurement Teams Are Swinging Back to Suites",
             "excerpt": "",
-            "href": "/the-point-solution-pendulum-why-procurement-teams-are-swinging-back-to-suites"
+            "href": "/the-point-solution-pendulum-why-procurement-teams-are-swinging-back-to-suites",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/point-solution-pendulum.gif",
+              "alt": "Ui",
+              "mimeType": "image/gif",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Your Guide to AI in Procurement—Skip the Hype, Get Results",
             "excerpt": "",
-            "href": "/your-guide-to-ai-in-procurement-skip-the-hype-get-results"
+            "href": "/your-guide-to-ai-in-procurement-skip-the-hype-get-results",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/guide-to-ai-banner.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Case Study: World Market",
             "excerpt": "",
-            "href": "/case-study-world-market"
+            "href": "/case-study-world-market",
+            "image": {
+              "id": 0,
+              "url": "/assets/images/home/logo-world-market.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Case Study: Workwear Outfitters – Built to Perform",
             "excerpt": "",
-            "href": "/case-study-built-to-perform"
+            "href": "/case-study-built-to-perform",
+            "image": {
+              "id": 0,
+              "url": "/assets/images/home/logo-workwear.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters recognizes Raindrop as the “Customer Favorite” SolutionMap Badge Winner in Spring 2025 for Sourcing",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-the-customer-favorite-solutionmap-badge-winner-in-spring-2025-for-sourcing"
+            "href": "/spend-matters-recognizes-raindrop-as-the-customer-favorite-solutionmap-badge-winner-in-spring-2025-for-sourcing",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/spend-matters-customer-favorite-sourcing-2025.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters recognizes Raindrop as the “Customer Favorite” SolutionMap Badge Winner in Spring 2025 for Spend Analytics",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-the-customer-favorite-solutionmap-badge-winner-in-spring-2025-for-spend-analytics"
+            "href": "/spend-matters-recognizes-raindrop-as-the-customer-favorite-solutionmap-badge-winner-in-spring-2025-for-spend-analytics",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/spend-analytics-customer-favorite-spend-analytics-2025.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters recognizes Raindrop as SolutionMap Badge Winner in Spring 2025 for Supplier Management",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-solutionmap-badge-winner-in-spring-2025-for-supplier-management-2"
+            "href": "/spend-matters-recognizes-raindrop-as-solutionmap-badge-winner-in-spring-2025-for-supplier-management-2",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/solutionmap-validated-2025-1.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters recognizes Raindrop as SolutionMap Validated in Spring 2025 for Contract Lifecycle Management (CLM)",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-solutionmap-badge-winner-in-spring-2025-for-supplier-management"
+            "href": "/spend-matters-recognizes-raindrop-as-solutionmap-badge-winner-in-spring-2025-for-supplier-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/solutionmap-validated-2025-1.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters recognizes Raindrop as the “Customer Favorite” SolutionMap Badge Winner in Spring 2025 for S2C",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-the-customer-favorite-solutionmap-badge-winner-in-spring-2025-for-s2c"
+            "href": "/spend-matters-recognizes-raindrop-as-the-customer-favorite-solutionmap-badge-winner-in-spring-2025-for-s2c",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/customer-favorite-s2c-2025.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Read about Raindrop at the ProcureTech Founder’s Circle",
             "excerpt": "",
-            "href": "/read-about-raindrop-at-the-procuretech-founders-circle"
+            "href": "/read-about-raindrop-at-the-procuretech-founders-circle",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/qbyohvbitynurmbg0s9q_shared-image.jpeg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "IDC Spotlight – Procurement Application Providers Are Differentiating Themselves Through Ease of Use and Time to Value",
             "excerpt": "",
-            "href": "/idc-spotlight-procurement-application-providers-are-differentiating-themselves-through-ease-of-use-and-time-to-value"
+            "href": "/idc-spotlight-procurement-application-providers-are-differentiating-themselves-through-ease-of-use-and-time-to-value",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/idc-spotlight-on-raindrop.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Transforming contract management: From digital foundations to AI-powered efficiency and precision",
             "excerpt": "",
-            "href": "/transforming-contract-management-from-digital-foundations-to-ai-powered-efficiency-and-precision"
+            "href": "/transforming-contract-management-from-digital-foundations-to-ai-powered-efficiency-and-precision",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/unnamed-6-1024x562-1.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Everest Group features Raindrop as AI-Powered Sourcing Automation Solution in their Market Overview and Provider Landscape",
             "excerpt": "",
-            "href": "/everest-group-features-raindrop-as-ai-powered-sourcing-automation-solution-in-their-market-overview-and-provider-landscape"
+            "href": "/everest-group-features-raindrop-as-ai-powered-sourcing-automation-solution-in-their-market-overview-and-provider-landscape",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/everest.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "CIO Review lists Raindrop as the Most Promising Procurement Solutions Provider",
             "excerpt": "",
-            "href": "/cio-review-lists-raindrop-as-the-most-promising-procurement-solutions-provider"
+            "href": "/cio-review-lists-raindrop-as-the-most-promising-procurement-solutions-provider",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/cr-logo.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "AI Use Cases and Opportunities in S2P",
             "excerpt": "",
-            "href": "/ai-use-cases-and-opportunities-in-s2p"
+            "href": "/ai-use-cases-and-opportunities-in-s2p",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/podcastcoverimage_ai-use-cases.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Everest Group’s Research features Raindrop as Broad-based S2P and S2C Suites with SRM Capability",
             "excerpt": "",
-            "href": "/the-everest-groups-research-features-raindrop-as-broad-based-s2p-and-s2c-suites-with-srm-capability"
+            "href": "/the-everest-groups-research-features-raindrop-as-broad-based-s2p-and-s2c-suites-with-srm-capability",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/everest_group_cover.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "SpendMatters features Raindrop’s industry-disruptive approach",
             "excerpt": "",
-            "href": "/spendmatters-features-raindrops-industry-disruptive-approach"
+            "href": "/spendmatters-features-raindrops-industry-disruptive-approach",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/adobestock_133905377-1024x682-1.jpeg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Supplier Risk Management Within An S2P Suite",
             "excerpt": "",
-            "href": "/supplier-risk-management-within-an-s2p-suite"
+            "href": "/supplier-risk-management-within-an-s2p-suite",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/podcastcoverimage_supplier-risk-management.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Importance of UI/UX and Fast Implementation",
             "excerpt": "",
-            "href": "/importance-of-ui-ux-and-fast-implementation"
+            "href": "/importance-of-ui-ux-and-fast-implementation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/podcastcoverimage_importance-of-ux.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Key Criteria When Choosing A Provider",
             "excerpt": "",
-            "href": "/key-criteria-when-choosing-a-provider"
+            "href": "/key-criteria-when-choosing-a-provider",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/podcastcoverimage_choosing-a-provider.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop’s Spend Intake and Registration: Intuitive, Engaging, and Powerful",
             "excerpt": "",
-            "href": "/raindrops-spend-intake-and-registration-intuitive-engaging-and-powerful"
+            "href": "/raindrops-spend-intake-and-registration-intuitive-engaging-and-powerful",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/intake-compaign-banner.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "2023 Supply Chain Challenges – Navigating Uncertain Times",
             "excerpt": "",
-            "href": "/2023-supply-chain-challenges-navigating-uncertain-times"
+            "href": "/2023-supply-chain-challenges-navigating-uncertain-times",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/cost-concerns_for-website2023.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Shifting Supply Chains: leverage Raindrop for resiliency in 2023",
             "excerpt": "",
-            "href": "/shifting-supply-chains-leverage-raindrop-for-resiliency-in-2023"
+            "href": "/shifting-supply-chains-leverage-raindrop-for-resiliency-in-2023",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/shifting-supply-chain-website-image1.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop recognized as Top 5 Software companies in 2022",
             "excerpt": "",
-            "href": "/raindrop-recognized-as-top-5-software-companies-in-2022"
+            "href": "/raindrop-recognized-as-top-5-software-companies-in-2022",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/the-silicon-review.png",
+              "alt": "Icon",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "CPO Rising mentions Raindrop’s early success",
             "excerpt": "",
-            "href": "/cpo-rising-mentions-raindrops-early-success"
+            "href": "/cpo-rising-mentions-raindrops-early-success",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/june-22-image_technology-round_up.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Top 5 Supply Chain concerns and how to mitigate them",
             "excerpt": "",
-            "href": "/top-5-supply-chain-concerns-and-how-to-mitigate-them"
+            "href": "/top-5-supply-chain-concerns-and-how-to-mitigate-them",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/supply-chain-website.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Recession-proof your eSourcing strategy",
             "excerpt": "",
-            "href": "/recession-proof-your-esourcing-strategy"
+            "href": "/recession-proof-your-esourcing-strategy",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/recession-proof-your-sourcing-strategy-website.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Drive value with digital procurement transformation",
             "excerpt": "",
-            "href": "/drive-value-with-digital-procurement-transformation"
+            "href": "/drive-value-with-digital-procurement-transformation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/digital-procurement-transformation-website-size.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The CFO Role and Digital Initiatives for Growth",
             "excerpt": "",
-            "href": "/the-cfo-role-and-digital-initiatives-for-growth"
+            "href": "/the-cfo-role-and-digital-initiatives-for-growth",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/cfo-obstacles-and-opportunities-feature-image.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Top 5 challenges in the retail industry – Why technology transformation is required?",
             "excerpt": "",
-            "href": "/top-5-challenges-in-the-retail-industry-why-technology-transformation-is-required"
+            "href": "/top-5-challenges-in-the-retail-industry-why-technology-transformation-is-required",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/retail-feature-image-2.o-1.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop as the centerpiece driving cost reduction strategies to help navigate inflation",
             "excerpt": "",
-            "href": "/raindrop-as-the-centerpiece-driving-cost-reduction-strategies-to-help-navigate-inflation"
+            "href": "/raindrop-as-the-centerpiece-driving-cost-reduction-strategies-to-help-navigate-inflation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/d93ed244-0d3e-4aeb-a42f-57226cc65393.jpeg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Digital Sourcing Technology Industry",
             "excerpt": "",
-            "href": "/the-digital-sourcing-technology-industry"
+            "href": "/the-digital-sourcing-technology-industry",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/rfxraindropmodule.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Top CFO Priorities for 2022",
             "excerpt": "",
-            "href": "/top-cfo-priorities-for-2022"
+            "href": "/top-cfo-priorities-for-2022",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/cfobannerin1.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Drive Maximum Efficiency from your Annual Operating Plan with Raindrop",
             "excerpt": "",
-            "href": "/drive-maximum-efficiency-from-your-annual-operating-plan-with-raindrop"
+            "href": "/drive-maximum-efficiency-from-your-annual-operating-plan-with-raindrop",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/drive-maximum-efficiency-hubspot-banner.png",
+              "alt": "Drive Maximum Efficiency from your Annual Operating Plan with Raindrop",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Future of Supply Chain and Procurement.",
             "excerpt": "",
-            "href": "/the-future-of-supply-chain-and-procurement"
+            "href": "/the-future-of-supply-chain-and-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/future_supply_chain_procurement.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Corporate Contractual Obligations – What Do We Own?",
             "excerpt": "",
-            "href": "/corporate-contractual-obligations-what-do-we-own"
+            "href": "/corporate-contractual-obligations-what-do-we-own",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/hubspotresourcespagebanner.png",
+              "alt": "Corporate Contractual Obligations – What Do We Own?",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Digitized Supplier Management in the Spotlight",
             "excerpt": "",
-            "href": "/digitized-supplier-management-in-the-spotlight"
+            "href": "/digitized-supplier-management-in-the-spotlight",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/suppliermanagementhubemail.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Procurement & Finance: How Raindrop Harmonizes The Business Functions",
             "excerpt": "",
-            "href": "/procurement-finance-how-raindrop-harmonizes-the-business-functions"
+            "href": "/procurement-finance-how-raindrop-harmonizes-the-business-functions",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/procurementandfinanceemail.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Unleash The Power of Advanced Spend Analytics With Raindrop",
             "excerpt": "",
-            "href": "/unleash-the-power-of-advanced-spend-analytics-with-raindrop"
+            "href": "/unleash-the-power-of-advanced-spend-analytics-with-raindrop",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/hubspot-resources-img.png",
+              "alt": "Unleash The Power of Advanced Spend Analytics With Raindrop",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "COVID has changed the way the world goes out to market. Here’s how Raindrop’s Sourcing Module gets you there.",
             "excerpt": "",
-            "href": "/covid-has-changed-the-way-the-world-goes-out-to-market-heres-how-raindrops-sourcing-module-gets-you-there"
+            "href": "/covid-has-changed-the-way-the-world-goes-out-to-market-heres-how-raindrops-sourcing-module-gets-you-there",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/covidemailrollout.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Addressing Top Priorities For Procurement Leaders",
             "excerpt": "",
-            "href": "/raindrop-addressing-top-priorities-for-procurement-leaders"
+            "href": "/raindrop-addressing-top-priorities-for-procurement-leaders",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/cporesourcespagebanneremail.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Amalgam Insights Quotes Raindrop as a Key Industry Disruptor",
             "excerpt": "",
-            "href": "/amalgam-insights-quotes-raindrop-as-a-key-industry-disruptor"
+            "href": "/amalgam-insights-quotes-raindrop-as-a-key-industry-disruptor",
+            "image": {
+              "id": 0,
+              "url": "/assets/images/home/logo-insight-global.webp",
+              "alt": "Logo",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop listed amongst 50 Most Admired Companies of 2021",
             "excerpt": "",
-            "href": "/raindrop-recognized-among-the-50-most-admired-companies-of-2021-by-the-silicon-review"
+            "href": "/raindrop-recognized-among-the-50-most-admired-companies-of-2021-by-the-silicon-review",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/thesiliconreview-50-most-admired-companies-of-the-year-issue-logo-2021-1.jpg",
+              "alt": "Logo",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "CIO Review Lists Raindrop as the Most Promising Digital Transformation Solution Provider",
             "excerpt": "",
-            "href": "/raindrop-listed-amongst-50-most-admired-companies-of-2021"
+            "href": "/raindrop-listed-amongst-50-most-admired-companies-of-2021",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/cio-review.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "SpendMatters features Raindrop’s Value proposition",
             "excerpt": "",
-            "href": "/spendmatters-features-raindrops-value-proposition"
+            "href": "/spendmatters-features-raindrops-value-proposition",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/raindrop-pro-2021-puzzle-adobestock_322522389.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "An exclusive interview with Ward on navigating the Digital Procurement Journey",
             "excerpt": "",
-            "href": "/exclusive-interview-with-ward-karson-on-navigating-the-digital-procurement-journey"
+            "href": "/exclusive-interview-with-ward-karson-on-navigating-the-digital-procurement-journey",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/26bfeb83-cpo-summit-152_109703509603400000001o.jpg",
+              "alt": "Ui",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Addressing top Priorities for Finance Leaders",
             "excerpt": "",
-            "href": "/raindrop-addressing-top-priorities-for-finance-leaders"
+            "href": "/raindrop-addressing-top-priorities-for-finance-leaders",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/financeleadersemailimage.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Control Costs With Raindrop’s Spend Management Platform",
             "excerpt": "",
-            "href": "/control-costs-with-raindrops-spend-management-platform"
+            "href": "/control-costs-with-raindrops-spend-management-platform",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/digitizationneedsemailimage-1.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Analytics as the Centerpiece Driving Corporate Strategies",
             "excerpt": "",
-            "href": "/spend-analytics-as-the-centerpiece-driving-corporate-strategies"
+            "href": "/spend-analytics-as-the-centerpiece-driving-corporate-strategies",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources/resourcesplatformspendanalyticsemail.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       }
@@ -2248,402 +4611,1042 @@ const pages: Page[] = [
           {
             "title": "What Features Should You Look for in a Source-to-Pay Solution?",
             "excerpt": "",
-            "href": "/what-features-should-you-look-for-in-a-source-to-pay-solution"
+            "href": "/what-features-should-you-look-for-in-a-source-to-pay-solution",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/what-features-should-you-look-for-in-a-source-to-pay-solution.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "What Are the Key Benefits of Using an AI-Powered Spend Management Platform?",
             "excerpt": "",
-            "href": "/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform"
+            "href": "/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Tail Spend Management: Why the Last 20% of Spend Deserves the Same Rigor as the First 80%",
             "excerpt": "",
-            "href": "/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80"
+            "href": "/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80-2.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Governance Isn’t a Feature. It’s a Relationship.",
             "excerpt": "",
-            "href": "/governance-isnt-a-feature-its-a-relationship"
+            "href": "/governance-isnt-a-feature-its-a-relationship",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Deploy AI Agents in Procurement: A Roadmap to Success",
             "excerpt": "",
-            "href": "/deploy-ai-agents-in-procurement-a-roadmap-to-success"
+            "href": "/deploy-ai-agents-in-procurement-a-roadmap-to-success",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/gartner-flex-report-deploying-ai-agents-images-2.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop vs. LightSource: Which Platform Fits Your Procurement Problem?",
             "excerpt": "",
-            "href": "/raindrop-vs-lightsource-which-platform-fits-your-procurement-problem"
+            "href": "/raindrop-vs-lightsource-which-platform-fits-your-procurement-problem",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/raindrop-systems-vs.-lightsource-which-platform-fits-your-procurement-problem.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How to Choose the Right Supplier Management and RFx Platform",
             "excerpt": "",
-            "href": "/how-to-choose-the-right-supplier-management-and-rfx-platform"
+            "href": "/how-to-choose-the-right-supplier-management-and-rfx-platform",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/who-actually-owns-contracts-in-your-organization-14.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How to Replace Email Purchase Requests with Structured Intake",
             "excerpt": "",
-            "href": "/how-to-replace-email-purchase-requests-with-structured-intake"
+            "href": "/how-to-replace-email-purchase-requests-with-structured-intake",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/who-actually-owns-contracts-in-your-organization-15.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How to Standardize RFP Processes Across Procurement Categories",
             "excerpt": "",
-            "href": "/how-to-standardize-rfp-processes-across-procurement-categories"
+            "href": "/how-to-standardize-rfp-processes-across-procurement-categories",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/who-actually-owns-contracts-in-your-organization-12.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Risks That the Agentic CLM Process Overtakes",
             "excerpt": "",
-            "href": "/risks-that-the-agentic-clm-process-overtakes"
+            "href": "/risks-that-the-agentic-clm-process-overtakes",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/who-actually-owns-contracts-in-your-organization-9.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Human Eye Isn’t Disappearing From Contract Review. It’s Looking Where It Counts.",
             "excerpt": "",
-            "href": "/the-human-eye-isnt-disappearing-from-contract-review-its-looking-where-it-counts"
+            "href": "/the-human-eye-isnt-disappearing-from-contract-review-its-looking-where-it-counts",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/who-actually-owns-contracts-in-your-organization-6.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Lawyers Are Expensive: How Agentic CLM Cuts Contract Costs",
             "excerpt": "",
-            "href": "/lawyers-are-expensive-how-agentic-clm-cuts-contract-costs"
+            "href": "/lawyers-are-expensive-how-agentic-clm-cuts-contract-costs",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/who-actually-owns-contracts-in-your-organization-10.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Hype Cycle for Procurement & Sourcing, 2026",
             "excerpt": "",
-            "href": "/hype-cycle-for-procurement-sourcing-2026"
+            "href": "/hype-cycle-for-procurement-sourcing-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/agent-washing-social-post-5.webp",
+              "alt": "Hype Cycle for Procurement & Sourcing, 2026",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Intake and Orchestration, Reimagined by Agentic AI",
             "excerpt": "",
-            "href": "/intake-and-orchestration-reimagined-by-agentic-ai"
+            "href": "/intake-and-orchestration-reimagined-by-agentic-ai",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/intake-and-orchestration-reimagined-by-agentic-ai-1.webp",
+              "alt": "Intake and Orchestration, Reimagined by Agentic AI",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "5 Signs Your Contract Process Is Broken",
             "excerpt": "",
-            "href": "/5-signs-your-contract-process-is-broken"
+            "href": "/5-signs-your-contract-process-is-broken",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/who-actually-owns-contracts-in-your-organization-4.webp",
+              "alt": "Raindrop vs. Icertis: Why Companies are Questioning the Fortune 500 CLM Assumption",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop vs. Icertis: Why Companies are Questioning the Fortune 500 CLM Assumption",
             "excerpt": "",
-            "href": "/raindrop-vs-icertis-why-companies-are-questioning-the-fortune-500-clm-assumption"
+            "href": "/raindrop-vs-icertis-why-companies-are-questioning-the-fortune-500-clm-assumption",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/who-actually-owns-contracts-in-your-organization-4.webp",
+              "alt": "Raindrop vs. Icertis: Why Companies are Questioning the Fortune 500 CLM Assumption",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop vs. DocuSign CLM: Why Procurement Teams Are Outgrowing the e-Signature Giant’s Contract Play",
             "excerpt": "",
-            "href": "/raindrop-vs-docusign-clm-why-procurement-teams-are-outgrowing-the-e-signature-giants-contract-play"
+            "href": "/raindrop-vs-docusign-clm-why-procurement-teams-are-outgrowing-the-e-signature-giants-contract-play",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/who-actually-owns-contracts-in-your-organization-3-1.webp",
+              "alt": "Raindrop vs. DocuSign CLM: Why Procurement Teams Are Outgrowing the e-Signature Giant’s Contract Play",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Agentic Glossary of Terms",
             "excerpt": "",
-            "href": "/agentic-glossary-of-terms"
+            "href": "/agentic-glossary-of-terms",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/cover-image-agentic-ebook-1.webp",
+              "alt": "Agentic Glossary of Terms",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 1 – Agentic AI: The Next Evolution of Artificial Intelligence in Enterprise Software",
             "excerpt": "",
-            "href": "/section-1-agentic-ai-the-next-evolution-of-artificial-intelligence-in-enterprise-software"
+            "href": "/section-1-agentic-ai-the-next-evolution-of-artificial-intelligence-in-enterprise-software",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/section-1-agentic-ai-the-next-evolution-of-artificial-intelligence-in-enterprise-software.webp",
+              "alt": "Section 1 – Agentic AI: The Next Evolution of Artificial Intelligence in Enterprise Software",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 2 – What to Know About Agentic AI",
             "excerpt": "",
-            "href": "/section-2-what-to-know-about-agentic-ai"
+            "href": "/section-2-what-to-know-about-agentic-ai",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/section-2-what-to-know-about-agentic-ai-3.webp",
+              "alt": "Section 2 – What to Know About Agentic AI",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 3 – The Technology Behind Agentic AI",
             "excerpt": "",
-            "href": "/section-3-the-technology-behind-agentic-ai"
+            "href": "/section-3-the-technology-behind-agentic-ai",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/reach-out-to-raindrop-today-slide-11.webp",
+              "alt": "Section 3 – The Technology Behind Agentic AI",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 4 – Why Procurement is Ideal for Agentic AI",
             "excerpt": "",
-            "href": "/section-4-why-procurement-is-ideal-for-agentic-ai"
+            "href": "/section-4-why-procurement-is-ideal-for-agentic-ai",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/section-4-why-procurement-is-ideal.webp",
+              "alt": "Section 4 – Why Procurement is Ideal for Agentic AI",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 5 – Examining Core Use Cases for Agentic AI in Procurement and Finance",
             "excerpt": "",
-            "href": "/section-5-examining-core-use-cases-for-agentic-ai-in-procurement-and-finance"
+            "href": "/section-5-examining-core-use-cases-for-agentic-ai-in-procurement-and-finance",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/section-5-cover.webp",
+              "alt": "Section 5 – Examining Core Use Cases for Agentic AI in Procurement and Finance",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 6 – The Operating Model of Agentic Procurement",
             "excerpt": "",
-            "href": "/section-6-the-operating-model-of-agentic-procurement"
+            "href": "/section-6-the-operating-model-of-agentic-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/section-6-cover.webp",
+              "alt": "Section 6 – The Operating Model of Agentic Procurement",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 7 – The Architecture Required To Enable Agentic AI",
             "excerpt": "",
-            "href": "/section-7-the-architecture-required-to-enable-agentic-ai"
+            "href": "/section-7-the-architecture-required-to-enable-agentic-ai",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/cover-image-agentic-ebook-5-1.webp",
+              "alt": "Section 7 – The Architecture Required To Enable Agentic AI",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 8 – Limitations of Agentic AI and Why we still need humans",
             "excerpt": "",
-            "href": "/section-8-limitations-of-agentic-ai-and-why-we-still-need-humans"
+            "href": "/section-8-limitations-of-agentic-ai-and-why-we-still-need-humans",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/cover-image-agentic-ebook-6.webp",
+              "alt": "Section 8 – Limitations of Agentic AI and Why we still need humans",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 9 – How Raindrop Enables Agentic Procurement",
             "excerpt": "",
-            "href": "/section-9-how-raindrop-enables-agentic-procurement"
+            "href": "/section-9-how-raindrop-enables-agentic-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/cover-image-agentic-ebook-20.webp",
+              "alt": "Section 9 – How Raindrop Enables Agentic Procurement",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Section 10 – Are You Ready for Agentic Procurement?",
             "excerpt": "",
-            "href": "/section-10-are-you-ready-for-agentic-procurement"
+            "href": "/section-10-are-you-ready-for-agentic-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/cover-image-agentic-ebook-22.webp",
+              "alt": "Section 10 – Are You Ready for Agentic Procurement?",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Tools That Align Finance and Procurement Teams",
             "excerpt": "",
-            "href": "/tools-that-align-finance-and-procurement-teams"
+            "href": "/tools-that-align-finance-and-procurement-teams",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/who-actually-owns-contracts-in-your-organization-3.webp",
+              "alt": "Open Graph image",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Procurement Software That Works With FP&A and Budgeting Tools",
             "excerpt": "",
-            "href": "/procurement-software-that-works-with-fpa-and-budgeting-tools"
+            "href": "/procurement-software-that-works-with-fpa-and-budgeting-tools",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/who-actually-owns-contracts-in-your-organization-2.webp",
+              "alt": "Procurement Software That Works With FP&A and Budgeting Tools",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Best Tools to Replace Manual PO and Approval Workflows",
             "excerpt": "",
-            "href": "/tools-to-replace-manual-po-and-approval-workflows"
+            "href": "/tools-to-replace-manual-po-and-approval-workflows",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/who-actually-owns-contracts-in-your-organization-1.webp",
+              "alt": "Best Tools to Replace Manual PO and Approval Workflows",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Who Actually Owns Contracts in Your Organization?",
             "excerpt": "",
-            "href": "/who-actually-owns-contracts-in-your-organization"
+            "href": "/who-actually-owns-contracts-in-your-organization",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/who-actually-owns-contracts-in-your-organization.webp",
+              "alt": "Who Actually Owns Contracts in Your Organization?",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Why Most Procurement AI Strategies Stall Before They Start",
             "excerpt": "",
-            "href": "/why-most-procurement-ai-strategies-stall-before-they-start"
+            "href": "/why-most-procurement-ai-strategies-stall-before-they-start",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/gartner-cpos-guide-to-integrating-ai-into-procurement-workflows-defining-workflow-ai-strategy.webp",
+              "alt": "Why Most Procurement AI Strategies Stall Before They Start",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "CPO’s Guide to Integrating AI Into Procurement Workflows: Defining Workflow AI Strategy",
             "excerpt": "",
-            "href": "/cpos-guide-to-integrating-ai-into-procurement-workflows-defining-workflow-ai-strategy"
+            "href": "/cpos-guide-to-integrating-ai-into-procurement-workflows-defining-workflow-ai-strategy",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/gartner-cpos-guide-to-integrating-ai-into-procurement-workflows-defining-workflow-ai-strategygartner-cpos-guide-to-integrating-ai-into-procurement-workflows-defining-workflow-ai-strategy.webp",
+              "alt": "CPO’s Guide to Integrating AI Into Procurement Workflows: Defining Workflow AI Strategy",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Understanding Agentic AI and Its Role in Procurement",
             "excerpt": "",
-            "href": "/understanding-agentic-ai-and-its-role-in-procurement"
+            "href": "/understanding-agentic-ai-and-its-role-in-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/cover-image-agentic-ebook.webp",
+              "alt": "Understanding Agentic AI and Its Role in Procurement",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Why Lloyd’s Register Chose Raindrop: A Sales Perspective on Modern Procurement",
             "excerpt": "",
-            "href": "/why-lloyds-register-chose-raindrop-a-sales-perspective-on-modern-procurement"
+            "href": "/why-lloyds-register-chose-raindrop-a-sales-perspective-on-modern-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/lloyds-register-blog-image.webp",
+              "alt": "Why Lloyd’s Register Chose Raindrop: A Sales Perspective on Modern Procurement",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "AI Procurement ROI: The CFO Business Case (Real Numbers From Real Customers)",
             "excerpt": "",
-            "href": "/ai-procurement-roi-cfo-business-case"
+            "href": "/ai-procurement-roi-cfo-business-case",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/ai-procurement-roi-cfo-business-case.webp",
+              "alt": "AI Procurement ROI: The CFO Business Case (Real Numbers From Real Customers)",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Agentic AI in Contract Management: What It Actually Does",
             "excerpt": "",
-            "href": "/agentic-ai-in-contract-management"
+            "href": "/agentic-ai-in-contract-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/the-real-difference-between-ai-agents-and-agentic-ai-and-why-it-matters-for-spend-management.webp",
+              "alt": "Agentic AI in Contract Management: What It Actually Does",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "What Tools Help Procurement Teams Run Structured RFI and RFP Processes?",
             "excerpt": "",
-            "href": "/what-tools-help-procurement-teams-run-structured-rfi-and-rfp-processes"
+            "href": "/what-tools-help-procurement-teams-run-structured-rfi-and-rfp-processes",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/what-tools-help-procurement-teams-run-structured-rfi-and-rfp-processes.webp",
+              "alt": "What Tools Help Procurement Teams Run Structured RFI and RFP Processes?",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Tools That Automate Procurement Request Routing Based on Category and Spend Threshold",
             "excerpt": "",
-            "href": "/procurement-request-routing-automation-tools"
+            "href": "/procurement-request-routing-automation-tools",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/tools-that-automate-procurement-request-routing-based-on-category-and-spend-threshold-1.webp",
+              "alt": "Tools That Automate Procurement Request Routing Based on Category and Spend Threshold",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Fastest Procurement Platforms With ERP Integrations",
             "excerpt": "",
-            "href": "/fastest-procurement-platforms-with-erp-integrations"
+            "href": "/fastest-procurement-platforms-with-erp-integrations",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/fastest-procurement-platforms-with-erp-integrations-.webp",
+              "alt": "Fastest Procurement Platforms With ERP Integrations",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop vs. Ironclad: Why Procurement-Led Teams Are Rethinking the CLM Conversation",
             "excerpt": "",
-            "href": "/raindrop-vs-ironclad-why-procurement-led-teams-are-rethinking-the-clm-conversation"
+            "href": "/raindrop-vs-ironclad-why-procurement-led-teams-are-rethinking-the-clm-conversation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/raindrop-vs.-ironclad-why-procurement-led-teams-are-rethinking-the-clm-conversation.webp",
+              "alt": "Raindrop vs. Ironclad: Why Procurement-Led Teams Are Rethinking the CLM Conversation",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "What Is the Value of a Unified Procurement and Sourcing Platform, & Why Agentic AI Makes It Matter More Than Ever",
             "excerpt": "",
-            "href": "/what-is-the-value-of-a-unified-procurement-and-sourcing-platform-why-agentic-ai-makes-it-matter-more-than-ever"
+            "href": "/what-is-the-value-of-a-unified-procurement-and-sourcing-platform-why-agentic-ai-makes-it-matter-more-than-ever",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/what-is-the-value-of-a-unified-procurement-and-sourcing-platform-why-agentic-ai-makes-it-matter-more-than-ever.webp",
+              "alt": "What Is the Value of a Unified Procurement and Sourcing Platform, & Why Agentic AI Makes It Matter More Than Ever",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "90-Day Plan For CFOs in 2026",
             "excerpt": "",
-            "href": "/90-day-plan-for-cfos-in-2026"
+            "href": "/90-day-plan-for-cfos-in-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/screenshot-2026-05-12-at-10.07.22-am.webp",
+              "alt": "90-Day Plan For CFOs in 2026",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Makes a Splash in The Hackett Group Spring 2026 SolutionMap",
             "excerpt": "",
-            "href": "/raindrop-makes-a-splash-in-the-hackett-group-spring-2026-solutionmap"
+            "href": "/raindrop-makes-a-splash-in-the-hackett-group-spring-2026-solutionmap",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/blue-medical-slide-presentation-project-proposal-3.webp",
+              "alt": "Raindrop Makes a Splash in The Hackett Group Spring 2026 SolutionMap",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Reduce IT Sourcing Risk and Regret Through an Agile Procurement Framework",
             "excerpt": "",
-            "href": "/reduce-it-sourcing-risk-and-regret-through-an-agile-procurement-framework"
+            "href": "/reduce-it-sourcing-risk-and-regret-through-an-agile-procurement-framework",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/gartner-flex-reprint-reduce-it-sourcing-risk-and-regret-through-an-agile-procurement-framework.webp",
+              "alt": "Reduce IT Sourcing Risk and Regret Through an Agile Procurement Framework",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Procurement Software Integrations",
             "excerpt": "",
-            "href": "/procurement-software-integrations"
+            "href": "/procurement-software-integrations",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/procurement-software-integrations-the-complete-guide-for-cpos-cfos-and-it-leaders.webp",
+              "alt": "Procurement Software Integrations",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Best Platforms to Control Supplier Spend in a Growing Business",
             "excerpt": "",
-            "href": "/best-platforms-control-vendor-spend-growing-business"
+            "href": "/best-platforms-control-vendor-spend-growing-business",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/best-platforms-to-control-vendor-spend-in-a-growing-business-4.webp",
+              "alt": "Best Platforms to Control Supplier Spend in a Growing Business",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How Teams Orchestrate Requests Across Finance, Procurement, and Operations",
             "excerpt": "",
-            "href": "/how-teams-orchestrate-requests-across-finance-procurement-and-operations"
+            "href": "/how-teams-orchestrate-requests-across-finance-procurement-and-operations",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/how-teams-orchestrate-requests-across-finance-procurement-and-operations-.webp",
+              "alt": "How Teams Orchestrate Requests Across Finance, Procurement, and Operations",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Unified Procurement Platforms for Sourcing, Contracts, and Purchasing | Raindrop Systems",
             "excerpt": "",
-            "href": "/unified-procurement-platforms-sourcing-contracts-purchasing"
+            "href": "/unified-procurement-platforms-sourcing-contracts-purchasing",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/unified-procurement-platforms-for-sourcing-contracts-and-purchasing-raindrop-systems-1.webp",
+              "alt": "Unified Procurement Platforms for Sourcing, Contracts, and Purchasing | Raindrop Systems",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "5 Things I’d Tell a New CFO In 2026",
             "excerpt": "",
-            "href": "/5-things-id-tell-a-new-cfo-in-2026"
+            "href": "/5-things-id-tell-a-new-cfo-in-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/5-things-id-tell-a-new-cfo-in-2026.webp",
+              "alt": "5 Things I’d Tell a New CFO In 2026",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Fast to Deploy Procurement Systems: A Complete Guide",
             "excerpt": "",
-            "href": "/fast-to-deploy-procurement-systems-a-complete-guide"
+            "href": "/fast-to-deploy-procurement-systems-a-complete-guide",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/fast-to-deploy-procurement-systems-a-complete-guide.webp",
+              "alt": "Fast to Deploy Procurement Systems: A Complete Guide",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Intake & Orchestration Built In, Not Bolted On",
             "excerpt": "",
-            "href": "/intake-orchestration-built-in-not-bolted-on"
+            "href": "/intake-orchestration-built-in-not-bolted-on",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/raindrop-intake-and-orchestration-scaled.webp",
+              "alt": "Intake & Orchestration Built In, Not Bolted On",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "4 Lessons Learned From Real S2P Implementations, According to Gartner",
             "excerpt": "",
-            "href": "/4-lessons-learned-from-real-s2p-implementations-according-to-gartner"
+            "href": "/4-lessons-learned-from-real-s2p-implementations-according-to-gartner",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/gartner-peer-lessons-learned-for-source-to-pau-suite-implementation-7.webp",
+              "alt": "4 Lessons Learned From Real S2P Implementations, According to Gartner",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop at ProcureCon West: What We Took Away",
             "excerpt": "",
-            "href": "/raindrop-at-procurecon-west-what-we-took-away"
+            "href": "/raindrop-at-procurecon-west-what-we-took-away",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/1773082082273.webp",
+              "alt": "Raindrop at ProcureCon West: What We Took Away",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How to Fix Supplier Onboarding: From Weeks of Email to Days of Automation",
             "excerpt": "",
-            "href": "/how-to-fix-supplier-onboarding-from-weeks-of-email-to-days-of-automation"
+            "href": "/how-to-fix-supplier-onboarding-from-weeks-of-email-to-days-of-automation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/how-to-fix-supplier-onboarding-from-weeks-of-email-to-days-of-automation.webp",
+              "alt": "How to Fix Supplier Onboarding: From Weeks of Email to Days of Automation",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "What Is Supplier Management? The Complete Guide for Procurement Teams",
             "excerpt": "",
-            "href": "/what-is-supplier-management-the-complete-guide-for-procurement-teams"
+            "href": "/what-is-supplier-management-the-complete-guide-for-procurement-teams",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/what-is-supplier-management-the-complete-guide-for-procurement-teams.webp",
+              "alt": "What Is Supplier Management? The Complete Guide for Procurement Teams",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How AI Simplifies Procurement For Finance Teams",
             "excerpt": "",
-            "href": "/ai-simplifies-procurement-for-finance-teams"
+            "href": "/ai-simplifies-procurement-for-finance-teams",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/how-ai-simplifies-procurement-for-finance-teams.webp",
+              "alt": "How AI Simplifies Procurement For Finance Teams",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Why Interoperability Between Finance Tools Matters More Than Ever",
             "excerpt": "",
-            "href": "/why-interoperability-between-finance-tools-matters"
+            "href": "/why-interoperability-between-finance-tools-matters",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/why-interoperability-between-finance-tools-matters-more-than-ever.webp",
+              "alt": "Why Interoperability Between Finance Tools Matters More Than Ever",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "What Good Intake Management Looks Like in Modern Procurement",
             "excerpt": "",
-            "href": "/modern-procurement-intake-management-best-practices"
+            "href": "/modern-procurement-intake-management-best-practices",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/what-good-intake-management-looks-like-in-modern-procurement-1.webp",
+              "alt": "What Good Intake Management Looks Like in Modern Procurement",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Gartner: Peer Lessons Learned For Source-to-Pay Suite Implementation",
             "excerpt": "",
-            "href": "/gartner-peer-lessons-learned-for-source-to-pay-suite-implementation"
+            "href": "/gartner-peer-lessons-learned-for-source-to-pay-suite-implementation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/gartner-peer-lessons-learned-for-source-to-pau-suite-implementation.webp",
+              "alt": "Gartner: Peer Lessons Learned For Source-to-Pay Suite Implementation",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop vs. Zycus: AI-Native Source-to-Pay Platform Comparison for 2026",
             "excerpt": "",
-            "href": "/raindrop-vs-zycus-ai-native-source-to-pay-platform-comparison-for-2026"
+            "href": "/raindrop-vs-zycus-ai-native-source-to-pay-platform-comparison-for-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/raindrop-vs.-zycus-ai-native-source-to-pay-platform-comparison-for-2026.webp",
+              "alt": "Raindrop vs. Zycus: AI-Native Source-to-Pay Platform Comparison for 2026",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Fast, Easy-To-Use Procurement Software",
             "excerpt": "",
-            "href": "/fast-easy-to-use-procurement-software"
+            "href": "/fast-easy-to-use-procurement-software",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/fast-easy-to-use-procurement-software-5.webp",
+              "alt": "Fast, Easy-To-Use Procurement Software",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Named to The Hackett Group 2025–2026 “50 to Watch” Procurement Technology List",
             "excerpt": "",
-            "href": "/raindrop-named-to-the-hackett-group-2025-2026-50-to-watch-procurement-technology-list"
+            "href": "/raindrop-named-to-the-hackett-group-2025-2026-50-to-watch-procurement-technology-list",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/the-hackett-group-50-to-watch-2.webp",
+              "alt": "Raindrop Named to The Hackett Group 2025–2026 “50 to Watch” Procurement Technology List",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "What Is Intake and Orchestration? The Complete Guide for Procurement Teams",
             "excerpt": "",
-            "href": "/what-is-intake-and-orchestration"
+            "href": "/what-is-intake-and-orchestration",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/what-is-intake-and-orchestration-the-complete-guide-for-procurement-teams.webp",
+              "alt": "What Is Intake and Orchestration? The Complete Guide for Procurement Teams",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Attending CPO Leadership Kodi Connect Event",
             "excerpt": "",
-            "href": "/raindrop-attending-cpo-leadership-kodi-connect-event"
+            "href": "/raindrop-attending-cpo-leadership-kodi-connect-event",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/tech-conference-welcome-slide-in-blue-black-modern-style-4.webp",
+              "alt": "Raindrop Attending CPO Leadership Kodi Connect Event",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Attending ProcureCon West 2026",
             "excerpt": "",
-            "href": "/raindrop-attending-procurecon-west-2026"
+            "href": "/raindrop-attending-procurecon-west-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/see-you-at-procurecon-west.webp",
+              "alt": "Raindrop Attending ProcureCon West 2026",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Tools To Streamline Supplier Onboarding and RFx",
             "excerpt": "",
-            "href": "/tools-to-streamline-supplier-onboarding-and-rfx"
+            "href": "/tools-to-streamline-supplier-onboarding-and-rfx",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/fast-easy-to-use-procurement-software-1.webp",
+              "alt": "Tools To Streamline Supplier Onboarding and RFx",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Procurement in 2026: Why AI-First Is No Longer Optional",
             "excerpt": "",
-            "href": "/procurement-in-2026-why-ai-first-is-no-longer-optional"
+            "href": "/procurement-in-2026-why-ai-first-is-no-longer-optional",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/predicts-2026-procurement-taking-steps-to-become-ai-first-3.webp",
+              "alt": "Procurement in 2026: Why AI-First Is No Longer Optional",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Lessons From Lands’ End At NRF: Smart Commitment Management With CLM",
             "excerpt": "",
-            "href": "/lessons-from-lands-end-at-nrf-smart-commitment-management-with-clm"
+            "href": "/lessons-from-lands-end-at-nrf-smart-commitment-management-with-clm",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/stage-use-scaled.webp",
+              "alt": "Lessons From Lands’ End At NRF: Smart Commitment Management With CLM",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Predicts 2026: Procurement Taking Steps to Become AI-First",
             "excerpt": "",
-            "href": "/predicts-2026-procurement-taking-steps-to-become-ai-first"
+            "href": "/predicts-2026-procurement-taking-steps-to-become-ai-first",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/predicts-2026-procurement-taking-steps-to-become-ai-first-2.webp",
+              "alt": "Predicts 2026: Procurement Taking Steps to Become AI-First",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "90-Day Plan For CPOs in 2026",
             "excerpt": "",
-            "href": "/90-day-plan-for-cpos"
+            "href": "/90-day-plan-for-cpos",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/reach-out-to-raindrop-today-slide-4.webp",
+              "alt": "90-Day Plan For CPOs in 2026",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "7 Things I’d Tell A New CPO Stepping Into 2026",
             "excerpt": "",
-            "href": "/7-things-id-tell-a-new-cpo-stepping-into-2026"
+            "href": "/7-things-id-tell-a-new-cpo-stepping-into-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/7-things-id-tell-a-new-cpo-stepping-into-2026-graphic-.webp",
+              "alt": "7 Things I’d Tell A New CPO Stepping Into 2026",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "7 Procurement Moves That Will Separate Leaders From Laggards In 2026",
             "excerpt": "",
-            "href": "/7-procurement-moves-that-will-separate-leaders-from-laggards-in-2026"
+            "href": "/7-procurement-moves-that-will-separate-leaders-from-laggards-in-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/7-procurement-moves-that-will-separate-leaders-from-laggards-in-2026.webp",
+              "alt": "7 Procurement Moves That Will Separate Leaders From Laggards In 2026",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Systems vs Basware: 7 Key Differences for 2026",
             "excerpt": "",
-            "href": "/raindrop-systems-vs-basware-7-key-differences-for-2026"
+            "href": "/raindrop-systems-vs-basware-7-key-differences-for-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/basware-comp-blog-graphic-1-1.webp",
+              "alt": "Raindrop Systems vs Basware: 7 Key Differences for 2026",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "7 Lessons Learned in 2025 About Procurement, AI, and What Comes Next",
             "excerpt": "",
-            "href": "/7-lessons-learned-in-2025-about-procurement-ai-and-what-comes-next"
+            "href": "/7-lessons-learned-in-2025-about-procurement-ai-and-what-comes-next",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/7-lessons-2025-taught-us-about-procurement-ai-and-what-comes-next.webp",
+              "alt": "7 Lessons Learned in 2025 About Procurement, AI, and What Comes Next",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Systems vs. Zip: The Difference Between Orchestration and AI- Native, Commitment-Driven Procurement",
             "excerpt": "",
-            "href": "/raindrop-systems-vs-zip"
+            "href": "/raindrop-systems-vs-zip",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/zip-blog-image.webp",
+              "alt": "Raindrop Systems vs. Zip: The Difference Between Orchestration and AI- Native, Commitment-Driven Procurement",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop vs. JAGGAER: 6 Key Differences Defining the Future of Procurement",
             "excerpt": "",
-            "href": "/raindrop-systems-vs-jaggaer"
+            "href": "/raindrop-systems-vs-jaggaer",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/jaggaer-blog-image-1.webp",
+              "alt": "Raindrop vs. JAGGAER: 6 Key Differences Defining the Future of Procurement",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Attending NRF, Retail’s Big Show",
             "excerpt": "",
-            "href": "/raindrop-attending-procureconwest"
+            "href": "/raindrop-attending-procureconwest",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/nrf-retails-big-show-post-1-1.webp",
+              "alt": "Raindrop Attending NRF, Retail’s Big Show",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Setting Smarter Objectives for 2026: The Key to Procurement’s AI Success",
             "excerpt": "",
-            "href": "/setting-smarter-objectives-for-2026-the-key-to-procurements-ai-success"
+            "href": "/setting-smarter-objectives-for-2026-the-key-to-procurements-ai-success",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/procurements-ai-success-starts-with-setting-smarter-objectives.webp",
+              "alt": "Setting Smarter Objectives for 2026: The Key to Procurement’s AI Success",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Systems vs SAP Ariba: 6 Key Differences—and a Clear Path to ROI",
@@ -2653,227 +5656,587 @@ const pages: Page[] = [
           {
             "title": "Raindrop Systems vs Coupa: Which Procurement Platform Delivers Faster Value in 2026",
             "excerpt": "",
-            "href": "/raindrop-systems-vs-coupa-which-procurement-platform-delivers-faster-value-in-2026"
+            "href": "/raindrop-systems-vs-coupa-which-procurement-platform-delivers-faster-value-in-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/raindrop-systems-vs.-coupa-1.webp",
+              "alt": "Raindrop Systems vs Coupa: Which Procurement Platform Delivers Faster Value in 2026",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Ambition Meets Attrition: Bridge the Gap Between Ambition and Real-World Agility",
             "excerpt": "",
-            "href": "/ambition-meets-attrition-bridge-the-gap-between-ambition-and-real-world-agility"
+            "href": "/ambition-meets-attrition-bridge-the-gap-between-ambition-and-real-world-agility",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/screenshot-2025-10-16-at-3.02.54-pm.webp",
+              "alt": "Ambition Meets Attrition: Bridge the Gap Between Ambition and Real-World Agility",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "5 Hidden Costs of Legacy Procurement Systems",
             "excerpt": "",
-            "href": "/5-hidden-costs-of-legacy-procurement-systems"
+            "href": "/5-hidden-costs-of-legacy-procurement-systems",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/5-hidden-costs-of-legacy-procurement-systems-.webp",
+              "alt": "5 Hidden Costs of Legacy Procurement Systems",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Supplier Onboarding Made Simple with Raindrop",
             "excerpt": "",
-            "href": "/supplier-onboarding-made-simple-with-raindrop"
+            "href": "/supplier-onboarding-made-simple-with-raindrop",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/supplier-onboarding-made-simple-with-raindrop.webp",
+              "alt": "Supplier Onboarding Made Simple with Raindrop",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Quick Answer: What Are the Quick-Win Use Cases When Selling GenAI to Finance Leaders?",
             "excerpt": "",
-            "href": "/quick-answer-what-are-the-quick-win-use-cases-when-selling-genai-to-finance-leaders"
+            "href": "/quick-answer-what-are-the-quick-win-use-cases-when-selling-genai-to-finance-leaders",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/gartner-felx-reprint-carousel-2-1.webp",
+              "alt": "Quick Answer: What Are the Quick-Win Use Cases When Selling GenAI to Finance Leaders?",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "What Does AI Native Mean in an S2P Platform?",
             "excerpt": "",
-            "href": "/what-does-ai-native-mean-in-an-s2p-platform"
+            "href": "/what-does-ai-native-mean-in-an-s2p-platform",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/what-does-ai-native-mean-in-an-s2p-platform.webp",
+              "alt": "What Does AI Native Mean in an S2P Platform?",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Show Me the Money: Hard-Hitting ROI from AI-Driven Procurement",
             "excerpt": "",
-            "href": "/show-me-the-money-hard-hitting-roi-from-ai-driven-procurement"
+            "href": "/show-me-the-money-hard-hitting-roi-from-ai-driven-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/show-me-the-money.webp",
+              "alt": "Show Me the Money: Hard-Hitting ROI from AI-Driven Procurement",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Why Data & Analytics Are the Foundation of AI-Ready Procurement",
             "excerpt": "",
-            "href": "/why-data-analytics-are-the-foundation-of-ai-ready-procurement"
+            "href": "/why-data-analytics-are-the-foundation-of-ai-ready-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/why-data-v-analytics-are-the-foundation-of-ai-ready-procurement-graphic-.webp",
+              "alt": "Why Data & Analytics Are the Foundation of AI-Ready Procurement",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Hype Cycle for Strategic Cost Optimization, 2025",
             "excerpt": "",
-            "href": "/hype-cycle-for-strategic-cost-optimization-2025"
+            "href": "/hype-cycle-for-strategic-cost-optimization-2025",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/gartner-hype-cylce-strategic-cost-optimization-5.webp",
+              "alt": "Hype Cycle for Strategic Cost Optimization, 2025",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "RainConnect recognized by IDC for Integration and Connectivity",
             "excerpt": "",
-            "href": "/rainconnect-recognized-by-idc-for-integration-and-connectivity"
+            "href": "/rainconnect-recognized-by-idc-for-integration-and-connectivity",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/raindconnectidc-4.webp",
+              "alt": "RainConnect recognized by IDC for Integration and Connectivity",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Missing Link: Why Integrations Are the Backbone of Modern Spend Management",
             "excerpt": "",
-            "href": "/the-missing-link-why-integrations-are-the-backbone-of-modern-spend-management"
+            "href": "/the-missing-link-why-integrations-are-the-backbone-of-modern-spend-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/the-missing-link-why-integrations-are-the-backbone-of-modern-spend-management-1.webp",
+              "alt": "The Missing Link: Why Integrations Are the Backbone of Modern Spend Management",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Stop the Agentic Confusion. What You Need To Know Now.",
             "excerpt": "",
-            "href": "/the-future-is-ai"
+            "href": "/the-future-is-ai",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/the-future-is-ai-4-1.webp",
+              "alt": "Stop the Agentic Confusion. What You Need To Know Now.",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The End of Endless Forms: How Modern Intake Finally Gets Work Moving",
             "excerpt": "",
-            "href": "/the-end-of-endless-forms-how-modern-intake-finally-gets-work-moving"
+            "href": "/the-end-of-endless-forms-how-modern-intake-finally-gets-work-moving",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/intake-orchestration-blog-image-1.webp",
+              "alt": "The End of Endless Forms: How Modern Intake Finally Gets Work Moving",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Real Difference Between AI Agents and Agentic AI (and Why It Matters for Spend Management)",
             "excerpt": "",
-            "href": "/the-real-difference-between-ai-agents-and-agentic-ai-and-why-it-matters-for-spend-management"
+            "href": "/the-real-difference-between-ai-agents-and-agentic-ai-and-why-it-matters-for-spend-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/the-real-difference-between-ai-agents-and-agentic-ai-and-why-it-matters-for-spend-management.webp",
+              "alt": "Agentic AI in Contract Management: What It Actually Does",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Gartner Flex When to Use or Not Use AI Agents",
             "excerpt": "",
-            "href": "/gartner-flex-when-to-use-or-not-use-ai-agents"
+            "href": "/gartner-flex-when-to-use-or-not-use-ai-agents",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/agent-washing-social-post-3.webp",
+              "alt": "Gartner Flex When to Use or Not Use AI Agents",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Hype Cycle for Procurement and Sourcing Solutions, 2025",
             "excerpt": "",
-            "href": "/hype-cycle-for-procurement-and-sourcing-solutions-2025"
+            "href": "/hype-cycle-for-procurement-and-sourcing-solutions-2025",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/gartner-hype-cycle-make-it-rain-1.webp",
+              "alt": "Hype Cycle for Procurement and Sourcing Solutions, 2025",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Why Top Teams Are Betting on Google Cloud and Raindrop",
             "excerpt": "",
-            "href": "/why-top-teams-are-betting-on-google-cloud-and-raindrop"
+            "href": "/why-top-teams-are-betting-on-google-cloud-and-raindrop",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/googleand-raindrop-img.jpg",
+              "alt": "Why Top Teams Are Betting on Google Cloud and Raindrop",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Touchless vs. Autonomous Procurement and Payables",
             "excerpt": "",
-            "href": "/touchless-vs-autonomous-procurement-and-payables"
+            "href": "/touchless-vs-autonomous-procurement-and-payables",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/touchlessvsautonomous-banner-img.jpg",
+              "alt": "Touchless vs. Autonomous Procurement and Payables",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Road to Agentic AI",
             "excerpt": "",
-            "href": "/driving-toward-agentic-are-you-in-the-right-lane-what-agentic-ai-really-means-for-procurement"
+            "href": "/driving-toward-agentic-are-you-in-the-right-lane-what-agentic-ai-really-means-for-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/agentic-ai-img.jpg",
+              "alt": "The Road to Agentic AI",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Why Responsible AI Matters for Your Procurement Future",
             "excerpt": "",
-            "href": "/why-responsible-ai-matters-for-your-procurement-future"
+            "href": "/why-responsible-ai-matters-for-your-procurement-future",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/responsible-ai-banner.jpg",
+              "alt": "Why Responsible AI Matters for Your Procurement Future",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Why Security Teams Block Software Purchases (And How to Prevent It)",
             "excerpt": "",
-            "href": "/why-security-teams-block-software-purchases-and-how-to-prevent-it"
+            "href": "/why-security-teams-block-software-purchases-and-how-to-prevent-it",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/it-compliance-banner.jpg",
+              "alt": "Why Security Teams Block Software Purchases (And How to Prevent It)",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Point Solution Pendulum: Why Procurement Teams Are Swinging Back to Suites",
             "excerpt": "",
-            "href": "/the-point-solution-pendulum-why-procurement-teams-are-swinging-back-to-suites"
+            "href": "/the-point-solution-pendulum-why-procurement-teams-are-swinging-back-to-suites",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/point-solution-pendulum.gif",
+              "alt": "The Point Solution Pendulum: Why Procurement Teams Are Swinging Back to Suites",
+              "mimeType": "image/gif",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Your Guide to AI in Procurement—Skip the Hype, Get Results",
             "excerpt": "",
-            "href": "/your-guide-to-ai-in-procurement-skip-the-hype-get-results"
+            "href": "/your-guide-to-ai-in-procurement-skip-the-hype-get-results",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/guide-to-ai-banner.jpg",
+              "alt": "Your Guide to AI in Procurement—Skip the Hype, Get Results",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop’s Spend Intake and Registration: Intuitive, Engaging, and Powerful",
             "excerpt": "",
-            "href": "/raindrops-spend-intake-and-registration-intuitive-engaging-and-powerful"
+            "href": "/raindrops-spend-intake-and-registration-intuitive-engaging-and-powerful",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/intake-compaign-banner.jpg",
+              "alt": "Raindrop’s Spend Intake and Registration: Intuitive, Engaging, and Powerful",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "2023 Supply Chain Challenges – Navigating Uncertain Times",
             "excerpt": "",
-            "href": "/2023-supply-chain-challenges-navigating-uncertain-times"
+            "href": "/2023-supply-chain-challenges-navigating-uncertain-times",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/cost-concerns_for-website2023.jpg",
+              "alt": "2023 Supply Chain Challenges – Navigating Uncertain Times",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Shifting Supply Chains: leverage Raindrop for resiliency in 2023",
             "excerpt": "",
-            "href": "/shifting-supply-chains-leverage-raindrop-for-resiliency-in-2023"
+            "href": "/shifting-supply-chains-leverage-raindrop-for-resiliency-in-2023",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/shifting-supply-chain-website-image1.jpg",
+              "alt": "Shifting Supply Chains: leverage Raindrop for resiliency in 2023",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Top 5 Supply Chain concerns and how to mitigate them",
             "excerpt": "",
-            "href": "/top-5-supply-chain-concerns-and-how-to-mitigate-them"
+            "href": "/top-5-supply-chain-concerns-and-how-to-mitigate-them",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/supply-chain-website.jpg",
+              "alt": "Top 5 Supply Chain concerns and how to mitigate them",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Recession-proof your eSourcing strategy",
             "excerpt": "",
-            "href": "/recession-proof-your-esourcing-strategy"
+            "href": "/recession-proof-your-esourcing-strategy",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/recession-proof-your-sourcing-strategy-website.jpg",
+              "alt": "Recession-proof your eSourcing strategy",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Drive value with digital procurement transformation",
             "excerpt": "",
-            "href": "/drive-value-with-digital-procurement-transformation"
+            "href": "/drive-value-with-digital-procurement-transformation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/digital-procurement-transformation-website-size.jpg",
+              "alt": "Drive value with digital procurement transformation",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The CFO Role and Digital Initiatives for Growth",
             "excerpt": "",
-            "href": "/the-cfo-role-and-digital-initiatives-for-growth"
+            "href": "/the-cfo-role-and-digital-initiatives-for-growth",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/cfo-obstacles-and-opportunities-feature-image.jpg",
+              "alt": "The CFO Role and Digital Initiatives for Growth",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Top 5 challenges in the retail industry – Why technology transformation is required?",
             "excerpt": "",
-            "href": "/top-5-challenges-in-the-retail-industry-why-technology-transformation-is-required"
+            "href": "/top-5-challenges-in-the-retail-industry-why-technology-transformation-is-required",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/retail-feature-image-2.o-1.jpg",
+              "alt": "Top 5 challenges in the retail industry – Why technology transformation is required?",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop as the centerpiece driving cost reduction strategies to help navigate inflation",
             "excerpt": "",
-            "href": "/raindrop-as-the-centerpiece-driving-cost-reduction-strategies-to-help-navigate-inflation"
+            "href": "/raindrop-as-the-centerpiece-driving-cost-reduction-strategies-to-help-navigate-inflation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/d93ed244-0d3e-4aeb-a42f-57226cc65393.jpeg",
+              "alt": "Raindrop as the centerpiece driving cost reduction strategies to help navigate inflation",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Digital Sourcing Technology Industry",
             "excerpt": "",
-            "href": "/the-digital-sourcing-technology-industry"
+            "href": "/the-digital-sourcing-technology-industry",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/rfxraindropmodule.png",
+              "alt": "The Digital Sourcing Technology Industry",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Top CFO Priorities for 2022",
             "excerpt": "",
-            "href": "/top-cfo-priorities-for-2022"
+            "href": "/top-cfo-priorities-for-2022",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/cfobannerin1.jpg",
+              "alt": "Top CFO Priorities for 2022",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Drive Maximum Efficiency from your Annual Operating Plan with Raindrop",
             "excerpt": "",
-            "href": "/drive-maximum-efficiency-from-your-annual-operating-plan-with-raindrop"
+            "href": "/drive-maximum-efficiency-from-your-annual-operating-plan-with-raindrop",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/drive-maximum-efficiency-hubspot-banner.png",
+              "alt": "Drive Maximum Efficiency from your Annual Operating Plan with Raindrop",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Future of Supply Chain and Procurement.",
             "excerpt": "",
-            "href": "/the-future-of-supply-chain-and-procurement"
+            "href": "/the-future-of-supply-chain-and-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/future_supply_chain_procurement.png",
+              "alt": "The Future of Supply Chain and Procurement.",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Corporate Contractual Obligations – What Do We Own?",
             "excerpt": "",
-            "href": "/corporate-contractual-obligations-what-do-we-own"
+            "href": "/corporate-contractual-obligations-what-do-we-own",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/hubspotresourcespagebanner.png",
+              "alt": "Corporate Contractual Obligations – What Do We Own?",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Digitized Supplier Management in the Spotlight",
             "excerpt": "",
-            "href": "/digitized-supplier-management-in-the-spotlight"
+            "href": "/digitized-supplier-management-in-the-spotlight",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/suppliermanagementhubemail.png",
+              "alt": "Digitized Supplier Management in the Spotlight",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Procurement & Finance: How Raindrop Harmonizes The Business Functions",
             "excerpt": "",
-            "href": "/procurement-finance-how-raindrop-harmonizes-the-business-functions"
+            "href": "/procurement-finance-how-raindrop-harmonizes-the-business-functions",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/procurementandfinanceemail.png",
+              "alt": "Procurement & Finance: How Raindrop Harmonizes The Business Functions",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Unleash The Power of Advanced Spend Analytics With Raindrop",
             "excerpt": "",
-            "href": "/unleash-the-power-of-advanced-spend-analytics-with-raindrop"
+            "href": "/unleash-the-power-of-advanced-spend-analytics-with-raindrop",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/hubspot-resources-img.png",
+              "alt": "Unleash The Power of Advanced Spend Analytics With Raindrop",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "COVID has changed the way the world goes out to market. Here’s how Raindrop’s Sourcing Module gets you there.",
             "excerpt": "",
-            "href": "/covid-has-changed-the-way-the-world-goes-out-to-market-heres-how-raindrops-sourcing-module-gets-you-there"
+            "href": "/covid-has-changed-the-way-the-world-goes-out-to-market-heres-how-raindrops-sourcing-module-gets-you-there",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/covidemailrollout.png",
+              "alt": "COVID has changed the way the world goes out to market. Here’s how Raindrop’s Sourcing Module gets you there.",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Addressing Top Priorities For Procurement Leaders",
             "excerpt": "",
-            "href": "/raindrop-addressing-top-priorities-for-procurement-leaders"
+            "href": "/raindrop-addressing-top-priorities-for-procurement-leaders",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/cporesourcespagebanneremail.png",
+              "alt": "Raindrop Addressing Top Priorities For Procurement Leaders",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Addressing top Priorities for Finance Leaders",
             "excerpt": "",
-            "href": "/raindrop-addressing-top-priorities-for-finance-leaders"
+            "href": "/raindrop-addressing-top-priorities-for-finance-leaders",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/financeleadersemailimage.png",
+              "alt": "Raindrop Addressing top Priorities for Finance Leaders",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Control Costs With Raindrop’s Spend Management Platform",
             "excerpt": "",
-            "href": "/control-costs-with-raindrops-spend-management-platform"
+            "href": "/control-costs-with-raindrops-spend-management-platform",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/digitizationneedsemailimage-1.png",
+              "alt": "Control Costs With Raindrop’s Spend Management Platform",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Analytics as the Centerpiece Driving Corporate Strategies",
             "excerpt": "",
-            "href": "/spend-analytics-as-the-centerpiece-driving-corporate-strategies"
+            "href": "/spend-analytics-as-the-centerpiece-driving-corporate-strategies",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__articles/resourcesplatformspendanalyticsemail.png",
+              "alt": "Spend Analytics as the Centerpiece Driving Corporate Strategies",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       }
@@ -2895,32 +6258,80 @@ const pages: Page[] = [
           {
             "title": "Case Study: Cordis",
             "excerpt": "",
-            "href": "/case-study-cordis"
+            "href": "/case-study-cordis",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__case-studies/cordis-case-study-standing-up-ap-at-speed.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Why Lloyd’s Register Chose Raindrop: A Sales Perspective on Modern Procurement",
             "excerpt": "",
-            "href": "/why-lloyds-register-chose-raindrop-a-sales-perspective-on-modern-procurement"
+            "href": "/why-lloyds-register-chose-raindrop-a-sales-perspective-on-modern-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__case-studies/lloyds-register-blog-image.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How Lands’ End Built a Scalable, AI-Ready Procurement Operation​",
             "excerpt": "",
-            "href": "/how-lands-end-built-a-scalable-ai-ready-procurement-operation"
+            "href": "/how-lands-end-built-a-scalable-ai-ready-procurement-operation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__case-studies/stage-use-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Case Study: Jazeera Airways",
             "excerpt": "",
-            "href": "/case-study-jazeera-airways"
+            "href": "/case-study-jazeera-airways",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__case-studies/jazeera-airways-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Case Study: World Market",
             "excerpt": "",
-            "href": "/case-study-world-market"
+            "href": "/case-study-world-market",
+            "image": {
+              "id": 0,
+              "url": "/assets/images/home/logo-world-market.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Case Study: Workwear Outfitters – Built to Perform",
             "excerpt": "",
-            "href": "/case-study-built-to-perform"
+            "href": "/case-study-built-to-perform",
+            "image": {
+              "id": 0,
+              "url": "/assets/images/home/logo-workwear.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       }
@@ -2942,22 +6353,54 @@ const pages: Page[] = [
           {
             "title": "AI Use Cases and Opportunities in S2P",
             "excerpt": "",
-            "href": "/ai-use-cases-and-opportunities-in-s2p"
+            "href": "/ai-use-cases-and-opportunities-in-s2p",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__podcasts/podcastcoverimage_ai-use-cases.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Supplier Risk Management Within An S2P Suite",
             "excerpt": "",
-            "href": "/supplier-risk-management-within-an-s2p-suite"
+            "href": "/supplier-risk-management-within-an-s2p-suite",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__podcasts/podcastcoverimage_supplier-risk-management.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Importance of UI/UX and Fast Implementation",
             "excerpt": "",
-            "href": "/importance-of-ui-ux-and-fast-implementation"
+            "href": "/importance-of-ui-ux-and-fast-implementation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__podcasts/podcastcoverimage_importance-of-ux.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Key Criteria When Choosing A Provider",
             "excerpt": "",
-            "href": "/key-criteria-when-choosing-a-provider"
+            "href": "/key-criteria-when-choosing-a-provider",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__podcasts/podcastcoverimage_choosing-a-provider.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       }
@@ -2979,147 +6422,379 @@ const pages: Page[] = [
           {
             "title": "TransferMate partners with Raindrop Systems to embed global payment capabilities into source-to-pay workflows",
             "excerpt": "",
-            "href": "/transfermate-partners-with-raindrop-systems-to-embed-global-payment-capabilities-into-source-to-pay-workflows"
+            "href": "/transfermate-partners-with-raindrop-systems-to-embed-global-payment-capabilities-into-source-to-pay-workflows",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/image-3.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "CFO Dive: Lloyd’s Register Selects Raindrop to Power a New Era of Procurement",
             "excerpt": "",
-            "href": "/cfo-dive-lloyds-register-selects-raindrop-to-power-a-new-era-of-procurement"
+            "href": "/cfo-dive-lloyds-register-selects-raindrop-to-power-a-new-era-of-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/screenshot-2026-06-03-at-12.54.51-pm-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Supply Chain Dive: Lloyd’s Register Selects Raindrop to Power a New Era of Procurement",
             "excerpt": "",
-            "href": "/lloyds-register-selects-raindrop-to-power-a-new-era-of-procurement"
+            "href": "/lloyds-register-selects-raindrop-to-power-a-new-era-of-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/screenshot-2026-06-03-at-11.47.30-am-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Earns The Hackett Group Customer Value Badge For Contract Lifecycle Management",
             "excerpt": "",
-            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-contract-lifecycle-management"
+            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-contract-lifecycle-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/blue-medical-slide-presentation-project-proposal-15.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Earns The Hackett Group Customer Value Badge For Sourcing",
             "excerpt": "",
-            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-sourcing"
+            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-sourcing",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/blue-medical-slide-presentation-project-proposal-13.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Earns The Hackett Group Customer Value Badge For S2C",
             "excerpt": "",
-            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-s2c"
+            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-s2c",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/blue-medical-slide-presentation-project-proposal-10.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Earns The Hackett Group Customer Value Badge For P2P",
             "excerpt": "",
-            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-p2p"
+            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-p2p",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/blue-medical-slide-presentation-project-proposal-8.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Earns The Hackett Group Customer Value Badge Across Every Module",
             "excerpt": "",
-            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-across-every-module"
+            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-across-every-module",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/blue-medical-slide-presentation-project-proposal-6.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Makes a Splash in The Hackett Group Spring 2026 SolutionMap",
             "excerpt": "",
-            "href": "/raindrop-makes-a-splash-in-the-hackett-group-spring-2026-solutionmap"
+            "href": "/raindrop-makes-a-splash-in-the-hackett-group-spring-2026-solutionmap",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/blue-medical-slide-presentation-project-proposal-3.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop at ProcureCon West: What We Took Away",
             "excerpt": "",
-            "href": "/raindrop-at-procurecon-west-what-we-took-away"
+            "href": "/raindrop-at-procurecon-west-what-we-took-away",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/1773082082273.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in Procurement Magazine: Simplifying Procurement Using AI Is Essential In 2026",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-procurement-magazine-simplifying-procurement-using-ai-is-essential-in-2026"
+            "href": "/raindrop-report-featured-in-procurement-magazine-simplifying-procurement-using-ai-is-essential-in-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/screenshot-2026-03-05-at-2.36.19-pm-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in Retail Dive: Only 27% of Procurement Leaders Feel Fully Able to Deliver, Raindrop Systems’ Research Finds",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-retail-dive-only-27-of-procurement-leaders-feel-fully-able-to-deliver-raindrop-systems-research-finds"
+            "href": "/raindrop-report-featured-in-retail-dive-only-27-of-procurement-leaders-feel-fully-able-to-deliver-raindrop-systems-research-finds",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/screenshot-2025-12-01-at-12.38.28-pm-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in Supply Chain Dive: 83% of Procurement and Finance Leaders Feel Accountable for Innovation",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-supply-chain-dive-83-of-procurement-and-finance-leaders-feel-accountable-for-innovation"
+            "href": "/raindrop-report-featured-in-supply-chain-dive-83-of-procurement-and-finance-leaders-feel-accountable-for-innovation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/screenshot-2025-12-01-at-12.08.35-pm-scaled.webp",
+              "alt": "Raindrop Report Featured in Supply Chain Dive: 83% of Procurement and Finance Leaders Feel Accountable for Innovation",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in CFO Dive: Survey Reveals 73% of Procurement Leaders Want More Flexibility in Their Strategies",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-cfo-dive-survey-reveals-73-of-procurement-leaders-want-more-flexibility-in-their-strategies"
+            "href": "/raindrop-report-featured-in-cfo-dive-survey-reveals-73-of-procurement-leaders-want-more-flexibility-in-their-strategies",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/screenshot-2025-12-01-at-10.50.47-am-scaled.webp",
+              "alt": "Raindrop Report Featured in CFO Dive: Survey Reveals 73% of Procurement Leaders Want More Flexibility in Their Strategies",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in CPA Practice Advisor: 83% of Finance Leaders Feel Responsible for Innovation",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-cpa-practice-advisor-83-of-finance-leaders-feel-responsible-for-innovation"
+            "href": "/raindrop-report-featured-in-cpa-practice-advisor-83-of-finance-leaders-feel-responsible-for-innovation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/screenshot-2025-12-01-at-10.42.09-am-scaled.webp",
+              "alt": "Raindrop Report Featured in CPA Practice Advisor: 83% of Finance Leaders Feel Responsible for Innovation",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in Supply & Demand Chain Executive: 83% of Procurement and Finance Leaders Feel Accountable for Innovation",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-supply-demand-chain-executive-83-of-procurement-and-finance-leaders-feel-accountable-for-innovation"
+            "href": "/raindrop-report-featured-in-supply-demand-chain-executive-83-of-procurement-and-finance-leaders-feel-accountable-for-innovation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/screenshot-2025-12-01-at-10.26.52-am-scaled.webp",
+              "alt": "Raindrop Report Featured in Supply & Demand Chain Executive: 83% of Procurement and Finance Leaders Feel Accountable for Innovation",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in Procurement Magazine: Procurement Leaders Feel Unable to Deliver Innovation",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-procurement-magazine-procurement-leaders-feel-unable-to-deliver-innovation"
+            "href": "/raindrop-report-featured-in-procurement-magazine-procurement-leaders-feel-unable-to-deliver-innovation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/screenshot-2025-12-01-at-10.21.49-am-scaled.webp",
+              "alt": "Raindrop Report Featured in Procurement Magazine: Procurement Leaders Feel Unable to Deliver Innovation",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in Supply Chain 24/7: Most Procurement Leaders Want Innovation But Can’t Execute",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-supply-chain-24-7-most-procurement-leaders-want-innovation-but-cant-execute"
+            "href": "/raindrop-report-featured-in-supply-chain-24-7-most-procurement-leaders-want-innovation-but-cant-execute",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/screenshot-2025-11-26-at-9.19.30-am-scaled.webp",
+              "alt": "Raindrop Report Featured in Supply Chain 24/7: Most Procurement Leaders Want Innovation But Can’t Execute",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in Supply Chain Digital: Leaders Reveal Innovation and Execution Gap",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-supply-chain-digital-leaders-reveal-innovation-and-execution-gap"
+            "href": "/raindrop-report-featured-in-supply-chain-digital-leaders-reveal-innovation-and-execution-gap",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/screenshot-2025-11-26-at-7.52.23-am.webp",
+              "alt": "Raindrop Report Featured in Supply Chain Digital: Leaders Reveal Innovation and Execution Gap",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Recognized as a Customer Favorite Across Four Categories in Fall 2025 Spend Matters SolutionMap; Expands into Four New Capabilities",
             "excerpt": "",
-            "href": "/raindrop-recognized-as-a-customer-favorite-across-four-categories-in-fall-2025-spend-matters-solutionmap-expands-into-four-new-capabilities"
+            "href": "/raindrop-recognized-as-a-customer-favorite-across-four-categories-in-fall-2025-spend-matters-solutionmap-expands-into-four-new-capabilities",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/sm-sxm-customer-scores-fall-25.webp",
+              "alt": "Raindrop Recognized as a Customer Favorite Across Four Categories in Fall 2025 Spend Matters SolutionMap; Expands into Four New Capabilities",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in Retail Dive: Retail Leaders Strive for Innovation Amid Shifting Market Demands",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-retail-dive-retail-leaders-strive-for-innovation-amid-shifting-market-demands"
+            "href": "/raindrop-report-featured-in-retail-dive-retail-leaders-strive-for-innovation-amid-shifting-market-demands",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/ambition-vs.-reality-scaled.webp",
+              "alt": "Raindrop Report Featured in Retail Dive: Retail Leaders Strive for Innovation Amid Shifting Market Demands",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in Supply Chain Dive: Innovation and Agility Top Priorities for 2025",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-supply-chain-dive-innovation-and-agility-top-priorities-for-2025"
+            "href": "/raindrop-report-featured-in-supply-chain-dive-innovation-and-agility-top-priorities-for-2025",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/most-common-obstacles-for-supply-chain-agility-scaled.webp",
+              "alt": "Raindrop Report Featured in Supply Chain Dive: Innovation and Agility Top Priorities for 2025",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "CFO Dive Highlights Raindrop Research: 83% of Finance and Procurement Leaders Feel Accountable for Innovation",
             "excerpt": "",
-            "href": "/raindrop-featured-in-cfo-dive-for-new-research-report"
+            "href": "/raindrop-featured-in-cfo-dive-for-new-research-report",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/screenshot-2025-10-27-at-2.47.27-pm-scaled.webp",
+              "alt": "CFO Dive Highlights Raindrop Research: 83% of Finance and Procurement Leaders Feel Accountable for Innovation",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Read about Raindrop at the ProcureTech Founder’s Circle",
             "excerpt": "",
-            "href": "/read-about-raindrop-at-the-procuretech-founders-circle"
+            "href": "/read-about-raindrop-at-the-procuretech-founders-circle",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/qbyohvbitynurmbg0s9q_shared-image.jpeg",
+              "alt": "Read about Raindrop at the ProcureTech Founder’s Circle",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Transforming contract management: From digital foundations to AI-powered efficiency and precision",
             "excerpt": "",
-            "href": "/transforming-contract-management-from-digital-foundations-to-ai-powered-efficiency-and-precision"
+            "href": "/transforming-contract-management-from-digital-foundations-to-ai-powered-efficiency-and-precision",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/unnamed-6-1024x562-1.png",
+              "alt": "Transforming contract management: From digital foundations to AI-powered efficiency and precision",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "SpendMatters features Raindrop’s industry-disruptive approach",
             "excerpt": "",
-            "href": "/spendmatters-features-raindrops-industry-disruptive-approach"
+            "href": "/spendmatters-features-raindrops-industry-disruptive-approach",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/adobestock_133905377-1024x682-1.jpeg",
+              "alt": "SpendMatters features Raindrop’s industry-disruptive approach",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop recognized as Top 5 Software companies in 2022",
             "excerpt": "",
-            "href": "/raindrop-recognized-as-top-5-software-companies-in-2022"
+            "href": "/raindrop-recognized-as-top-5-software-companies-in-2022",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/the-silicon-review.png",
+              "alt": "Raindrop recognized as Top 5 Software companies in 2022",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop listed amongst 50 Most Admired Companies of 2021",
             "excerpt": "",
-            "href": "/raindrop-recognized-among-the-50-most-admired-companies-of-2021-by-the-silicon-review"
+            "href": "/raindrop-recognized-among-the-50-most-admired-companies-of-2021-by-the-silicon-review",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/thesiliconreview-50-most-admired-companies-of-the-year-issue-logo-2021-1.jpg",
+              "alt": "Raindrop listed amongst 50 Most Admired Companies of 2021",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "CIO Review Lists Raindrop as the Most Promising Digital Transformation Solution Provider",
             "excerpt": "",
-            "href": "/raindrop-listed-amongst-50-most-admired-companies-of-2021"
+            "href": "/raindrop-listed-amongst-50-most-admired-companies-of-2021",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__raindrop-news/cio-review.png",
+              "alt": "CIO Review Lists Raindrop as the Most Promising Digital Transformation Solution Provider",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       }
@@ -3141,212 +6816,548 @@ const pages: Page[] = [
           {
             "title": "Hype Cycle for Procurement & Sourcing, 2026",
             "excerpt": "",
-            "href": "/hype-cycle-for-procurement-sourcing-2026"
+            "href": "/hype-cycle-for-procurement-sourcing-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/agent-washing-social-post-5.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Earns The Hackett Group Customer Value Badge For Contract Lifecycle Management",
             "excerpt": "",
-            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-contract-lifecycle-management"
+            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-contract-lifecycle-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/blue-medical-slide-presentation-project-proposal-15.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Earns The Hackett Group Customer Value Badge For Sourcing",
             "excerpt": "",
-            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-sourcing"
+            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-sourcing",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/blue-medical-slide-presentation-project-proposal-13.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Earns The Hackett Group Customer Value Badge For S2C",
             "excerpt": "",
-            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-s2c"
+            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-s2c",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/blue-medical-slide-presentation-project-proposal-10.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Earns The Hackett Group Customer Value Badge For P2P",
             "excerpt": "",
-            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-p2p"
+            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-for-p2p",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/blue-medical-slide-presentation-project-proposal-8.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Earns The Hackett Group Customer Value Badge Across Every Module",
             "excerpt": "",
-            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-across-every-module"
+            "href": "/raindrop-earns-the-hackett-group-customer-value-badge-across-every-module",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/blue-medical-slide-presentation-project-proposal-6.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Makes a Splash in The Hackett Group Spring 2026 SolutionMap",
             "excerpt": "",
-            "href": "/raindrop-makes-a-splash-in-the-hackett-group-spring-2026-solutionmap"
+            "href": "/raindrop-makes-a-splash-in-the-hackett-group-spring-2026-solutionmap",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/blue-medical-slide-presentation-project-proposal-3.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Named to The Hackett Group 2025–2026 “50 to Watch” Procurement Technology List",
             "excerpt": "",
-            "href": "/raindrop-named-to-the-hackett-group-2025-2026-50-to-watch-procurement-technology-list"
+            "href": "/raindrop-named-to-the-hackett-group-2025-2026-50-to-watch-procurement-technology-list",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/the-hackett-group-50-to-watch-2.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Procurement in 2026: Why AI-First Is No Longer Optional",
             "excerpt": "",
-            "href": "/procurement-in-2026-why-ai-first-is-no-longer-optional"
+            "href": "/procurement-in-2026-why-ai-first-is-no-longer-optional",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/predicts-2026-procurement-taking-steps-to-become-ai-first-3.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Predicts 2026: Procurement Taking Steps to Become AI-First",
             "excerpt": "",
-            "href": "/predicts-2026-procurement-taking-steps-to-become-ai-first"
+            "href": "/predicts-2026-procurement-taking-steps-to-become-ai-first",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/predicts-2026-procurement-taking-steps-to-become-ai-first-2.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Setting Smarter Objectives for 2026: The Key to Procurement’s AI Success",
             "excerpt": "",
-            "href": "/setting-smarter-objectives-for-2026-the-key-to-procurements-ai-success"
+            "href": "/setting-smarter-objectives-for-2026-the-key-to-procurements-ai-success",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/procurements-ai-success-starts-with-setting-smarter-objectives.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop As A Customer Favorite For Spend Analytics",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-spend-analytics"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-spend-analytics",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/sm-spend-analytics-customer-scores-fall-25.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop P2P In Fall 2025 SolutionMap",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-p2p"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-p2p",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/sm-solutionmap-value-generation-p2p.webp",
+              "alt": "Spend Matters Recognizes Raindrop P2P In Fall 2025 SolutionMap",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop’s eProcurement In Fall 2025 SolutionMap",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-eprocurement"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-eprocurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/sm-solutionmap-most-differentiating-epro-1.webp",
+              "alt": "Spend Matters Recognizes Raindrop’s eProcurement In Fall 2025 SolutionMap",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop’s AP/I2P In Fall 2025 SolutionMap",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-ap-i2p"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-ap-i2p",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/sm-solutionmap-ap_i2p-supplier-management-25.webp",
+              "alt": "Spend Matters Recognizes Raindrop’s AP/I2P In Fall 2025 SolutionMap",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop’s Intake & Orchestration In Fall 2025 SolutionMap",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-intake-and-orchestration"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-intake-and-orchestration",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/sm-solution-map-io-most-differentiating-.webp",
+              "alt": "Spend Matters Recognizes Raindrop’s Intake & Orchestration In Fall 2025 SolutionMap",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop As A Customer Favorite For Sourcing",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-sourcing"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-sourcing",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/sm-sourcing-most-differentiating-fall-25.webp",
+              "alt": "Spend Matters Recognizes Raindrop As A Customer Favorite For Sourcing",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop As A Customer Favorite For S2C",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-s2c"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-s2c",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/s2c-most-differentiating-fall-2025.webp",
+              "alt": "Spend Matters Recognizes Raindrop As A Customer Favorite For S2C",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop’s CLM In Spend Matters SolutionMap Fall 2025",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-contract-lifecycle-management-clm"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-contract-lifecycle-management-clm",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/sm-value-beyond-tech-clm-fall-25.webp",
+              "alt": "Spend Matters Recognizes Raindrop’s CLM In Spend Matters SolutionMap Fall 2025",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop’s Supplier Management In Fall 2025 SolutionMap",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-supplier-management"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-supplier-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/sm-sxm-customer-scores-fall-25.webp",
+              "alt": "Spend Matters Recognizes Raindrop’s Supplier Management In Fall 2025 SolutionMap",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters Recognizes Raindrop As A Customer Favorite For S2P",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-s2p"
+            "href": "/spend-matters-recognizes-raindrop-as-a-customer-favorite-for-s2p",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/s2p-expectation-delivery.webp",
+              "alt": "Spend Matters Recognizes Raindrop As A Customer Favorite For S2P",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Quick Answer: What Are the Quick-Win Use Cases When Selling GenAI to Finance Leaders?",
             "excerpt": "",
-            "href": "/quick-answer-what-are-the-quick-win-use-cases-when-selling-genai-to-finance-leaders"
+            "href": "/quick-answer-what-are-the-quick-win-use-cases-when-selling-genai-to-finance-leaders",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/gartner-felx-reprint-carousel-2-1.webp",
+              "alt": "Quick Answer: What Are the Quick-Win Use Cases When Selling GenAI to Finance Leaders?",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Hype Cycle for Strategic Cost Optimization, 2025",
             "excerpt": "",
-            "href": "/hype-cycle-for-strategic-cost-optimization-2025"
+            "href": "/hype-cycle-for-strategic-cost-optimization-2025",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/gartner-hype-cylce-strategic-cost-optimization-5.webp",
+              "alt": "Hype Cycle for Strategic Cost Optimization, 2025",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "RainConnect recognized by IDC for Integration and Connectivity",
             "excerpt": "",
-            "href": "/rainconnect-recognized-by-idc-for-integration-and-connectivity"
+            "href": "/rainconnect-recognized-by-idc-for-integration-and-connectivity",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/raindconnectidc-4.webp",
+              "alt": "RainConnect recognized by IDC for Integration and Connectivity",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Gartner Flex When to Use or Not Use AI Agents",
             "excerpt": "",
-            "href": "/gartner-flex-when-to-use-or-not-use-ai-agents"
+            "href": "/gartner-flex-when-to-use-or-not-use-ai-agents",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/agent-washing-social-post-3.webp",
+              "alt": "Gartner Flex When to Use or Not Use AI Agents",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Hype Cycle for Procurement and Sourcing Solutions, 2025",
             "excerpt": "",
-            "href": "/hype-cycle-for-procurement-and-sourcing-solutions-2025"
+            "href": "/hype-cycle-for-procurement-and-sourcing-solutions-2025",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/gartner-hype-cycle-make-it-rain-1.webp",
+              "alt": "Hype Cycle for Procurement and Sourcing Solutions, 2025",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Hackett Group’s Digital World Class® Matrix Contract Lifecycle Management (CLM) and Intelligent Software Provider Perspective",
             "excerpt": "",
-            "href": "/the-hackett-groups-digital-world-class-matrix-contract-lifecycle-management-clm-and-intelligent-software-provider-perspective"
+            "href": "/the-hackett-groups-digital-world-class-matrix-contract-lifecycle-management-clm-and-intelligent-software-provider-perspective",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/hackettclmbannerimage.png",
+              "alt": "The Hackett Group’s Digital World Class® Matrix Contract Lifecycle Management (CLM) and Intelligent Software Provider Perspective",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The 2030 Team Interview: AI Agents, CPOs, and Operating Models Reimagined",
             "excerpt": "",
-            "href": "/the-2030-team-interview-ai-agents-cpos-and-operating-models-reimagined-2"
+            "href": "/the-2030-team-interview-ai-agents-cpos-and-operating-models-reimagined-2",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/hackett-group-webinar-resources.jpg",
+              "alt": "The 2030 Team Interview: AI Agents, CPOs, and Operating Models Reimagined",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Gartner Analyst Research – How Generative AI Progress Will Shape the Future of Procurement",
             "excerpt": "",
-            "href": "/gartner-analyst-research-how-generative-ai-progress-will-shape-the-future-of-procurement"
+            "href": "/gartner-analyst-research-how-generative-ai-progress-will-shape-the-future-of-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/gartner-reprint-gen-ai-paper-resources-card-img.jpg",
+              "alt": "Gartner Analyst Research – How Generative AI Progress Will Shape the Future of Procurement",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters recognizes Raindrop as the “Customer Favorite” SolutionMap Badge Winner in Spring 2025 for Sourcing",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-the-customer-favorite-solutionmap-badge-winner-in-spring-2025-for-sourcing"
+            "href": "/spend-matters-recognizes-raindrop-as-the-customer-favorite-solutionmap-badge-winner-in-spring-2025-for-sourcing",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/spend-matters-customer-favorite-sourcing-2025.png",
+              "alt": "Spend Matters recognizes Raindrop as the “Customer Favorite” SolutionMap Badge Winner in Spring 2025 for Sourcing",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters recognizes Raindrop as the “Customer Favorite” SolutionMap Badge Winner in Spring 2025 for Spend Analytics",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-the-customer-favorite-solutionmap-badge-winner-in-spring-2025-for-spend-analytics"
+            "href": "/spend-matters-recognizes-raindrop-as-the-customer-favorite-solutionmap-badge-winner-in-spring-2025-for-spend-analytics",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/spend-analytics-customer-favorite-spend-analytics-2025.png",
+              "alt": "Spend Matters recognizes Raindrop as the “Customer Favorite” SolutionMap Badge Winner in Spring 2025 for Spend Analytics",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters recognizes Raindrop as SolutionMap Badge Winner in Spring 2025 for Supplier Management",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-solutionmap-badge-winner-in-spring-2025-for-supplier-management-2"
+            "href": "/spend-matters-recognizes-raindrop-as-solutionmap-badge-winner-in-spring-2025-for-supplier-management-2",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/solutionmap-validated-2025-1.png",
+              "alt": "Spend Matters recognizes Raindrop as SolutionMap Badge Winner in Spring 2025 for Supplier Management",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters recognizes Raindrop as SolutionMap Validated in Spring 2025 for Contract Lifecycle Management (CLM)",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-solutionmap-badge-winner-in-spring-2025-for-supplier-management"
+            "href": "/spend-matters-recognizes-raindrop-as-solutionmap-badge-winner-in-spring-2025-for-supplier-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/solutionmap-validated-2025-1.png",
+              "alt": "Spend Matters recognizes Raindrop as SolutionMap Badge Winner in Spring 2025 for Supplier Management",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend Matters recognizes Raindrop as the “Customer Favorite” SolutionMap Badge Winner in Spring 2025 for S2C",
             "excerpt": "",
-            "href": "/spend-matters-recognizes-raindrop-as-the-customer-favorite-solutionmap-badge-winner-in-spring-2025-for-s2c"
+            "href": "/spend-matters-recognizes-raindrop-as-the-customer-favorite-solutionmap-badge-winner-in-spring-2025-for-s2c",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/customer-favorite-s2c-2025.png",
+              "alt": "Spend Matters recognizes Raindrop as the “Customer Favorite” SolutionMap Badge Winner in Spring 2025 for S2C",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "IDC Spotlight – Procurement Application Providers Are Differentiating Themselves Through Ease of Use and Time to Value",
             "excerpt": "",
-            "href": "/idc-spotlight-procurement-application-providers-are-differentiating-themselves-through-ease-of-use-and-time-to-value"
+            "href": "/idc-spotlight-procurement-application-providers-are-differentiating-themselves-through-ease-of-use-and-time-to-value",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/idc-spotlight-on-raindrop.png",
+              "alt": "IDC Spotlight – Procurement Application Providers Are Differentiating Themselves Through Ease of Use and Time to Value",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Everest Group features Raindrop as AI-Powered Sourcing Automation Solution in their Market Overview and Provider Landscape",
             "excerpt": "",
-            "href": "/everest-group-features-raindrop-as-ai-powered-sourcing-automation-solution-in-their-market-overview-and-provider-landscape"
+            "href": "/everest-group-features-raindrop-as-ai-powered-sourcing-automation-solution-in-their-market-overview-and-provider-landscape",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/everest.png",
+              "alt": "Everest Group features Raindrop as AI-Powered Sourcing Automation Solution in their Market Overview and Provider Landscape",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "CIO Review lists Raindrop as the Most Promising Procurement Solutions Provider",
             "excerpt": "",
-            "href": "/cio-review-lists-raindrop-as-the-most-promising-procurement-solutions-provider"
+            "href": "/cio-review-lists-raindrop-as-the-most-promising-procurement-solutions-provider",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/cr-logo.png",
+              "alt": "CIO Review lists Raindrop as the Most Promising Procurement Solutions Provider",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Everest Group’s Research features Raindrop as Broad-based S2P and S2C Suites with SRM Capability",
             "excerpt": "",
-            "href": "/the-everest-groups-research-features-raindrop-as-broad-based-s2p-and-s2c-suites-with-srm-capability"
+            "href": "/the-everest-groups-research-features-raindrop-as-broad-based-s2p-and-s2c-suites-with-srm-capability",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/everest_group_cover.jpg",
+              "alt": "The Everest Group’s Research features Raindrop as Broad-based S2P and S2C Suites with SRM Capability",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "CPO Rising mentions Raindrop’s early success",
             "excerpt": "",
-            "href": "/cpo-rising-mentions-raindrops-early-success"
+            "href": "/cpo-rising-mentions-raindrops-early-success",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/june-22-image_technology-round_up.jpg",
+              "alt": "CPO Rising mentions Raindrop’s early success",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Amalgam Insights Quotes Raindrop as a Key Industry Disruptor",
             "excerpt": "",
-            "href": "/amalgam-insights-quotes-raindrop-as-a-key-industry-disruptor"
+            "href": "/amalgam-insights-quotes-raindrop-as-a-key-industry-disruptor",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/cropped-cropped-amalgaminsightslogolayered.png",
+              "alt": "Amalgam Insights Quotes Raindrop as a Key Industry Disruptor",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "SpendMatters features Raindrop’s Value proposition",
             "excerpt": "",
-            "href": "/spendmatters-features-raindrops-value-proposition"
+            "href": "/spendmatters-features-raindrops-value-proposition",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/raindrop-pro-2021-puzzle-adobestock_322522389.jpg",
+              "alt": "SpendMatters features Raindrop’s Value proposition",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "An exclusive interview with Ward on navigating the Digital Procurement Journey",
             "excerpt": "",
-            "href": "/exclusive-interview-with-ward-karson-on-navigating-the-digital-procurement-journey"
+            "href": "/exclusive-interview-with-ward-karson-on-navigating-the-digital-procurement-journey",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__recognition/26bfeb83-cpo-summit-152_109703509603400000001o.jpg",
+              "alt": "An exclusive interview with Ward on navigating the Digital Procurement Journey",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       }
@@ -3368,187 +7379,483 @@ const pages: Page[] = [
           {
             "title": "Rain In Action Agentic AI: From Analysis To Action",
             "excerpt": "",
-            "href": "/rain-in-action-agentic-ai-from-analysis-to-action"
+            "href": "/rain-in-action-agentic-ai-from-analysis-to-action",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/reach-out-to-raindrop-today-slide-29.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "AI-Powered Redlining In MS Word",
             "excerpt": "",
-            "href": "/ai-powered-redlining-in-ms-word"
+            "href": "/ai-powered-redlining-in-ms-word",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/reach-out-to-raindrop-today-slide-26.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "One Click NDA Creation",
             "excerpt": "",
-            "href": "/one-click-nda-creation"
+            "href": "/one-click-nda-creation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/screenshot-2026-06-05-at-11.14.54-am.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "RAIN In Action Agentic Sourcing Optimization",
             "excerpt": "",
-            "href": "/rain-in-action-agentic-sourcing-optimization"
+            "href": "/rain-in-action-agentic-sourcing-optimization",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/reach-out-to-raindrop-today-slide-25.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "RAIN In Action Agentic AI For Sourcing",
             "excerpt": "",
-            "href": "/rain-in-action-agentic-ai-for-sourcing"
+            "href": "/rain-in-action-agentic-ai-for-sourcing",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/reach-out-to-raindrop-today-slide-24.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "RAIN In Action Agentic AI For Spend Management",
             "excerpt": "",
-            "href": "/rain-in-action-agentic-ai-for-spend-management"
+            "href": "/rain-in-action-agentic-ai-for-spend-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/reach-out-to-raindrop-today-slide-20.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Rain In Action Third-Party Contract Review",
             "excerpt": "",
-            "href": "/rain-in-action-third-party-contract-review"
+            "href": "/rain-in-action-third-party-contract-review",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/reach-out-to-raindrop-today-slide-21.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "A Day In The Life Of A Requester",
             "excerpt": "",
-            "href": "/a-day-in-the-life-of-a-requester"
+            "href": "/a-day-in-the-life-of-a-requester",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/reach-out-to-raindrop-today-slide-18.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "AP Automation with AI",
             "excerpt": "",
-            "href": "/ap-automation-with-ai"
+            "href": "/ap-automation-with-ai",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/screenshot-2026-02-19-at-7.52.48-am-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How Lands’ End Built a Scalable, AI-Ready Procurement Operation​",
             "excerpt": "",
-            "href": "/how-lands-end-built-a-scalable-ai-ready-procurement-operation"
+            "href": "/how-lands-end-built-a-scalable-ai-ready-procurement-operation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/stage-use-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Supplier Management: Profiles, Transactions, and Collaboration",
             "excerpt": "",
-            "href": "/supplier-management-profiles-transactions-and-collaboration"
+            "href": "/supplier-management-profiles-transactions-and-collaboration",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/reach-out-to-raindrop-today-slide-13.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Sourcing: Evidence-Based Decision Built In",
             "excerpt": "",
-            "href": "/sourcing-evidence-based-decision-built-in"
+            "href": "/sourcing-evidence-based-decision-built-in",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/reach-out-to-raindrop-today-slide-16.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Contract Management: From Creation to Control",
             "excerpt": "",
-            "href": "/contract-management-from-creation-to-control"
+            "href": "/contract-management-from-creation-to-control",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/reach-out-to-raindrop-today-slide-15.webp",
+              "alt": "Contract Management: From Creation to Control",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Raindrop Platform: UI, Navigation, and Core Experience",
             "excerpt": "",
-            "href": "/sourcing-evidence-based-decisions-built-in"
+            "href": "/sourcing-evidence-based-decisions-built-in",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/reach-out-to-raindrop-today-slide-14.webp",
+              "alt": "The Raindrop Platform: UI, Navigation, and Core Experience",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "S2P Made Easy",
             "excerpt": "",
-            "href": "/s2p-made-easy"
+            "href": "/s2p-made-easy",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/reach-out-to-raindrop-today-slide-11.webp",
+              "alt": "S2P Made Easy",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Eprocurement: From Request To Approval",
             "excerpt": "",
-            "href": "/eprocurement-from-request-to-approval"
+            "href": "/eprocurement-from-request-to-approval",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/reach-out-to-raindrop-today-slide-8.webp",
+              "alt": "Eprocurement: From Request To Approval",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Spend & Performance Analytics: From Data to Actionable Insights",
             "excerpt": "",
-            "href": "/spend-performance-analytics-from-data-to-actionable-insights"
+            "href": "/spend-performance-analytics-from-data-to-actionable-insights",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/reach-out-to-raindrop-today-slide-10.webp",
+              "alt": "Spend & Performance Analytics: From Data to Actionable Insights",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "AI Makes Things Easier",
             "excerpt": "",
-            "href": "/ai-makes-things-easier"
+            "href": "/ai-makes-things-easier",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/reach-out-to-raindrop-today-slide-12.webp",
+              "alt": "AI Makes Things Easier",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Watch Ward Karson, Raindrop’s COO, for a quick breakdown of the top challenges for Supply Chain",
             "excerpt": "",
-            "href": "/watch-ward-karson-raindrops-coo-for-a-quick-breakdown-of-the-top-challenges-for-supply-chain"
+            "href": "/watch-ward-karson-raindrops-coo-for-a-quick-breakdown-of-the-top-challenges-for-supply-chain",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/screenshot-2025-12-22-at-2.38.10-pm-scaled.webp",
+              "alt": "Watch Ward Karson, Raindrop’s COO, for a quick breakdown of the top challenges for Supply Chain",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Only 27% of Procurement and Finance leaders feel fully able to deliver on their innovation goals",
             "excerpt": "",
-            "href": "/only-27-of-procurement-and-finance-leaders-feel-fully-able-to-deliver-on-their-innovation-goals"
+            "href": "/only-27-of-procurement-and-finance-leaders-feel-fully-able-to-deliver-on-their-innovation-goals",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/screenshot-2025-12-22-at-1.39.17-pm.webp",
+              "alt": "Only 27% of Procurement and Finance leaders feel fully able to deliver on their innovation goals",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "AI Adoption Vs. Reality with Ward Karson, Raindrop COO",
             "excerpt": "",
-            "href": "/ai-adoption-vs-reality-with-weard-karson-raindrop-coo"
+            "href": "/ai-adoption-vs-reality-with-weard-karson-raindrop-coo",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/ai-adoption-vs-reality-with-ward.webp",
+              "alt": "AI Adoption Vs. Reality with Ward Karson, Raindrop COO",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Summer School: AI 101 for Spend Management",
             "excerpt": "",
-            "href": "/summerschool-ai101-for-spend-management"
+            "href": "/summerschool-ai101-for-spend-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/summer-school-webinar-smp3.jpg",
+              "alt": "Summer School: AI 101 for Spend Management",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The 2030 Team Interview: AI Agents, CPOs, and Operating Models Reimagined",
             "excerpt": "",
-            "href": "/the-2030-team-interview-ai-agents-cpos-and-operating-models-reimagined-2"
+            "href": "/the-2030-team-interview-ai-agents-cpos-and-operating-models-reimagined-2",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/hackett-group-webinar-resources.jpg",
+              "alt": "The 2030 Team Interview: AI Agents, CPOs, and Operating Models Reimagined",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Wrap Up Video 2024",
             "excerpt": "",
-            "href": "/raindrop-wrap-up-video-2024"
+            "href": "/raindrop-wrap-up-video-2024",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/wrap-up-2024-scaled.png",
+              "alt": "Raindrop Wrap Up Video 2024",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Wrap Up Video 2023",
             "excerpt": "",
-            "href": "/raindrop-wrap-up-video-2023"
+            "href": "/raindrop-wrap-up-video-2023",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/wrap-up-2023.png",
+              "alt": "Raindrop Wrap Up Video 2023",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Contract Intelligence",
             "excerpt": "",
-            "href": "/raindrop-contract-intelligence"
+            "href": "/raindrop-contract-intelligence",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/raindrop-contract-intelligence.png",
+              "alt": "Raindrop Contract Intelligence",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Analytics",
             "excerpt": "",
-            "href": "/raindrop-analytics"
+            "href": "/raindrop-analytics",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/raindrop-analytics.png",
+              "alt": "Raindrop Analytics",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Warren Smith – Senior Manager at Workwear Outfitters",
             "excerpt": "",
-            "href": "/warren-smith-senior-manager-at-workwear-outfitters"
+            "href": "/warren-smith-senior-manager-at-workwear-outfitters",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/warren-smith-senior-manager-at-workwear-outfitters.png",
+              "alt": "Warren Smith – Senior Manager at Workwear Outfitters",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Episode 09 – Procurement and Sales, Two Sides of the Same Coin",
             "excerpt": "",
-            "href": "/episode-09-procurement-and-sales-two-sides-of-the-same-coin"
+            "href": "/episode-09-procurement-and-sales-two-sides-of-the-same-coin",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/episode-09.png",
+              "alt": "Episode 09 – Procurement and Sales, Two Sides of the Same Coin",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Episode 08 – Moneyball and Spend Management",
             "excerpt": "",
-            "href": "/episode-08-moneyball-and-spend-management"
+            "href": "/episode-08-moneyball-and-spend-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/episode-08.png",
+              "alt": "Episode 08 – Moneyball and Spend Management",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Episode 07 – Innovation and Strategy in Supply Chain",
             "excerpt": "",
-            "href": "/episode-07-innovation-and-strategy-in-supply-chain"
+            "href": "/episode-07-innovation-and-strategy-in-supply-chain",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/episode-07.png",
+              "alt": "Episode 07 – Innovation and Strategy in Supply Chain",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Episode 06 – Value Creation Beyond Cost Savings",
             "excerpt": "",
-            "href": "/episode-06-value-creation-beyond-cost-savings"
+            "href": "/episode-06-value-creation-beyond-cost-savings",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/episode-06.png",
+              "alt": "Episode 06 – Value Creation Beyond Cost Savings",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Episode 05 – Successful Procurement Transformation Advice",
             "excerpt": "",
-            "href": "/episode-05-successful-procurement-transformation-advice"
+            "href": "/episode-05-successful-procurement-transformation-advice",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/episode-05.png",
+              "alt": "Episode 05 – Successful Procurement Transformation Advice",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Episode 04 – Procurement Talent: Current State and Future Direction",
             "excerpt": "",
-            "href": "/episode-04-procurement-talent-current-state-and-future-direction"
+            "href": "/episode-04-procurement-talent-current-state-and-future-direction",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/episode-04.png",
+              "alt": "Episode 04 – Procurement Talent: Current State and Future Direction",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Episode 03 – Making The Business Case For Small And Diverse Suppliers",
             "excerpt": "",
-            "href": "/episode-03-making-the-business-case-for-small-and-diverse-suppliers"
+            "href": "/episode-03-making-the-business-case-for-small-and-diverse-suppliers",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/episode-03.png",
+              "alt": "Episode 03 – Making The Business Case For Small And Diverse Suppliers",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Episode 02 – The Future of Procurement Operations and the Impact of Emerging Technologies",
             "excerpt": "",
-            "href": "/episode-02-the-future-of-procurement-operations-and-the-impact-of-emerging-technologies"
+            "href": "/episode-02-the-future-of-procurement-operations-and-the-impact-of-emerging-technologies",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/episode-02.png",
+              "alt": "Episode 02 – The Future of Procurement Operations and the Impact of Emerging Technologies",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Episode 01 – Procurement and Supply Chain in the Post Pandemic Era",
             "excerpt": "",
-            "href": "/episode-01-procurement-and-supply-chain-in-the-post-pandemic-era"
+            "href": "/episode-01-procurement-and-supply-chain-in-the-post-pandemic-era",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/resources__videos/episode-01.png",
+              "alt": "Episode 01 – Procurement and Supply Chain in the Post Pandemic Era",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       }
@@ -3567,19 +7874,43 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Service Organization Control (SOC) 2 Report",
         "body": "Raindrop complies with applicable laws and regulations in the jurisdictions in which it operates.\n\nThe information provided here is for Raindrop users who have questions about our terms, policies, and compliance. Visit [Raindrop's legal page](/legal) for more information.\n\nA-LIGN conducted a SOC 2 audit on Raindrop, providing a SOC 2 Type II Report following the audit.\n\nThe SOC 2 Report demonstrates Raindrop’s commitment to meeting the most rigorous security, availability and confidentiality standards in the industry. It verifies that Raindrop’s security controls are in accordance with the AICPA Trust Services Principles and Criteria.\n\nRaindrop's SOC 2 Report is available to receive a copy please contact[security@raindrop.com](mailto:security@raindrop.com)",
-        "imagePosition": "left"
+        "imagePosition": "left",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/security/securitypageimage.png",
+          "alt": "Ui",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "Raindrop Successfully Completes SOC 2 Examination",
         "body": "[Read The Press Release](https://raindrop.com/wp-content/uploads/2026/02/Raindrop-Successfully-Completes-SOC-2-Examination.pdf)",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/security/e554cd32-4fde-4533-b3ee-9f5d73b33480.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "Raindrop Security Score",
         "body": "[Visit Our Scorecard](https://scores.securityscorecard.io/security-rating/raindrop.com?utm_medium=badge&utm_source=raindrop.com&utm_campaign=seal-of-trust&utm_content=https://raindrop.com/)",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/security/ssc-logo-badge-1.8891ced8.png",
+          "alt": "Logo",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       }
     ],
     "updatedAt": "1970-01-01T00:00:00.000Z",
@@ -3596,22 +7927,54 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Solutions That Work The Way You Do",
         "body": "Raindrop’s all-in-one platform empowers decision-makers to fulfill their most critical business commitments, faster, smarter, and with measurable results. With unmatched ease of use, rapid deployment, and a platform designed with AI at its core, Raindrop delivers not just software, but a strategic edge for today’s era of work.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions/solutions_digital-front-door-1024x1024.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureGrid",
         "features": [
           {
             "title": "Platform",
-            "description": "With a modern UI, intuitive workflows, and the fastest implementation in the market, our platform becomes a powerful extension of your team.\nWhether you’re replacing legacy systems or unifying disjointed tools, Raindrop’s [key components](/solutions/platform/key-components) and [plug-and-play integrations](/solutions/raindrop-integrates-anywhere) with your ERP and P2P systems ensure a smooth transition and rapid time-to-value. Built on Google Cloud, it's secure, scalable, and easy to adopt — purchasable directly via the Google Cloud marketplace."
+            "description": "With a modern UI, intuitive workflows, and the fastest implementation in the market, our platform becomes a powerful extension of your team.\nWhether you’re replacing legacy systems or unifying disjointed tools, Raindrop’s [key components](/solutions/platform/key-components) and [plug-and-play integrations](/solutions/raindrop-integrates-anywhere) with your ERP and P2P systems ensure a smooth transition and rapid time-to-value. Built on Google Cloud, it's secure, scalable, and easy to adopt — purchasable directly via the Google Cloud marketplace.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions/icon_it.webp",
+              "alt": "Icon",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Modules",
-            "description": "Every organization has different needs, which is why Raindrop offers modular flexibility within a comprehensive suite. From intake to analytics, our platform gives you the tools to manage commitments across the full procurement lifecycle. Use what you need today and scale as you grow. with implementation as fast as two weeks per module.\nRaindrop modules include:\n• [Supplier Management](/solutions/modules/supplier-management)\n• [Sourcing](/solutions/modules/sourcing)\n• [Contract Lifecycle Management](/solutions/modules/contract-lifecycle-management)\n• [eProcurement](/solutions/modules/eprocurement)\n• [AP Automation](/solutions/modules/ap-automation)\n• [Analytics](/solutions/modules/analytics)\n• [Rainsign](/solutions/modules/rainsign)\n• [Intake and Orchestration](/solutions/platform/intake-orchestration)"
+            "description": "Every organization has different needs, which is why Raindrop offers modular flexibility within a comprehensive suite. From intake to analytics, our platform gives you the tools to manage commitments across the full procurement lifecycle. Use what you need today and scale as you grow. with implementation as fast as two weeks per module.\nRaindrop modules include:\n• [Supplier Management](/solutions/modules/supplier-management)\n• [Sourcing](/solutions/modules/sourcing)\n• [Contract Lifecycle Management](/solutions/modules/contract-lifecycle-management)\n• [eProcurement](/solutions/modules/eprocurement)\n• [AP Automation](/solutions/modules/ap-automation)\n• [Analytics](/solutions/modules/analytics)\n• [Rainsign](/solutions/modules/rainsign)\n• [Intake and Orchestration](/solutions/platform/intake-orchestration)",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions/icon_modules.webp",
+              "alt": "Icon",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "By Business Function",
-            "description": "No matter your industry or role, Raindrop helps you drive strategic outcomes. With Raindrop, every team gets what it needs to manage spend with confidence and create measurable value.\nOur platform covers:\n• [Executives](/solutions/by-business-function/executives) for real-time visibility to guide decision-making.\n• [Finance](/solutions/by-business-function/finance-teams) for control over commitments and ROI.\n• [Procurement](/solutions/by-business-function/procurement-teams) for full lifecycle orchestration.\n• [IT and compliance](/solutions/by-business-function/it-and-compliance-teams) for seamless integration and governance\n• [Legal](/solutions/by-business-function/legal-teams) for streamlined contract and approval workflows."
+            "description": "No matter your industry or role, Raindrop helps you drive strategic outcomes. With Raindrop, every team gets what it needs to manage spend with confidence and create measurable value.\nOur platform covers:\n• [Executives](/solutions/by-business-function/executives) for real-time visibility to guide decision-making.\n• [Finance](/solutions/by-business-function/finance-teams) for control over commitments and ROI.\n• [Procurement](/solutions/by-business-function/procurement-teams) for full lifecycle orchestration.\n• [IT and compliance](/solutions/by-business-function/it-and-compliance-teams) for seamless integration and governance\n• [Legal](/solutions/by-business-function/legal-teams) for streamlined contract and approval workflows.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions/icon_executives.webp",
+              "alt": "Icon",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       },
@@ -3619,7 +7982,15 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "One Front Door. Every Purchase. Just Ask Our Customers.",
         "body": "",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions/gpi_reviewsnippet_190566_22042025.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       }
     ],
     "updatedAt": "1970-01-01T00:00:00.000Z",
@@ -3642,7 +8013,15 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "By Business Function",
         "body": "Procurement, Finance, Legal, IT, and leadership all touch spend, but each needs a different view of it. Raindrop is a single AI-native source-to-pay platform that gives every team what it needs through a unified experience, so the whole organization works from the same data rather than fragmented tools.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__by-business-function/untitled-design-70-1024x576.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
@@ -3685,13 +8064,29 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Too Hard to Use",
         "body": "Most procurement and finance systems feel like they were designed against users—clunky, confusing, and full of friction.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__by-business-function__executives/who-actually-owns-contracts-in-your-organization-14.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "Always Waiting for Answers",
         "body": "Need to know the status of a request? A contract? A supplier? It often means emailing someone and hoping they respond.",
-        "imagePosition": "left"
+        "imagePosition": "left",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__by-business-function__executives/blue-medical-slide-presentation-project-proposal-15.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
@@ -3766,7 +8161,15 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "See every dollar — and plan with confidence.",
         "body": "Raindrop agentic AI unifies spend across suppliers, regions, and functions in one AI-native platform — so Finance can consolidate data, catch overruns before they happen, and turn spend into a forecast you can trust.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__by-business-function__finance-teams/untitled-design-88-1024x576.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureGrid",
@@ -3889,19 +8292,43 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Security and Compliance Risks",
         "body": "Every new platform is a potential vulnerability—and IT is responsible for making sure it’s airtight.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__by-business-function__it-and-compliance-teams/what-features-should-you-look-for-in-a-source-to-pay-solution.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "Integration Headaches",
         "body": "Connecting new tools to your ERP, P2P, and other systems often requires time-consuming custom work.",
-        "imagePosition": "left"
+        "imagePosition": "left",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__by-business-function__it-and-compliance-teams/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "Heavy Implementation Lifts",
         "body": "New software rollouts usually mean big asks of IT—from setup to ongoing support.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__by-business-function__it-and-compliance-teams/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80-2.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
@@ -3970,7 +8397,15 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Give Legal control over every contract — without becoming the bottleneck.",
         "body": "Raindrop pairs GenAI-assisted drafting, AI-powered first-pass review, and a searchable contract repository — so your team standardizes language, moves faster, and catches risk earlier, with Legal in control the whole way.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__by-business-function__legal-teams/what-features-should-you-look-for-in-a-source-to-pay-solution.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureGrid",
@@ -4077,7 +8512,15 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Bring all of procurement into one place — and put spend back under control.",
         "body": "Raindrop unifies intake, sourcing, suppliers, and contracts in one AI-native platform — so requests stop going around you, sourcing moves in minutes, and every dollar runs through a single digital front door.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__by-business-function__procurement-teams/what-features-should-you-look-for-in-a-source-to-pay-solution.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureGrid",
@@ -4180,46 +8623,126 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Modules",
         "body": "Every organization has different needs, which is why Raindrop offers modular flexibility within a comprehensive suite. From intake to analytics, our platform gives you the tools to manage commitments across the full procurement lifecycle. Use what you need today and scale as you grow. with implementation as fast as two weeks per module.  Raindrop modules include:",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules/modules_hero-1024x1024.webp",
+          "alt": "Hero",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureGrid",
         "features": [
           {
             "title": "Supplier Management",
-            "description": "Centralize, track, and manage supplier onboarding, risk, and performance—all in one place.\n\n[Learn More](/solutions/modules/supplier-management)"
+            "description": "Centralize, track, and manage supplier onboarding, risk, and performance—all in one place.\n\n[Learn More](/solutions/modules/supplier-management)",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules/icon_supplier-management.webp",
+              "alt": "Icon",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Sourcing",
-            "description": "Simplify bid creation, vendor collaboration, and award decisions with tools built for speed, transparency, and control.\n\n[Learn More](/solutions/modules/sourcing)"
+            "description": "Simplify bid creation, vendor collaboration, and award decisions with tools built for speed, transparency, and control.\n\n[Learn More](/solutions/modules/sourcing)",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules/icon_sourcing.webp",
+              "alt": "Icon",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Contract Lifecycle Management",
-            "description": "From authoring to renewal, gain visibility and control over every stage of the contract lifecycle—all in one unified platform.\n\n[Learn More](/solutions/modules/contract-lifecycle-management)"
+            "description": "From authoring to renewal, gain visibility and control over every stage of the contract lifecycle—all in one unified platform.\n\n[Learn More](/solutions/modules/contract-lifecycle-management)",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules/icon_contract-lifecyle.webp",
+              "alt": "Icon",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "eProcurement",
-            "description": "Empower teams with guided buying, policy compliance, and real-time visibility—without the complexity.\n\n[Learn More](/solutions/modules/eprocurement)"
+            "description": "Empower teams with guided buying, policy compliance, and real-time visibility—without the complexity.\n\n[Learn More](/solutions/modules/eprocurement)",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules/icon_procurement.webp",
+              "alt": "Icon",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "AP Automation",
-            "description": "Automate approvals, reduce errors, and gain control over payables with a smarter approach to invoice processing.\n\n[Learn More](/solutions/modules/ap-automation)"
+            "description": "Automate approvals, reduce errors, and gain control over payables with a smarter approach to invoice processing.\n\n[Learn More](/solutions/modules/ap-automation)",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules/icon_invoice-automation.webp",
+              "alt": "Icon",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Analytics",
-            "description": "Track performance, uncover trends, and drive smarter decisions with real-time analytics across all your spend activities.\n\n[Learn More](/solutions/modules/analytics)"
+            "description": "Track performance, uncover trends, and drive smarter decisions with real-time analytics across all your spend activities.\n\n[Learn More](/solutions/modules/analytics)",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules/icon_analytics.webp",
+              "alt": "Icon",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "RainSign",
-            "description": "Securely sign, send, and manage documents—fully integrated with your procurement workflow.\n\n[Learn More](/solutions/modules/rainsign)"
+            "description": "Securely sign, send, and manage documents—fully integrated with your procurement workflow.\n\n[Learn More](/solutions/modules/rainsign)",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules/icon_legal.webp",
+              "alt": "Icon",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "RainPay",
-            "description": "Send global payments in 200+ countries via local rails—fully connected to your procurement and invoicing workflow.\n\n[Learn More](/solutions/modules/rainpay)"
+            "description": "Send global payments in 200+ countries via local rails—fully connected to your procurement and invoicing workflow.\n\n[Learn More](/solutions/modules/rainpay)",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules/rainpay_icon.webp",
+              "alt": "Icon",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "E-Invoicing",
-            "description": "E-Invoices across every region—automatically formatted, validated, and synced to your ERP.\n\n[Learn More](/solutions/modules/e-invoicing)"
+            "description": "E-Invoices across every region—automatically formatted, validated, and synced to your ERP.\n\n[Learn More](/solutions/modules/e-invoicing)",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules/e-invoicing_icon.webp",
+              "alt": "Icon",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       },
@@ -4246,7 +8769,15 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Clear the clouds",
         "body": "Raindrop Spend Intelligence gives you complete visibility across your spend ecosystem—turning disconnected data into strategic insight. Designed for procurement and finance leaders with out-of-the-box analytics and easy configurability, you can spot inefficiencies, make smarter decisions, and drive measurable impact.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__analytics/analytics_hero.png",
+          "alt": "Hero",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureGrid",
@@ -4254,15 +8785,39 @@ const pages: Page[] = [
         "features": [
           {
             "title": "See Everything, Clearly",
-            "description": "Get a unified view of spend, suppliers, contracts, and payments—so you can identify hidden patterns, gaps, and opportunities."
+            "description": "Get a unified view of spend, suppliers, contracts, and payments—so you can identify hidden patterns, gaps, and opportunities.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules__analytics/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Make Smarter, Faster Decisions",
-            "description": "Move beyond spreadsheets. With real-time dashboards and trusted data at your fingertips, you can make informed choices that save money and mitigate risk."
+            "description": "Move beyond spreadsheets. With real-time dashboards and trusted data at your fingertips, you can make informed choices that save money and mitigate risk.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules__analytics/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Find Bottlenecks, Fuel Improvement",
-            "description": "Identify inefficiencies across sourcing, contracting, and purchasing—then act on them to streamline processes and improve team performance."
+            "description": "Identify inefficiencies across sourcing, contracting, and purchasing—then act on them to streamline processes and improve team performance.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules__analytics/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       },
@@ -4270,19 +8825,43 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Unify Internal and External Data",
         "body": "Instantly connect data from ERPs and supplier systems with the rich sourcing, contract, invoice, and supplier data already captured in Raindrop—cleaned, normalized, and ready for analysis.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__analytics/analytics_unify.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "Explore Insights, Out of the Box",
         "body": "Access built-in analytics for sourcing, supplier diversity, contract compliance, invoice cycle time, and more—no setup required.",
-        "imagePosition": "left"
+        "imagePosition": "left",
+        "image": {
+          "id": 0,
+          "url": "/assets/images/home/logo-insight-global.webp",
+          "alt": "Logo",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "Configure What Matters",
         "body": "Tailor dashboards to your organization’s priorities—by category, geography, business unit, or strategic goals.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__analytics/analytics_configure.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
@@ -4339,7 +8918,15 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "NO OCR. NO TEMPLATES. JUST TOUCHLESS AP.",
         "body": "AP automation software, live in under 3 months.\n\nAP automation software with no OCR, no templates, live in under 3 months. Raindrop Systems built AP Automation to eliminate manual invoice entry entirely, not make it 20% faster with better scanning. No old school OCR. No brittle templates that break the moment a supplier changes their invoice layout. Just AI that reads any invoice, in any format, from any channel, and gets it coded, matched, and routed without a human touching it. Pay with confidence, and pay fast.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__ap-automation/ap_ai-ingestion.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
@@ -4409,13 +8996,29 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Match and Validate Automatically",
         "body": "AI-powered matching automatically compares invoices to POs and receipts. When no PO exists, machine learning learns your patterns to auto-code invoices.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__ap-automation/ap_po-match.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "Integrate and Pay",
         "body": "Push approved invoices to your ERP for real-time financial updates, or pay directly through Raindrop Systems.",
-        "imagePosition": "left"
+        "imagePosition": "left",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__ap-automation/ap_integrate-pay.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
@@ -4576,13 +9179,29 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Collaborative Review & Approval",
         "body": "Legal, Procurement, Finance, and the business team work in one place. Real-time editing, redlining, and comment threads stay attached to the contract. AI surfaces risky language, missing clauses, and deviations from your playbook during review — not at audit. Version control is automatic; everyone sees the current draft, not last week’s email attachment.",
-        "imagePosition": "left"
+        "imagePosition": "left",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__contract-lifecycle-management/clm_collaboration.png",
+          "alt": "Ui",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "Smart Intake & Drafting",
         "body": "Requesters use simple intake forms to kick off a contract. Rain drafts the agreement using your clause library, playbook, and the request details — pre-populating standard terms and flagging anything non-standard for Legal review. What used to take Legal a half-day of formatting becomes a 15-minute review of a near-final draft.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__contract-lifecycle-management/clm_smart-intake.png",
+          "alt": "Ui",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
@@ -4596,15 +9215,39 @@ const pages: Page[] = [
         "features": [
           {
             "title": "From Documents to Commitments",
-            "description": "Most CLM platforms are sophisticated filing cabinets. Raindrop Systems treats every contract as an active commitment. Renewal dates, payment terms, SLAs, pricing, and obligations are extracted, tracked, and tied to your spend data. The platform tells you when a milestone is approaching — before it costs you."
+            "description": "Most CLM platforms are sophisticated filing cabinets. Raindrop Systems treats every contract as an active commitment. Renewal dates, payment terms, SLAs, pricing, and obligations are extracted, tracked, and tied to your spend data. The platform tells you when a milestone is approaching — before it costs you.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules__contract-lifecycle-management/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "AI Built In, Not Bolted On",
-            "description": "Raindrop Systems was built AI-native from the start. Rain , our purpose-built procurement AI agent, drafts contracts, redlines against your playbook, surfaces risky clauses, and answers natural-language questions about your contract base. It’s not a feature you turn on. It’s how the platform works."
+            "description": "Raindrop Systems was built AI-native from the start. Rain , our purpose-built procurement AI agent, drafts contracts, redlines against your playbook, surfaces risky clauses, and answers natural-language questions about your contract base. It’s not a feature you turn on. It’s how the platform works.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules__contract-lifecycle-management/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Connected Source-to-Pay Platform",
-            "description": "A standalone CLM forces you to integrate it back into procurement. Raindrop Systems Contract Management is one module in a unified S2P platform. Contracts connect natively to sourcing events, supplier records, requisitions, POs, and invoices. No rebuilds. No reconciliation projects. No swivel-chairing between vendors."
+            "description": "A standalone CLM forces you to integrate it back into procurement. Raindrop Systems Contract Management is one module in a unified S2P platform. Contracts connect natively to sourcing events, supplier records, requisitions, POs, and invoices. No rebuilds. No reconciliation projects. No swivel-chairing between vendors.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules__contract-lifecycle-management/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       },
@@ -4823,7 +9466,15 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "ONE API, EVERY MANDATE",
         "body": "Global, automated tax compliance for every market.\n\nGlobal e-invoicing compliance software should do one thing well: keep every invoice valid in every market you operate in, without a new project every time a country changes its rules. Raindrop Systems connects your existing ERP, accounting, and commerce systems to tax authority platforms, the Peppol network, the U.S. DBNA network, and local country networks through one API, with real-time reporting built in from day one.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__e-invoicing/e-invoicing-hero-clean-920x1024.webp",
+          "alt": "Hero",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "stats",
@@ -4869,27 +9520,75 @@ const pages: Page[] = [
         "features": [
           {
             "title": "One API, Many Mandates",
-            "description": "A single integration covers every country mandate. New countries activate on top of the same connection, no second integration project required."
+            "description": "A single integration covers every country mandate. New countries activate on top of the same connection, no second integration project required.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules__e-invoicing/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "No-Code Country Activation",
-            "description": "An administrator activates a new mandate through a wizard-guided interface. No developer, no professional-services engagement, no re-opened IT ticket."
+            "description": "An administrator activates a new mandate through a wizard-guided interface. No developer, no professional-services engagement, no re-opened IT ticket.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules__e-invoicing/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Global Network Reach",
-            "description": "Tax authority platforms, [Peppol](https://peppol.org/about/), the U.S. DBNA network, and local country networks connected through one API. 200+ countries and territories, 140+ currencies."
+            "description": "Tax authority platforms, [Peppol](https://peppol.org/about/), the U.S. DBNA network, and local country networks connected through one API. 200+ countries and territories, 140+ currencies.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules__e-invoicing/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "ERP-Agnostic Integration",
-            "description": "The single API works in the background of whatever ERP, accounting, or commerce system you already run, without ripping out existing workflows."
+            "description": "The single API works in the background of whatever ERP, accounting, or commerce system you already run, without ripping out existing workflows.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules__e-invoicing/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Future-Proof Compliance",
-            "description": "When a country updates its e-invoicing requirements, the platform adapts without a re-integration project on your side."
+            "description": "When a country updates its e-invoicing requirements, the platform adapts without a re-integration project on your side.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules__e-invoicing/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Secure by Design",
-            "description": "SOC 2 Type II certified, covering data handling practices and access controls at the standard finance and IT teams expect."
+            "description": "SOC 2 Type II certified, covering data handling practices and access controls at the standard finance and IT teams expect.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules__e-invoicing/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       },
@@ -5041,7 +9740,15 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Effortless purchasing, no umbrella required",
         "body": "Raindrop eProcurement makes it easy for anyone in your organization to request, buy, and manage goods and services—powered by AI, dynamic workflows, and a modern B2C-like experience. Go live in under 3 months and start capturing value from day one.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__eprocurement/eprocurement.png",
+          "alt": "Ui",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureGrid",
@@ -5049,15 +9756,39 @@ const pages: Page[] = [
         "features": [
           {
             "title": "Intake from Anywhere",
-            "description": "Let users request what they need however they prefer—via intake forms, email, or by simply asking Rain, your built-in AI Assistant."
+            "description": "Let users request what they need however they prefer—via intake forms, email, or by simply asking Rain, your built-in AI Assistant.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules__eprocurement/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Find It Fast with Federated Search",
-            "description": "Search across internal catalogs, punchouts, and supplier sites in one place. No more toggling between tabs or tools."
+            "description": "Search across internal catalogs, punchouts, and supplier sites in one place. No more toggling between tabs or tools.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules__eprocurement/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Smarter Workflows, Fewer Bottlenecks",
-            "description": "Automatically route approvals based on category, amount, budget, or policy with flexible, no-code workflows."
+            "description": "Automatically route approvals based on category, amount, budget, or policy with flexible, no-code workflows.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules__eprocurement/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       },
@@ -5065,19 +9796,43 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Smart Intake & Guided Buying",
         "body": "Employees request what they need using intuitive forms or natural language with Rain. Relevant options are returned instantly from connected catalogs.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__eprocurement/eprocurement_intake-768x634.png",
+          "alt": "Ui",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "Ask, Shop, Go",
         "body": "Raindrop’s universal search makes it easy to ask once and search across catalogs and suppliers.",
-        "imagePosition": "left"
+        "imagePosition": "left",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__eprocurement/eprocurement_shop-768x575.png",
+          "alt": "Ui",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "Route, Approve, Order",
         "body": "Dynamic workflows handle routing and approvals automatically, reducing delays and ensuring compliance at every step.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__eprocurement/eprocurement_approve.png",
+          "alt": "Ui",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
@@ -5134,7 +9889,15 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "ONE WORKFLOW, EVERY PAYMENT",
         "body": "The embedded B2B payments platform inside your AP workflow.\n\nMost payment tools live outside your AP workflow. You approve an invoice in one system, then jump to a separate payment portal to actually send the money, and reconcile the two by hand. RainPay closes that gap. It’s an embedded B2B payments platform built into the Raindrop Systems suite, not a standalone processor you bolt on after the fact. It reaches 200+ countries and 140+ currencies through the TransferMate network, backed by 100+ regulatory licenses, while you keep the banking relationships you already have.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__rainpay/rainpay-hero-clean-874x1024.webp",
+          "alt": "Hero",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "stats",
@@ -5327,7 +10090,15 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Sign-off without the storm",
         "body": "RainSign by Raindrop streamlines the entire contract signature process—from initiation to execution—within a single, secure platform. Designed for seamless integration across sourcing, procurement, and legal workflows, RainSign accelerates approvals, reduces costs, and enhances compliance.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__rainsign/rainsign_hero.png",
+          "alt": "Hero",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureGrid",
@@ -5335,15 +10106,39 @@ const pages: Page[] = [
         "features": [
           {
             "title": "Accelerate Contract Execution",
-            "description": "Eliminate delays with intuitive digital signatures, enabling faster turnaround times and improved efficiency.​"
+            "description": "Eliminate delays with intuitive digital signatures, enabling faster turnaround times and improved efficiency.​",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules__rainsign/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Enhance Security and Compliance",
-            "description": "Ensure every signature is legally binding and auditable, meeting global compliance standards.​"
+            "description": "Ensure every signature is legally binding and auditable, meeting global compliance standards.​",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules__rainsign/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Reduce Operational Costs",
-            "description": "Cut expenses associated with printing, scanning, and mailing by transitioning to a fully digital signature process, at a fraction of the cost of other solutions"
+            "description": "Cut expenses associated with printing, scanning, and mailing by transitioning to a fully digital signature process, at a fraction of the cost of other solutions",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__modules__rainsign/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       },
@@ -5351,19 +10146,43 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Initiate Signing in Raindrop",
         "body": "Start a contract in Rain and send it for signature with a single click. Simple, fast, and ready to go .",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__rainsign/rainsign_initiate-201x300.png",
+          "alt": "Ui",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "Audit Ready, Always",
         "body": "Every signature is tracked, time-stamped, and easy to trace .",
-        "imagePosition": "left"
+        "imagePosition": "left",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__rainsign/rainsig_audit-768x627.png",
+          "alt": "Ui",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "Monitor Progress",
         "body": "Track the status of each document in real-time, with notifications upon completion.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__rainsign/rainsign_monitor-768x475.png",
+          "alt": "Ui",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
@@ -5426,7 +10245,15 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Watch the savings rain down",
         "body": "Raindrop Sourcing is AI sourcing software that streamlines the entire sourcing process—from drafting RFPs to awarding contracts—leveraging AI to boost efficiency, drive savings, and reduce risk. Built for modern procurement teams, our strategic sourcing software helps you launch events faster, evaluate bids smarter, and unlock greater savings.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__sourcing/sourcing_events.png",
+          "alt": "Ui",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureGrid",
@@ -5450,19 +10277,43 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Optimize Sourcing Award Decisions",
         "body": "Supplier paper does not have to slow the contract process down Rain AI reviews third-party agreements, flags risk, suggests redlines, and helps Procurement and Legal teams move from review to resolution with greater speed, consistency, and control.",
-        "imagePosition": "left"
+        "imagePosition": "left",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__sourcing/sourcing_collaborate2.png",
+          "alt": "Ui",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "Streamline Intake & Launch Events",
         "body": "Capture sourcing needs through a simple intake process—then spin up events in minutes using pre-built templates and approved supplier lists.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__sourcing/screenshot-2025-08-28-at-5.06.01-pm.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "Collaborate Seamlessly",
         "body": "Centralize communication with internal stakeholders and suppliers via built-in chat, document sharing and dynamic workflows",
-        "imagePosition": "left"
+        "imagePosition": "left",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__sourcing/quotemark-l.png",
+          "alt": "Ui",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureGrid",
@@ -5546,13 +10397,29 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Supplier Management",
         "body": "Raindrop Systems Supplier Management gives procurement teams a single source of truth for every supplier relationship—onboarding, compliance, performance, and",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__supplier-management/modules_supplier-management-768x768.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "Storm-Proof Your Supplier Strategy",
         "body": "Raindrop Systems Supplier Management gives procurement teams a single source of truth for every supplier relationship—onboarding, compliance, performance, and collaboration in one place.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__supplier-management/supplier_marketplace-768x604.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureGrid",
@@ -5584,25 +10451,57 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Supplier Marketplace",
         "body": "From registration to invoicing, suppliers manage everything in one connected portal. Self-service profile management, document submission, certification updates, and invoice tracking—all in one place. Your team stops chasing vendors for paperwork; vendors do it themselves.",
-        "imagePosition": "left"
+        "imagePosition": "left",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__supplier-management/supplier_dashboard.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "Real-Time Dashboards",
         "body": "Monitor supplier compliance, sustainability metrics, and operational risks through comprehensive dashboards. Track who’s buying from which supplier, how much is being spent, and when contracts expire—all in real time.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__supplier-management/supplier_discovery-768x565.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "Additional Capabilities",
         "body": "AI-Powered Onboarding with RainYour [Digital Front Door](/solutions/platform/intake-orchestration) for every supplier request. Rain guides users through [conversational intake](/section-4-why-procurement-is-ideal-for-agentic-ai)—no 40-field forms, no training required. Dynamic workflows adapt to each supplier type: domestic vendors route differently from high-risk international suppliers. Customers improve onboarding automation by up to 75%.\n\n360-Degree Supplier ProfilesView every supplier relationship on one screen: sourcing events, active contracts, invoices, payments, insurance certificates, ESG data, compliance documentation. No switching between systems. No reconciling spreadsheets.\n\nAdvanced Supplier InsightsReal-time monitoring of supplier financial health, compliance status, and industry risk factors. You'll know when a supplier's financial health shifts, when certifications are about to expire, or when industry events could impact your supply chain—before it becomes a fire drill. Learn more about [supplier risk management within an S2P suite](/supplier-risk-management-within-an-s2p-suite).\n\nEmbedded CollaborationReal-time messaging inside workflows—comment on contracts, flag issues, ask questions, all in context. [Microsoft Teams, Slack, and email integration](/solutions/platform/raindrop-integrates-anywhere) captures everything in the system of record. Supplier-facing collaboration on contracts keeps internal and external comments clearly separated.",
-        "imagePosition": "left"
+        "imagePosition": "left",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__supplier-management/who-actually-owns-contracts-in-your-organization-14.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "SEE IT IN ACTION",
         "body": "Ready to replace scattered spreadsheets with a single source of truth for every supplier? See how Raindrop Systems’ supplier management works inside a unified Source-to-Pay platform.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__modules__supplier-management/blue-medical-slide-presentation-project-proposal-15.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureGrid",
@@ -5683,22 +10582,54 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Platform",
         "body": "With a modern UI, intuitive workflows, and the fastest implementation in the market, our platform becomes a powerful extension of your team.  Whether you’re replacing legacy systems or unifying disjointed tools, [Raindrop’s end-to-end capabilities](/section-9-how-raindrop-enables-agentic-procurement) and plug-and-play integrations with your ERP and P2P systems ensure a smooth transition and rapid time-to-value. Built on Google Cloud, it's secure, scalable, and easy to adopt, just the way you want it to be.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__platform/gpi_reviewsnippet_189914_14042025.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureGrid",
         "features": [
           {
             "title": "Key Components",
-            "description": "Whether you need one module or the full platform, Raindrop brings it all together.\n\n[Learn More](/solutions/platform/key-components)"
+            "description": "Whether you need one module or the full platform, Raindrop brings it all together.\n\n[Learn More](/solutions/platform/key-components)",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__platform/icon_end-to-end.webp",
+              "alt": "Icon",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Integrations",
-            "description": "Forget waiting for custom integrations—connect with any interface or transaction instantly.\n\n[Learn More](/solutions/platform/raindrop-integrates-anywhere)"
+            "description": "Forget waiting for custom integrations—connect with any interface or transaction instantly.\n\n[Learn More](/solutions/platform/raindrop-integrates-anywhere)",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__platform/icon_integrations.webp",
+              "alt": "Icon",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Intake Orchestration",
-            "description": "Standardize requests, route intelligently, and kick off workflows faster.\n\n[Learn More](/solutions/platform/intake-orchestration)"
+            "description": "Standardize requests, route intelligently, and kick off workflows faster.\n\n[Learn More](/solutions/platform/intake-orchestration)",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__platform/icon_intake.webp",
+              "alt": "Icon",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       },
@@ -5725,25 +10656,57 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Intake & Orchestration",
         "body": "Raindrop Intake & Orchestration",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__platform__intake-orchestration/io-image-1-1024x576.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "Turn scattered showers into seamless flow",
         "body": "Raindrop Intake & Orchestration\n\nRaindrop Systems Intake & Orchestration creates one Digital Front Door for every procurement request—from quick supplier requests, to purchases to complex sourcing events. AI-powered routing, no-code workflows, and embedded compliance ensure requests follow the right path without manual triage. Unlike bolt-on tools, it connects to the full Source-to-Pay lifecycle: sourcing, contracts, supplier management, procurement, accounts payables and spend analytics.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__platform__intake-orchestration/platform_intake-orchestration-1024x308.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "The Problem: Scattered Requests, Missed Opportunities",
         "body": "You’re probably dealing with scattered intake requests across email, Slack or MS Teams, and spreadsheets. A manager sends a message asking about a new supplier. A budget owner emails about software renewal. Someone in marketing uploads a contract to a shared drive and hopes Procurement finds it.\n\nBy the time your team gets visibility, commitments have already been made. The opportunity to negotiate, consolidate, or redirect? Gone.\n\nThe real cost of broken intake:\n\n30–40% of Procurement team time spent triaging and routing requests manually\n\n20–30% of organizational spend happening outside of Procurement visibility\n\nCompliance gaps that lead to increased risk when required reviews are skipped or undocumented\n\nFrustrated stakeholders who don’t know where their request stands\n\nThis isn’t a training problem or a discipline problem. It’s a systems problem. When it’s easier to go around procurement than through it, that’s exactly what happens.",
-        "imagePosition": "left"
+        "imagePosition": "left",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__platform__intake-orchestration/raindrop-intake-and-orchestration-scaled.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
         "headline": "The Raindrop Systems Approach",
         "body": "Raindrop’s Intake & Orchestration creates a single Digital Front Door for every procurement request — from simple purchases to complex sourcing events.\n\nRequests come in. The right workflows trigger automatically. Compliance is built in. And everything connects seamlessly to sourcing, contracts, suppliers, and spend.\n\nOur approach is built on three principles:\n\n1. Make It Easy to Do the Right ThingIf intake is complicated, people bypass it. Raindrop makes submitting a request as simple as describing what you need. Rain, our AI Assistant, captures the right information and routes it automatically — no training required.\n\n2. Build Policy Into the ProcessCompliance isn’t an afterthought. Required reviews trigger automatically, approval paths adapt dynamically, and exceptions are flagged before they become issues.\n\n3. Connect Intake to ExecutionIntake only works if it drives outcomes. Raindrop connects every approved request directly into the full Source-to-Pay lifecycle — sourcing, contracts, supplier onboarding, purchasing, payables, and spend visibility — all in one unified platform.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__platform__intake-orchestration/sm-solution-map-io-most-differentiating-.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureGrid",
@@ -5909,7 +10872,15 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "No Code Workflow",
         "body": "No-Code Workflows: Power Without the IT Ticket\n\nWork the way you want —no developers required. With our no-code workflow builder, teams can automate approvals, escalations, handoffs, and notifications based on business rules you define. Whether it's routing a sourcing request for stakeholder review, triggering compliance checks for a new supplier, or fast-tracking urgent purchases, you can build and adapt workflows in minutes.\n\nWhat Makes Raindrop’s No-Code Workflows Different:\n\nVisual Builder, Business-Ready Logic Drag-and-drop interface with conditions, branches, and step triggers that reflect how your organization actually works.\n\nPre-Built Templates Get started fast with out-of-the-box process flows that follow best practice and get you started.\n\nDynamic, Data-Driven Routing Automatically adjust workflows based on form inputs like spend thresholds, categories, or business units.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__platform__key-components/platform_key-components-768x650.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
@@ -5985,6 +10956,14 @@ const pages: Page[] = [
         "headline": "Raindrop Integrates Anywhere",
         "body": "SYNC THE STORM\n\nThe AI-native integration layer for Source-to-Pay. Built in from day one, not bolted on.\n\nHaving everyone and every system work together should be the easiest part of transforming procurement. For most organizations, it is the hardest. Procurement and finance teams run a complex ecosystem of ERPs, AP platforms, contract tools, and supplier networks. Traditional integrations between them are slow, expensive, and fragile.\n\nRaindrop Systems changes the math. Built as an AI-native Source-to-Pay platform with intelligent orchestration at its core, Raindrop connects across your existing systems through RainConnect , our integration and connectivity layer. Instead of stitching systems together after the fact, the platform enables real-time, automated workflows across your entire stack from day one.",
         "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/solutions__raindrop-integrates-anywhere/platform_integrations-768x768.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        },
         "cta": {
           "href": "/contact/get-started",
           "label": "Request a Demo"
@@ -6068,27 +11047,75 @@ const pages: Page[] = [
         "features": [
           {
             "title": "AI-Native Integration Layer",
-            "description": "Integrations are built into the core from day one, with AI interpreting unstructured data, resolving exceptions, and routing work across systems automatically."
+            "description": "Integrations are built into the core from day one, with AI interpreting unstructured data, resolving exceptions, and routing work across systems automatically.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__raindrop-integrates-anywhere/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Pre-Built Connectors",
-            "description": "Standard connectors for SAP, Microsoft Dynamics 365, Oracle, JD Edwards, Epicor, DocuSign, Adobe Sign, Slack, Microsoft Teams, and major supplier networks."
+            "description": "Standard connectors for SAP, Microsoft Dynamics 365, Oracle, JD Edwards, Epicor, DocuSign, Adobe Sign, Slack, Microsoft Teams, and major supplier networks.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__raindrop-integrates-anywhere/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Real-Time Data Sync",
-            "description": "Bi-directional sync for the workflows that need it: approvals, invoice status, supplier updates, deactivations. Batch mode for the workflows that do not."
+            "description": "Bi-directional sync for the workflows that need it: approvals, invoice status, supplier updates, deactivations. Batch mode for the workflows that do not.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__raindrop-integrates-anywhere/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Low-Code / No-Code Configuration",
-            "description": "Powered by Workato, the enterprise-grade iPaaS layer underneath RainConnect. Business users configure most integrations without writing code. IT defines the guardrails."
+            "description": "Powered by Workato, the enterprise-grade iPaaS layer underneath RainConnect. Business users configure most integrations without writing code. IT defines the guardrails.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__raindrop-integrates-anywhere/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Intelligent Orchestration",
-            "description": "Raindrop does not just exchange data. It orchestrates processes. One intake, one outcome, zero handoffs across systems."
+            "description": "Raindrop does not just exchange data. It orchestrates processes. One intake, one outcome, zero handoffs across systems.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__raindrop-integrates-anywhere/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Scalable Architecture",
-            "description": "Built on Google Cloud for enterprise-grade performance, 99.99% uptime, and elastic scale. Security, reliability, and compliance inherit from Google’s infrastructure."
+            "description": "Built on Google Cloud for enterprise-grade performance, 99.99% uptime, and elastic scale. Security, reliability, and compliance inherit from Google’s infrastructure.",
+            "icon": {
+              "id": 0,
+              "url": "/assets/imported/solutions__raindrop-integrates-anywhere/raindrop_period_teal-green-1.png",
+              "alt": "Background",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       },
@@ -6314,6 +11341,14 @@ const pages: Page[] = [
         "headline": "THE RAINDROP DIFFERENCE",
         "body": "We know modern procurement is about more than just saving money — it’s about upholding commitments. Built for speed, flexibility, and clarity, Raindrop is here to help you best meet your business commitments throughout the entire Procurement lifecycle, from initial intake through supplier management, sourcing and contracts to ordering, invoice automation and payments — all while being compliant .\n\nWe bring deep experience across procurement, finance, product development, and AI, so we understand your challenges firsthand. Every feature in Raindrop is purpose-built to eliminate those pain points and support the fast-moving needs of innovative companies.",
         "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/why-raindrop/whyraindrop_hero.webp",
+          "alt": "Hero",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        },
         "cta": {
           "href": "/why-raindrop/our-expertise",
           "label": "Read More on Our Expertise"
@@ -6347,7 +11382,41 @@ const pages: Page[] = [
         "blockType": "logoCloud",
         "headline": "Recognized by industry analysts",
         "variant": "logos",
-        "logos": []
+        "logos": [
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop/idc-logo-beaconblue.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop/thg-300x37.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop/spendmatters_logo-300x46.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          }
+        ]
       },
       {
         "blockType": "testimonials",
@@ -6375,6 +11444,14 @@ const pages: Page[] = [
         "headline": "AI-Forward Platform for Modern Work",
         "body": "Raindrop brings AI to the forefront of procurement with Rain , your intelligent AI agent. From automating tedious tasks to delivering instant answers and actionable insights, Rain transforms how modern teams manage sourcing, contracts, and payments. Built on the trusted Google Cloud for speed, security, and scalability, Raindrop is as easy to use as it is powerful to deploy.",
         "imagePosition": "left",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/why-raindrop/ai-forward-platform.png",
+          "alt": "Ui",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        },
         "cta": {
           "href": "/why-raindrop/ai-powered",
           "label": "Discover Raindrop's AI Power"
@@ -6403,7 +11480,15 @@ const pages: Page[] = [
         "blockType": "featureSplit",
         "headline": "Steer the Storm",
         "body": "There’s so much being said about AI. At Raindrop, it’s simple: Our AI-native and Agentic platform helps you get more value from every decision, every day.",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/why-raindrop__ai-powered/meet-rain-ai-woman-1.png",
+          "alt": "Ui",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "featureSplit",
@@ -6416,6 +11501,14 @@ const pages: Page[] = [
         "headline": "Meet Rain, Your AI Agent for Spend Excellence",
         "body": "From sourcing to payments, Rain tackles procurement’s biggest challenges for you by automating the manual and keeping track of the meaningful.",
         "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/why-raindrop__ai-powered/meet-rain-ai-woman-1.png",
+          "alt": "Ui",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        },
         "cta": {
           "href": "/agentic-procurement",
           "label": "Learn More About Agentic AI"
@@ -6454,13 +11547,33 @@ const pages: Page[] = [
         "blockType": "logoCloud",
         "headline": "Trusted by industry leaders",
         "variant": "logos",
-        "logos": []
+        "logos": [
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/gartner-1.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          }
+        ]
       },
       {
         "blockType": "featureSplit",
         "headline": "Backed by Google Cloud",
         "body": "Our interface is as user-friendly as our partner, Google.\n\nRaindrop is hosted on the trusted, secure Google Cloud Platform, so you can enjoy peace of mind regarding the safety and reliability of data management with state-of-the-art infrastructure. And it’s easier than ever to purchase through the [Google Cloud marketplace](https://console.cloud.google.com/marketplace/product/raindrop-public/raindrop.com?hl=en&project=swift-smoke-278916) [,](https://console.cloud.google.com/marketplace/product/raindrop-public/raindrop.com?hl=it&invt=AbuYlg&pli=1) where customers can buy the Raindrop full suite (or individual modules) as part of their annual Google committed spend.",
-        "imagePosition": "left"
+        "imagePosition": "left",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/why-raindrop__ai-powered/google-cloud-platform-partner.png.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "resourceList",
@@ -6473,132 +11586,340 @@ const pages: Page[] = [
           {
             "title": "What Features Should You Look for in a Source-to-Pay Solution?",
             "excerpt": "",
-            "href": "/what-features-should-you-look-for-in-a-source-to-pay-solution"
+            "href": "/what-features-should-you-look-for-in-a-source-to-pay-solution",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/what-features-should-you-look-for-in-a-source-to-pay-solution.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "What Are the Key Benefits of Using an AI-Powered Spend Management Platform?",
             "excerpt": "",
-            "href": "/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform"
+            "href": "/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Deploy AI Agents in Procurement: A Roadmap to Success",
             "excerpt": "",
-            "href": "/deploy-ai-agents-in-procurement-a-roadmap-to-success"
+            "href": "/deploy-ai-agents-in-procurement-a-roadmap-to-success",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/gartner-flex-report-deploying-ai-agents-images-2.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Rain In Action Agentic AI: From Analysis To Action",
             "excerpt": "",
-            "href": "/rain-in-action-agentic-ai-from-analysis-to-action"
+            "href": "/rain-in-action-agentic-ai-from-analysis-to-action",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/reach-out-to-raindrop-today-slide-29.webp",
+              "alt": "Rain In Action Agentic AI: From Analysis To Action",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "AI-Powered Redlining In MS Word",
             "excerpt": "",
-            "href": "/ai-powered-redlining-in-ms-word"
+            "href": "/ai-powered-redlining-in-ms-word",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/reach-out-to-raindrop-today-slide-26.webp",
+              "alt": "AI-Powered Redlining In MS Word",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "One Click NDA Creation",
             "excerpt": "",
-            "href": "/one-click-nda-creation"
+            "href": "/one-click-nda-creation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/screenshot-2026-06-05-at-11.14.54-am.webp",
+              "alt": "One Click NDA Creation",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "RAIN In Action Agentic Sourcing Optimization",
             "excerpt": "",
-            "href": "/rain-in-action-agentic-sourcing-optimization"
+            "href": "/rain-in-action-agentic-sourcing-optimization",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/reach-out-to-raindrop-today-slide-25.webp",
+              "alt": "RAIN In Action Agentic Sourcing Optimization",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "RAIN In Action Agentic AI For Sourcing",
             "excerpt": "",
-            "href": "/rain-in-action-agentic-ai-for-sourcing"
+            "href": "/rain-in-action-agentic-ai-for-sourcing",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/reach-out-to-raindrop-today-slide-24.webp",
+              "alt": "RAIN In Action Agentic AI For Sourcing",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "RAIN In Action Agentic AI For Spend Management",
             "excerpt": "",
-            "href": "/rain-in-action-agentic-ai-for-spend-management"
+            "href": "/rain-in-action-agentic-ai-for-spend-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/reach-out-to-raindrop-today-slide-20.webp",
+              "alt": "RAIN In Action Agentic AI For Spend Management",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "90-Day Plan For CFOs in 2026",
             "excerpt": "",
-            "href": "/90-day-plan-for-cfos-in-2026"
+            "href": "/90-day-plan-for-cfos-in-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/screenshot-2026-05-12-at-10.07.22-am.webp",
+              "alt": "90-Day Plan For CFOs in 2026",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "5 Things I’d Tell a New CFO In 2026",
             "excerpt": "",
-            "href": "/5-things-id-tell-a-new-cfo-in-2026"
+            "href": "/5-things-id-tell-a-new-cfo-in-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/5-things-id-tell-a-new-cfo-in-2026.webp",
+              "alt": "5 Things I’d Tell a New CFO In 2026",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Intake & Orchestration Built In, Not Bolted On",
             "excerpt": "",
-            "href": "/intake-orchestration-built-in-not-bolted-on"
+            "href": "/intake-orchestration-built-in-not-bolted-on",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/raindrop-intake-and-orchestration-scaled.webp",
+              "alt": "Intake & Orchestration Built In, Not Bolted On",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Report Featured in Procurement Magazine: Simplifying Procurement Using AI Is Essential In 2026",
             "excerpt": "",
-            "href": "/raindrop-report-featured-in-procurement-magazine-simplifying-procurement-using-ai-is-essential-in-2026"
+            "href": "/raindrop-report-featured-in-procurement-magazine-simplifying-procurement-using-ai-is-essential-in-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/screenshot-2026-03-05-at-2.36.19-pm-scaled.webp",
+              "alt": "Raindrop Report Featured in Procurement Magazine: Simplifying Procurement Using AI Is Essential In 2026",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How AI Simplifies Procurement For Finance Teams",
             "excerpt": "",
-            "href": "/ai-simplifies-procurement-for-finance-teams"
+            "href": "/ai-simplifies-procurement-for-finance-teams",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/how-ai-simplifies-procurement-for-finance-teams.webp",
+              "alt": "How AI Simplifies Procurement For Finance Teams",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop vs. Zycus: AI-Native Source-to-Pay Platform Comparison for 2026",
             "excerpt": "",
-            "href": "/raindrop-vs-zycus-ai-native-source-to-pay-platform-comparison-for-2026"
+            "href": "/raindrop-vs-zycus-ai-native-source-to-pay-platform-comparison-for-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/raindrop-vs.-zycus-ai-native-source-to-pay-platform-comparison-for-2026.webp",
+              "alt": "Raindrop vs. Zycus: AI-Native Source-to-Pay Platform Comparison for 2026",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "What Is Intake and Orchestration? The Complete Guide for Procurement Teams",
             "excerpt": "",
-            "href": "/what-is-intake-and-orchestration"
+            "href": "/what-is-intake-and-orchestration",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/what-is-intake-and-orchestration-the-complete-guide-for-procurement-teams.webp",
+              "alt": "What Is Intake and Orchestration? The Complete Guide for Procurement Teams",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How Lands’ End Built a Scalable, AI-Ready Procurement Operation​",
             "excerpt": "",
-            "href": "/how-lands-end-built-a-scalable-ai-ready-procurement-operation"
+            "href": "/how-lands-end-built-a-scalable-ai-ready-procurement-operation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/stage-use-scaled.webp",
+              "alt": "How Lands’ End Built a Scalable, AI-Ready Procurement Operation​",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Procurement in 2026: Why AI-First Is No Longer Optional",
             "excerpt": "",
-            "href": "/procurement-in-2026-why-ai-first-is-no-longer-optional"
+            "href": "/procurement-in-2026-why-ai-first-is-no-longer-optional",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/predicts-2026-procurement-taking-steps-to-become-ai-first-3.webp",
+              "alt": "Procurement in 2026: Why AI-First Is No Longer Optional",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Lessons From Lands’ End At NRF: Smart Commitment Management With CLM",
             "excerpt": "",
-            "href": "/lessons-from-lands-end-at-nrf-smart-commitment-management-with-clm"
+            "href": "/lessons-from-lands-end-at-nrf-smart-commitment-management-with-clm",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/stage-use-scaled.webp",
+              "alt": "How Lands’ End Built a Scalable, AI-Ready Procurement Operation​",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "90-Day Plan For CPOs in 2026",
             "excerpt": "",
-            "href": "/90-day-plan-for-cpos"
+            "href": "/90-day-plan-for-cpos",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/reach-out-to-raindrop-today-slide-4.webp",
+              "alt": "90-Day Plan For CPOs in 2026",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "7 Things I’d Tell A New CPO Stepping Into 2026",
             "excerpt": "",
-            "href": "/7-things-id-tell-a-new-cpo-stepping-into-2026"
+            "href": "/7-things-id-tell-a-new-cpo-stepping-into-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/7-things-id-tell-a-new-cpo-stepping-into-2026-graphic-.webp",
+              "alt": "7 Things I’d Tell A New CPO Stepping Into 2026",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "7 Procurement Moves That Will Separate Leaders From Laggards In 2026",
             "excerpt": "",
-            "href": "/7-procurement-moves-that-will-separate-leaders-from-laggards-in-2026"
+            "href": "/7-procurement-moves-that-will-separate-leaders-from-laggards-in-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/7-procurement-moves-that-will-separate-leaders-from-laggards-in-2026.webp",
+              "alt": "7 Procurement Moves That Will Separate Leaders From Laggards In 2026",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Systems vs Basware: 7 Key Differences for 2026",
             "excerpt": "",
-            "href": "/raindrop-systems-vs-basware-7-key-differences-for-2026"
+            "href": "/raindrop-systems-vs-basware-7-key-differences-for-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/basware-comp-blog-graphic-1-1.webp",
+              "alt": "Raindrop Systems vs Basware: 7 Key Differences for 2026",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "7 Lessons Learned in 2025 About Procurement, AI, and What Comes Next",
             "excerpt": "",
-            "href": "/7-lessons-learned-in-2025-about-procurement-ai-and-what-comes-next"
+            "href": "/7-lessons-learned-in-2025-about-procurement-ai-and-what-comes-next",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/7-lessons-2025-taught-us-about-procurement-ai-and-what-comes-next.webp",
+              "alt": "7 Lessons Learned in 2025 About Procurement, AI, and What Comes Next",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Systems vs. Zip: The Difference Between Orchestration and AI- Native, Commitment-Driven Procurement",
             "excerpt": "",
-            "href": "/raindrop-systems-vs-zip"
+            "href": "/raindrop-systems-vs-zip",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/zip-blog-image.webp",
+              "alt": "Raindrop Systems vs. Zip: The Difference Between Orchestration and AI- Native, Commitment-Driven Procurement",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop vs. JAGGAER: 6 Key Differences Defining the Future of Procurement",
             "excerpt": "",
-            "href": "/raindrop-systems-vs-jaggaer"
+            "href": "/raindrop-systems-vs-jaggaer",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/jaggaer-blog-image-1.webp",
+              "alt": "Raindrop vs. JAGGAER: 6 Key Differences Defining the Future of Procurement",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop Systems vs SAP Ariba: 6 Key Differences—and a Clear Path to ROI",
@@ -6608,67 +11929,171 @@ const pages: Page[] = [
           {
             "title": "Raindrop Systems vs Coupa: Which Procurement Platform Delivers Faster Value in 2026",
             "excerpt": "",
-            "href": "/raindrop-systems-vs-coupa-which-procurement-platform-delivers-faster-value-in-2026"
+            "href": "/raindrop-systems-vs-coupa-which-procurement-platform-delivers-faster-value-in-2026",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/raindrop-systems-vs.-coupa-1.webp",
+              "alt": "Raindrop Systems vs Coupa: Which Procurement Platform Delivers Faster Value in 2026",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Ambition Meets Attrition: Bridge the Gap Between Ambition and Real-World Agility",
             "excerpt": "",
-            "href": "/ambition-meets-attrition-bridge-the-gap-between-ambition-and-real-world-agility"
+            "href": "/ambition-meets-attrition-bridge-the-gap-between-ambition-and-real-world-agility",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/screenshot-2025-10-16-at-3.02.54-pm.webp",
+              "alt": "Ambition Meets Attrition: Bridge the Gap Between Ambition and Real-World Agility",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "5 Hidden Costs of Legacy Procurement Systems",
             "excerpt": "",
-            "href": "/5-hidden-costs-of-legacy-procurement-systems"
+            "href": "/5-hidden-costs-of-legacy-procurement-systems",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/5-hidden-costs-of-legacy-procurement-systems-.webp",
+              "alt": "5 Hidden Costs of Legacy Procurement Systems",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Supplier Onboarding Made Simple with Raindrop",
             "excerpt": "",
-            "href": "/supplier-onboarding-made-simple-with-raindrop"
+            "href": "/supplier-onboarding-made-simple-with-raindrop",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/supplier-onboarding-made-simple-with-raindrop.webp",
+              "alt": "Supplier Onboarding Made Simple with Raindrop",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "What Does AI Native Mean in an S2P Platform?",
             "excerpt": "",
-            "href": "/what-does-ai-native-mean-in-an-s2p-platform"
+            "href": "/what-does-ai-native-mean-in-an-s2p-platform",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/what-does-ai-native-mean-in-an-s2p-platform.webp",
+              "alt": "What Does AI Native Mean in an S2P Platform?",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Show Me the Money: Hard-Hitting ROI from AI-Driven Procurement",
             "excerpt": "",
-            "href": "/show-me-the-money-hard-hitting-roi-from-ai-driven-procurement"
+            "href": "/show-me-the-money-hard-hitting-roi-from-ai-driven-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/show-me-the-money.webp",
+              "alt": "Show Me the Money: Hard-Hitting ROI from AI-Driven Procurement",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Why Data & Analytics Are the Foundation of AI-Ready Procurement",
             "excerpt": "",
-            "href": "/why-data-analytics-are-the-foundation-of-ai-ready-procurement"
+            "href": "/why-data-analytics-are-the-foundation-of-ai-ready-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/why-data-v-analytics-are-the-foundation-of-ai-ready-procurement-graphic-.webp",
+              "alt": "Why Data & Analytics Are the Foundation of AI-Ready Procurement",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Stop the Agentic Confusion. What You Need To Know Now.",
             "excerpt": "",
-            "href": "/the-future-is-ai"
+            "href": "/the-future-is-ai",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/the-future-is-ai-4-1.webp",
+              "alt": "Stop the Agentic Confusion. What You Need To Know Now.",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Summer School: AI 101 for Spend Management",
             "excerpt": "",
-            "href": "/summerschool-ai101-for-spend-management"
+            "href": "/summerschool-ai101-for-spend-management",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/summer-school-webinar-smp3.jpg",
+              "alt": "Summer School: AI 101 for Spend Management",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The 2030 Team Interview: AI Agents, CPOs, and Operating Models Reimagined",
             "excerpt": "",
-            "href": "/the-2030-team-interview-ai-agents-cpos-and-operating-models-reimagined-2"
+            "href": "/the-2030-team-interview-ai-agents-cpos-and-operating-models-reimagined-2",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/hackett-group-webinar-resources.jpg",
+              "alt": "The 2030 Team Interview: AI Agents, CPOs, and Operating Models Reimagined",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Why Top Teams Are Betting on Google Cloud and Raindrop",
             "excerpt": "",
-            "href": "/why-top-teams-are-betting-on-google-cloud-and-raindrop"
+            "href": "/why-top-teams-are-betting-on-google-cloud-and-raindrop",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/googleand-raindrop-img.jpg",
+              "alt": "Why Top Teams Are Betting on Google Cloud and Raindrop",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "The Road to Agentic AI",
             "excerpt": "",
-            "href": "/driving-toward-agentic-are-you-in-the-right-lane-what-agentic-ai-really-means-for-procurement"
+            "href": "/driving-toward-agentic-are-you-in-the-right-lane-what-agentic-ai-really-means-for-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/agentic-ai-img.jpg",
+              "alt": "The Road to Agentic AI",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Why Responsible AI Matters for Your Procurement Future",
             "excerpt": "",
-            "href": "/why-responsible-ai-matters-for-your-procurement-future"
+            "href": "/why-responsible-ai-matters-for-your-procurement-future",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__ai-powered/responsible-ai-banner.jpg",
+              "alt": "Why Responsible AI Matters for Your Procurement Future",
+              "mimeType": "image/jpeg",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       },
@@ -6701,7 +12126,327 @@ const pages: Page[] = [
         "blockType": "logoCloud",
         "headline": "Raindrop is Trusted by Industry Leaders",
         "variant": "logos",
-        "logos": []
+        "logos": [
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/trystar.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/midwest-vision-partners-logo.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/jazeera_airways_logo.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/cordis-logo-web.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/gcelogo.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/yum-brand-logo.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/images/home/logo-williams-sonoma.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/images/home/logo-pottery-barn.webp",
+              "alt": "Logo",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/west-elm-logo.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/images/home/logo-world-market.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/images/home/logo-sephora.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/lands_end_logo.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/fullbeauty-brands.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/images/home/logo-workwear.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/buckman_logo.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/cablelabslogo.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/ada-logo.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/diligente-technologies-.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/kaiser-permanente.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/iot-logo.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/drivewealthlogo.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/turnbiotecchnologiesbrand.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/1111.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/iress_logo.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/worldpay_logo.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/rimini_street_logo.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/synaptics-logo.png",
+              "alt": "Logo",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/images/home/logo-insight-global.webp",
+              "alt": "Logo",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/images/home/logo-container-store.webp",
+              "alt": "Logo",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Logo"
+          }
+        ]
       },
       {
         "blockType": "resourceList",
@@ -6709,32 +12454,80 @@ const pages: Page[] = [
           {
             "title": "Case Study: Cordis",
             "excerpt": "",
-            "href": "/case-study-cordis"
+            "href": "/case-study-cordis",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/cordis-case-study-standing-up-ap-at-speed.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Why Lloyd’s Register Chose Raindrop: A Sales Perspective on Modern Procurement",
             "excerpt": "",
-            "href": "/why-lloyds-register-chose-raindrop-a-sales-perspective-on-modern-procurement"
+            "href": "/why-lloyds-register-chose-raindrop-a-sales-perspective-on-modern-procurement",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/lloyds-register-blog-image.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How Lands’ End Built a Scalable, AI-Ready Procurement Operation​",
             "excerpt": "",
-            "href": "/how-lands-end-built-a-scalable-ai-ready-procurement-operation"
+            "href": "/how-lands-end-built-a-scalable-ai-ready-procurement-operation",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/stage-use-scaled.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Case Study: Jazeera Airways",
             "excerpt": "",
-            "href": "/case-study-jazeera-airways"
+            "href": "/case-study-jazeera-airways",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/jazeera-airways-1.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Case Study: World Market",
             "excerpt": "",
-            "href": "/case-study-world-market"
+            "href": "/case-study-world-market",
+            "image": {
+              "id": 0,
+              "url": "/assets/images/home/logo-world-market.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Case Study: Workwear Outfitters – Built to Perform",
             "excerpt": "",
-            "href": "/case-study-built-to-perform"
+            "href": "/case-study-built-to-perform",
+            "image": {
+              "id": 0,
+              "url": "/assets/images/home/logo-workwear.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       },
@@ -6742,7 +12535,74 @@ const pages: Page[] = [
         "blockType": "logoCloud",
         "headline": "Our Customers Say The Nicest Things",
         "variant": "cards",
-        "logos": []
+        "logos": [
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/gpi_reviewsnippet_316035_09062026-1024x519.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/gpi_reviewsnippet_319679_08062026-1024x519.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/gpi_reviewsnippet_189919_14042025-1024x519.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/gartnerquote-supportivepartner-1024x519.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/gartnerquote-amazing-1024x519.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          },
+          {
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__customer-success-stories/gartnerquote-customerservice-1024x519.png",
+              "alt": "Ui",
+              "mimeType": "image/png",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            },
+            "alt": "Ui"
+          }
+        ]
       }
     ],
     "updatedAt": "1970-01-01T00:00:00.000Z",
@@ -6760,6 +12620,14 @@ const pages: Page[] = [
         "headline": "An Authentic Solution Guided by Innovators",
         "body": "As industry veterans, we know that most businesses think “procurement” just means controlling costs. But our experience tells us it’s really about managing a company’s commitments - to its suppliers, its partners, its people, and ultimately, its customers.\n\nRaindrop gives modern leaders the tools they need to deliver on those commitments. The Raindrop platform reflects more than just technical innovation — it embodies decades of lived experience. Our team is made up of procurement, finance, and technology veterans who’ve felt the same frustrations you have with legacy systems. In fact, 75% of Raindrop employees have a background in procurement.\n\nBetween our founders’ deep understanding of industry dynamics across sectors and our track record building global, enterprise-grade applications, Raindrop was designed using technology as a true differentiator to drive adoption, automation, and real business value.",
         "imagePosition": "left",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/why-raindrop__our-expertise/dsc_0043_edited-1024x768.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        },
         "cta": {
           "href": "/company/raindrop-team",
           "label": "Meet Our Team"
@@ -6787,7 +12655,15 @@ const pages: Page[] = [
       {
         "blockType": "featureSplit",
         "body": "",
-        "imagePosition": "right"
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/why-raindrop__our-expertise/gpi_reviewsnippet_176492_22042025-1024x519.png",
+          "alt": "Ui",
+          "mimeType": "image/png",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
       },
       {
         "blockType": "cta",
@@ -6808,17 +12684,41 @@ const pages: Page[] = [
           {
             "title": "What Features Should You Look for in a Source-to-Pay Solution?",
             "excerpt": "",
-            "href": "/what-features-should-you-look-for-in-a-source-to-pay-solution"
+            "href": "/what-features-should-you-look-for-in-a-source-to-pay-solution",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__our-expertise/what-features-should-you-look-for-in-a-source-to-pay-solution.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "What Are the Key Benefits of Using an AI-Powered Spend Management Platform?",
             "excerpt": "",
-            "href": "/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform"
+            "href": "/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__our-expertise/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Tail Spend Management: Why the Last 20% of Spend Deserves the Same Rigor as the First 80%",
             "excerpt": "",
-            "href": "/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80"
+            "href": "/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/why-raindrop__our-expertise/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80-2.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       }

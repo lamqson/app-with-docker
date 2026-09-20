@@ -179,16 +179,102 @@ function parseFrontMatter(raw: string): {
 	return { meta, body: match[2].trim() };
 }
 
-function assetPathToKey(src: string): string {
-	const normalized = src.replace(/^\/src\/assets\//, "");
-	return normalized;
+export type BlockMedia =
+	| number
+	| {
+			id: number;
+			url: string;
+			alt: string;
+			width?: number | null;
+			height?: number | null;
+			mimeType?: string | null;
+			updatedAt: string;
+			createdAt: string;
+	  };
+
+export type MediaByPath = Map<string, BlockMedia>;
+
+export const DEFAULT_LOGO_ASSET_PATHS = [
+	"images/home/logo-container-store.webp",
+	"images/home/logo-insight-global.webp",
+	"images/home/logo-lands-end.webp",
+	"images/home/logo-pottery-barn.webp",
+	"images/home/logo-sephora.webp",
+	"images/home/logo-williams-sonoma.webp",
+	"images/home/logo-workwear.webp",
+	"images/home/logo-world-market.webp",
+] as const;
+
+export function assetPathToKey(src: string): string {
+	return src.replace(/^\/src\/assets\//, "");
 }
 
-function resolveImageId(
+function mimeTypeFromPath(assetPath: string): string | null {
+	const ext = path.extname(assetPath).toLowerCase();
+	switch (ext) {
+		case ".svg":
+			return "image/svg+xml";
+		case ".webp":
+			return "image/webp";
+		case ".png":
+			return "image/png";
+		case ".jpg":
+		case ".jpeg":
+			return "image/jpeg";
+		case ".gif":
+			return "image/gif";
+		default:
+			return null;
+	}
+}
+
+export function staticMediaFromAssetPath(
+	assetPath: string,
+	alt: string,
+): BlockMedia {
+	return {
+		id: 0,
+		url: `/assets/${assetPath}`,
+		alt,
+		mimeType: mimeTypeFromPath(assetPath),
+		updatedAt: new Date(0).toISOString(),
+		createdAt: new Date(0).toISOString(),
+	};
+}
+
+export function buildStaticMediaByPath(
+	documents: ImportedDocument[],
+): MediaByPath {
+	const map: MediaByPath = new Map();
+
+	for (const doc of documents) {
+		for (const image of doc.images) {
+			if (image.downloadFailed || !image.src?.trim()) continue;
+			const key = assetPathToKey(image.src);
+			map.set(key, staticMediaFromAssetPath(key, image.alt || key));
+		}
+	}
+
+	for (const assetPath of DEFAULT_LOGO_ASSET_PATHS) {
+		if (!map.has(assetPath)) {
+			map.set(
+				assetPath,
+				staticMediaFromAssetPath(
+					assetPath,
+					path.basename(assetPath, path.extname(assetPath)),
+				),
+			);
+		}
+	}
+
+	return map;
+}
+
+function resolveImage(
 	imageRef: unknown,
 	images: ImportedImage[],
-	mediaByPath: Map<string, number>,
-): number | undefined {
+	mediaByPath: MediaByPath,
+): BlockMedia | undefined {
 	if (!imageRef) return undefined;
 	const ref = String(imageRef);
 	const record =
@@ -201,25 +287,16 @@ function resolveImageId(
 function resolveLogoImages(
 	imageRefs: unknown,
 	images: ImportedImage[],
-	mediaByPath: Map<string, number>,
+	mediaByPath: MediaByPath,
 ) {
 	const refs = Array.isArray(imageRefs) ? imageRefs : [];
 	if (refs.length === 0) {
-		return [
-			"images/home/logo-container-store.webp",
-			"images/home/logo-insight-global.webp",
-			"images/home/logo-lands-end.webp",
-			"images/home/logo-pottery-barn.webp",
-			"images/home/logo-sephora.webp",
-			"images/home/logo-williams-sonoma.webp",
-			"images/home/logo-workwear.webp",
-			"images/home/logo-world-market.webp",
-		].flatMap((assetPath) => {
-			const mediaId = mediaByPath.get(assetPath);
-			if (!mediaId) return [];
+		return DEFAULT_LOGO_ASSET_PATHS.flatMap((assetPath) => {
+			const media = mediaByPath.get(assetPath);
+			if (!media) return [];
 			return [
 				{
-					image: mediaId,
+					image: media,
 					alt: path.basename(assetPath, path.extname(assetPath)),
 				},
 			];
@@ -227,10 +304,10 @@ function resolveLogoImages(
 	}
 
 	return refs.flatMap((ref) => {
-		const mediaId = resolveImageId(ref, images, mediaByPath);
-		if (!mediaId) return [];
+		const media = resolveImage(ref, images, mediaByPath);
+		if (!media) return [];
 		const record = images.find((image) => image.id === String(ref));
-		return [{ image: mediaId, alt: record?.alt ?? String(ref) }];
+		return [{ image: media, alt: record?.alt ?? String(ref) }];
 	});
 }
 
@@ -332,7 +409,7 @@ const DEMO_CTA = {
 function layoutSectionToBlock(
 	section: LayoutSection,
 	doc: ImportedDocument,
-	mediaByPath: Map<string, number>,
+	mediaByPath: MediaByPath,
 ) {
 	switch (section.type) {
 		case "hero":
@@ -348,7 +425,7 @@ function layoutSectionToBlock(
 				subheadline: section.subheadline as string | undefined,
 				primaryCta: normalizeLink(section.primaryCta) ?? DEMO_CTA,
 				secondaryCta: normalizeLink(section.secondaryCta),
-				image: resolveImageId(section.image, doc.images, mediaByPath),
+				image: resolveImage(section.image, doc.images, mediaByPath),
 			};
 		case "logoCloud":
 			return {
@@ -376,7 +453,7 @@ function layoutSectionToBlock(
 							return {
 								title: String(record.title || ""),
 								description: String(record.description || ""),
-								icon: resolveImageId(
+								icon: resolveImage(
 									record.image,
 									doc.images,
 									mediaByPath,
@@ -395,7 +472,7 @@ function layoutSectionToBlock(
 					section.media === "left"
 						? ("left" as const)
 						: ("right" as const),
-				image: resolveImageId(section.image, doc.images, mediaByPath),
+				image: resolveImage(section.image, doc.images, mediaByPath),
 				cta: normalizeLink(section.cta),
 			};
 		}
@@ -488,7 +565,7 @@ function layoutSectionToBlock(
 								title: String(record.title || ""),
 								excerpt: String(record.excerpt || ""),
 								href: String(record.href || ""),
-								image: resolveImageId(
+								image: resolveImage(
 									record.image,
 									doc.images,
 									mediaByPath,
@@ -509,7 +586,7 @@ function layoutSectionToBlock(
 								name: String(record.name || ""),
 								role: String(record.role || ""),
 								bio: String(record.bio || ""),
-								photo: resolveImageId(
+								photo: resolveImage(
 									record.image,
 									doc.images,
 									mediaByPath,
@@ -569,7 +646,7 @@ function stripEmptyLinks(
 
 export function blocksFromImported(
 	doc: ImportedDocument,
-	mediaByPath: Map<string, number>,
+	mediaByPath: MediaByPath,
 ) {
 	if (doc.layout.length > 0) {
 		const blocks = doc.layout

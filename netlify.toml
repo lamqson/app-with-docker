@@ -10,4 +10,5 @@
   # Required in Netlify UI (Site configuration → Environment variables):
   # PAYLOAD_SECRET, DATABASE_URL (Postgres — SQLite does not work at runtime), NEXT_PUBLIC_SITE_URL
 
-# Next.js 13.5+ is detected automatically; Netlify installs the OpenNext adapter on each build.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
