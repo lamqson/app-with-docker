@@ -118,7 +118,10 @@ export const SiteSettings: GlobalConfig = {
             {
               name: 'agentEnabled',
               type: 'checkbox',
-              defaultValue: false,
+              defaultValue: true,
+              admin: {
+                description: 'Show the floating “Ask Rain” agent button on the public site.',
+              },
             },
           ],
         },

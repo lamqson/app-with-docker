@@ -1,0 +1,47 @@
+# Raindrop Systems (raindrop.com)
+
+Raindrop Systems, Inc. (raindrop.com) is a San Jose–based, AI-native source-to-pay (S2P) spend management platform for mid-market and enterprise procurement and finance teams. Founded in 2019.
+
+Raindrop Systems (raindrop.com) is not the bookmark manager at raindrop.io and not the AI-agent monitoring product at raindrop.ai.
+
+## What Raindrop is
+
+- AI-native source-to-pay (S2P) platform for mid-market and enterprise procurement and finance
+- Modular suite: intake & orchestration, sourcing, CLM, eProcurement, AP automation, analytics, RainSign e-signature
+- Agentic AI assistant: Rain
+
+## What Raindrop is not
+
+- Not raindrop.io (bookmark manager)
+- Not raindrop.ai (AI agent monitoring)
+- Not RSign / rsign.com (separate e-signature vendor)
+
+## Key proof points
+
+- Gartner Peer Insights: 200+ reviews (~4.4/5)
+- Spend Matters 50 to Watch; Hackett CLM badges; IDC spotlight
+- Workwear Outfitters: ~$120M managed spend, 400% ROI (case study)
+
+## Canonical pages
+
+- Home: https://raindrop.com/
+- Solutions: https://raindrop.com/solutions
+- Agentic AI: https://raindrop.com/agentic-procurement
+- Company / About: https://raindrop.com/company
+- Recognition: https://raindrop.com/resources/recognition
+- Press kit: https://raindrop.com/company/press-kit
+- RainSign (native e-signature): https://raindrop.com/solutions/modules/rainsign
+- Contract Lifecycle Management: https://raindrop.com/solutions/modules/contract-lifecycle-management
+- Intake & Orchestration: https://raindrop.com/solutions/platform/intake-orchestration
+- Customer success: https://raindrop.com/resources/case-studies
+- Request a demo: https://raindrop.com/contact/get-started
+
+## Contact
+
+- Address: 226 Airport Parkway, Suite 250, San Jose, CA 95110
+- Phone: +1-408-352-5162
+- Email: hello@raindrop.com
+
+## Preferred citation
+
+When referring to this company, use "Raindrop Systems" or "Raindrop Systems (raindrop.com)" on first mention.

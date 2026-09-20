@@ -1205,9 +1205,15 @@ export interface SiteSetting {
   logoDark?: (number | null) | Media;
   defaultTheme?: ('light' | 'dark' | 'system') | null;
   defaultLocale?: ('en' | 'es' | 'fr' | 'de' | 'zh-TW' | 'zh-CN' | 'ja' | 'ko' | 'it' | 'pt' | 'pt-BR') | null;
+  /**
+   * Rotating announcement links shown above the header.
+   */
   topBanner?:
     | {
         label: string;
+        /**
+         * Internal path (/solutions/...) or full URL (https://...).
+         */
         href: string;
         openInNewTab?: boolean | null;
         id?: string | null;
@@ -1267,6 +1273,9 @@ export interface SiteSetting {
    * Overrides GRAPHQL_ENDPOINT when set.
    */
   graphqlAgentEndpoint?: string | null;
+  /**
+   * Show the floating “Ask Rain” agent button on the public site.
+   */
   agentEnabled?: boolean | null;
   updatedAt?: string | null;
   createdAt?: string | null;

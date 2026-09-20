@@ -197,6 +197,20 @@ async function seed() {
       headerNav,
       footerSitemap,
       footerLegal,
+      footerSocial: [
+        {
+          platform: 'LinkedIn',
+          url: 'https://www.linkedin.com/company/raindropsystemsinc/',
+        },
+        {
+          platform: 'X',
+          url: 'https://twitter.com/saas_raindrop',
+        },
+        {
+          platform: 'Instagram',
+          url: 'https://www.instagram.com/raindrop_spendmanagement/',
+        },
+      ],
     },
   });
   console.log('Updated site settings');

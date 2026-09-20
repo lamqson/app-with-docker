@@ -83,7 +83,7 @@ export function AgentWidget({ endpoint }: AgentWidgetProps) {
 	}
 
 	return (
-		<div className="fixed right-10 bottom-16 z-50 flex flex-col items-end gap-3">
+		<div className="fixed right-8 bottom-16 z-[10050] flex flex-col items-end gap-3 sm:right-10">
 			{open ? (
 				<div
 					id={panelId}
@@ -171,7 +171,7 @@ export function AgentWidget({ endpoint }: AgentWidgetProps) {
 				{open ? (
 					t("close")
 				) : (
-          <span className="inline-flex items-end gap-0.5 text-xl leading-none">
+					<span className="inline-flex items-end gap-0.5 text-xl leading-none">
 						{t("open")}
 						<Image
 							src={rainAiLogo}
@@ -179,7 +179,7 @@ export function AgentWidget({ endpoint }: AgentWidgetProps) {
 							width={49}
 							height={20}
 							unoptimized
-              className="h-5 w-auto -translate-y-0.5 brightness-0 invert"
+							className="h-5 w-auto -translate-y-0.5 brightness-0 invert"
 							aria-hidden
 						/>
 					</span>

@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 
 import { PageView } from '@/components/pages/PageView';
 import { routing, resolveLocale } from '@/i18n/routing';
-import { buildPageMetadata } from '@/lib/payload/metadata';
+import { buildLocalizedPathname, buildPageMetadata } from '@/lib/payload/metadata';
 import { getAllPageSlugs, getPageBySlug } from '@/lib/payload/queries';
 
 type CmsPageProps = {
@@ -39,7 +39,10 @@ export async function generateMetadata({ params }: CmsPageProps): Promise<Metada
     return {};
   }
 
-  return buildPageMetadata(page, siteName);
+  return buildPageMetadata(page, siteName, {
+    locale,
+    pathname: buildLocalizedPathname(locale, pageSlug),
+  });
 }
 
 export default async function CmsPage({ params }: CmsPageProps) {

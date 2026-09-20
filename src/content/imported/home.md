@@ -1,7 +1,7 @@
 ---
 source_url: https://raindrop.com/
 title: "AI-Native Source-to-Pay Platform"
-description: "Meet Raindrop, the modern AI-Native Source-to-Pay platform. Experience lightning-fast deployment, seamless purchasing, and automated workflows. Learn more."
+description: "Raindrop Systems, Inc. (raindrop.com) is a San Jose–based, AI-native source-to-pay (S2P) spend management platform for mid-market and enterprise procurement and finance teams. Founded in 2019."
 h1: "Redefine Procurement with Agentic S2P"
 slug: home
 layout:
@@ -10,7 +10,7 @@ layout:
     variant: "centered-stack"
     eyebrow: "MAKE IT RAINDROP"
     headline: "Redefine Procurement with Agentic S2P"
-    subheadline: "Meet Raindrop, the modern AI-Native Source-to-Pay platform. Experience lightning-fast deployment, seamless purchasing, and automated workflows. Learn more."
+    subheadline: ""
     primaryCta:
       label: "Request a Demo"
       href: "/contact/get-started"
@@ -20,10 +20,18 @@ layout:
     image: "rain-in-action-video-thumbnail"
   -
     type: "featureSplit"
+    headline: ""
+    body: "Raindrop Systems, Inc. (raindrop.com) is a San Jose–based, AI-native source-to-pay (S2P) spend management platform for mid-market and enterprise procurement and finance teams. Founded in 2019. Raindrop Systems is not raindrop.io (bookmark manager) and not raindrop.ai (AI agent monitoring).\n\nRaindrop is built around a simple idea: Procurement starts with a request, not a transaction. [Rain, our Agentic AI](/agentic-procurement), helps Procurement, Finance, Legal, and Business Users ask questions, find answers, and take action across source-to-pay to manage your commitments.\nRain helps teams move faster without adding more tools or complexity. While the category of [intake and orchestration](/solutions/platform/intake-orchestration) tools has emerged to solve fragmented requests and workflows, these capabilities have always been embedded in the Raindrop Platform.\nWith lightning-fast deployment, a digital front door for everyone to converse with the information you need, and plug-and-play integration, Raindrop was designed for you to start getting value within weeks."
+    media: "right"
+  -
+    type: "featureSplit"
     headline: "Agentic procurement for a transforming world"
-    body: "Agentic AI is only as powerful as the platform behind it. Raindrop runs on a single codebase with procurement data, workflows, and permissions built in — giving Rain the context to reason across S2P and the governance to act responsibly. -Single-codebase S2P architecture\n• First-class permissions\n• Dynamic query-building\n• Self-correcting agentic reasoning\n• Moving from answers to action\n• Procurement-specific clause/risk intelligence\n• Outcome-led instead of module-led results\n[Learn More About Agentic Learn More About Agentic](/agentic-procurement)"
+    body: "Agentic AI is only as powerful as the platform behind it. Raindrop runs on a single codebase with procurement data, workflows, and permissions built in — giving Rain the context to reason across S2P and the governance to act responsibly. -Single-codebase S2P architecture\n• First-class permissions\n• Dynamic query-building\n• Self-correcting agentic reasoning\n• Moving from answers to action\n• Procurement-specific clause/risk intelligence\n• Outcome-led instead of module-led results"
     media: "right"
     image: "rain-base-600px"
+    cta:
+      label: "Learn More About Agentic"
+      href: "/agentic-procurement"
   -
     type: "featureGrid"
     columns: "3"
@@ -31,15 +39,15 @@ layout:
     items:
       -
         title: "Built for How You Want to Work"
-        description: ""
+        description: "Raindrop is the modern, intuitive solution that works the way you do."
         image: "home-guidingvalues-1built"
       -
         title: "An Authentic Solution Guided by Innovators"
-        description: ""
+        description: "Led by industry disruptors with cross-disciplinary experience solving real problems with empathy and expertise."
         image: "home-guidingvalues-2authentic"
       -
         title: "Creating Value By Commitments, Not Just Costs"
-        description: ""
+        description: "Raindrop empowers modern spend leaders to steer strategy, not just savings."
         image: "home-guidingvalues-3commitments"
   -
     type: "logoCloud"
@@ -57,6 +65,23 @@ layout:
       - "cablelabslogo-360x89"
       - "cordis-logo-360x320"
       - "west-elm-logo-360x91"
+  -
+    type: "testimonials"
+    items:
+      -
+        quote: "We now have structure, visibility and governance we can scale - and we’re in a far stronger position to control costs and reduce risks"
+        author: "Maynil Lambert"
+        role: "CIO of World Market"
+      -
+        quote: "400% ROI and $120M managed annualized spend with Raindrop. Overcoming procurement challenges in a new era."
+        author: "Workwear Outfitters"
+        role: ""
+  -
+    type: "cta"
+    headline: ""
+    primaryCta:
+      label: "Check Out Customer Success Stories"
+      href: "/resources/case-studies"
   -
     type: "logoCloud"
     variant: "cards"
@@ -86,15 +111,25 @@ layout:
       -
         title: "Procurement"
         description: "Streamline Spend Management with an intuitive AI-powered platform."
+        href: "/solutions/by-business-function/procurement-teams"
       -
         title: "Finance"
         description: "Gain real-time spend visibility and control over fiscal commitments."
+        href: "/solutions/by-business-function/finance-teams"
       -
         title: "Legal"
         description: "Automate contract lifecycle management and ensure compliance."
+        href: "/solutions/by-business-function/legal-teams"
       -
         title: "Technology"
         description: "Integrate seamlessly with existing systems for enhanced efficiency ."
+        href: "/solutions/by-business-function/it-and-compliance-teams"
+  -
+    type: "cta"
+    headline: ""
+    primaryCta:
+      label: "Explore Solutions by Function"
+      href: "/solutions/by-business-function"
   -
     type: "resourceList"
     headline: "Latest from Raindrop"
@@ -102,43 +137,53 @@ layout:
       -
         title: "What Features Should You Look for in a Source-to-Pay Solution?"
         href: "/what-features-should-you-look-for-in-a-source-to-pay-solution"
-        excerpt: ""
+        excerpt: "Articles"
+        image: "what-features-should-you-look-for-in-a-s"
       -
         title: "What Are the Key Benefits of Using an AI-Powered Spend Management Platform?"
         href: "/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform"
-        excerpt: ""
+        excerpt: "Articles"
+        image: "what-are-the-key-benefits-of-using-an-ai"
       -
         title: "Tail Spend Management: Why the Last 20% of Spend Deserves the Same Rigor as the First 80%"
         href: "/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80"
-        excerpt: ""
+        excerpt: "Articles"
+        image: "tail-spend-management-why-the-last-20-of"
       -
         title: "Governance Isn’t a Feature. It’s a Relationship."
         href: "/governance-isnt-a-feature-its-a-relationship"
-        excerpt: ""
+        excerpt: "Articles"
+        image: "tail-spend-management-why-the-last-20-of-62"
       -
         title: "Deploy AI Agents in Procurement: A Roadmap to Success"
         href: "/deploy-ai-agents-in-procurement-a-roadmap-to-success"
-        excerpt: ""
+        excerpt: "Articles"
+        image: "gartner-flex-report-deploying-ai-agents-"
       -
         title: "Raindrop vs. LightSource: Which Platform Fits Your Procurement Problem?"
         href: "/raindrop-vs-lightsource-which-platform-fits-your-procurement-problem"
-        excerpt: ""
+        excerpt: "Articles"
+        image: "raindrop-systems-vs-lightsource-which-pl"
       -
         title: "How to Choose the Right Supplier Management and RFx Platform"
         href: "/how-to-choose-the-right-supplier-management-and-rfx-platform"
-        excerpt: ""
+        excerpt: "Articles"
+        image: "who-actually-owns-contracts-in-your-orga"
       -
         title: "How to Replace Email Purchase Requests with Structured Intake"
         href: "/how-to-replace-email-purchase-requests-with-structured-intake"
-        excerpt: ""
+        excerpt: "Articles"
+        image: "who-actually-owns-contracts-in-your-orga-66"
       -
         title: "How to Standardize RFP Processes Across Procurement Categories"
         href: "/how-to-standardize-rfp-processes-across-procurement-categories"
-        excerpt: ""
+        excerpt: "Articles"
+        image: "who-actually-owns-contracts-in-your-orga-67"
       -
         title: "Rain In Action Agentic AI: From Analysis To Action"
         href: "/rain-in-action-agentic-ai-from-analysis-to-action"
-        excerpt: ""
+        excerpt: "Videos"
+        image: "reach-out-to-raindrop-today-slide-29"
     cta:
       label: "See all resources"
       href: "/resources"
@@ -146,7 +191,7 @@ layout:
     type: "cta"
     headline: "Ready to Move Beyond Tracking Savings?"
     primaryCta:
-      label: "Request a Demo"
+      label: "Let's Talk"
       href: "/contact/get-started"
 images:
   -

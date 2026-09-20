@@ -1,5 +1,6 @@
 import { RenderBlocks } from "@/components/blocks/RenderBlocks";
 import { GlowBackground } from "@/components/layout/GlowBackground";
+import { PageStructuredData } from "@/components/seo/PageStructuredData";
 import type { Page } from "@/payload/payload-types";
 
 type PageViewProps = {
@@ -46,6 +47,7 @@ const PAGE_GLOW_SLUGS = new Set([
 	"company/raindrop-team",
 	"company/advisor-team",
 	"company/partners",
+	"company/press-kit",
 	"contact",
 ]);
 
@@ -75,6 +77,7 @@ export function PageView({ page, showTitle = true }: PageViewProps) {
 					: undefined
 			}
 		>
+			<PageStructuredData page={page} />
 			{usePageGlow ? <GlowBackground variant="page" priority /> : null}
 			<div className={usePageGlow ? "relative z-0" : undefined}>
 				{shouldShowTitle ? (

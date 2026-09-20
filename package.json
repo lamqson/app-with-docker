@@ -7,6 +7,7 @@
     "dev": "next dev -p 3200",
     "predev": "npm run generate:static-pages",
     "generate:static-pages": "tsx scripts/generate-static-pages.mjs",
+    "generate:sitemap": "tsx scripts/generate-sitemap.mjs",
     "scrape:top-banner": "python3 scripts/scrape-raindrop-nav.py hype-cycle-for-procurement-sourcing-2026 understanding-agentic-ai-and-its-role-in-procurement solutions/modules/contract-lifecycle-management && npm run generate:static-pages",
     "prebuild": "npm run generate:static-pages",
     "build": "next build",

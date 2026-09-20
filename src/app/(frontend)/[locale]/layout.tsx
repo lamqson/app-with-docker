@@ -17,8 +17,10 @@ import {
   resolveGraphqlEndpoint,
   resolveHubspotPortalId,
 } from '@/lib/hubspot/settings';
-import { buildRootMetadata } from '@/lib/payload/metadata';
+import { JsonLd } from '@/components/seo/JsonLd';
+import { buildRootMetadata, buildLocalizedPathname } from '@/lib/payload/metadata';
 import { getSiteSettings } from '@/lib/payload/queries';
+import { buildGlobalJsonLd } from '@/lib/seo/json-ld';
 import {
   isThemeId,
   resolveServerTheme,
@@ -56,6 +58,8 @@ export async function generateMetadata({
   return {
     ...buildRootMetadata({
       description: t('homeDescription'),
+      locale,
+      pathname: buildLocalizedPathname(locale),
       siteName: t('siteName'),
       title: t('siteName'),
     }),
@@ -93,6 +97,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
       data-theme={serverTheme}
     >
       <body className="min-h-screen bg-background font-sans text-foreground antialiased">
+        <JsonLd data={buildGlobalJsonLd()} />
         <ThemeInit defaultTheme={defaultTheme} />
         {hubspotPortalId ? <HubSpotTracking portalId={hubspotPortalId} /> : null}
         <NextIntlClientProvider messages={messages}>

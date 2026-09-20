@@ -6,6 +6,7 @@ import {
   HEADER_MENU,
   type HeaderMenuItem,
 } from '@/lib/nav';
+import { DEFAULT_FOOTER_SOCIAL, type SocialLink } from '@/lib/seo/organization';
 import type { SiteSetting } from '@/payload/payload-types';
 
 export type NavLinkItem = {
@@ -90,6 +91,21 @@ export function getSignInHref(settings: SiteSetting | null): string {
 
 export function getDemoCtaHref(settings: SiteSetting | null): string {
   return settings?.demoCtaHref?.trim() || '/contact/get-started';
+}
+
+export function getFooterSocial(settings: SiteSetting | null): SocialLink[] {
+  if (settings?.footerSocial?.length) {
+    return settings.footerSocial.flatMap((link) => {
+      const platform = link.platform?.trim();
+      const url = link.url?.trim();
+      if (!platform || !url) {
+        return [];
+      }
+      return [{ platform, url }];
+    });
+  }
+
+  return DEFAULT_FOOTER_SOCIAL;
 }
 
 export function getTopBannerItems(settings: SiteSetting | null): TopBannerItem[] {

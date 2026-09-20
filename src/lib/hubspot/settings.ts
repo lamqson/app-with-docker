@@ -39,10 +39,6 @@ export function resolveGraphqlEndpoint(settings: SiteSetting | null): string | n
 }
 
 export function resolveAgentEnabled(settings: SiteSetting | null): boolean {
-  if (typeof settings?.agentEnabled === 'boolean') {
-    return settings.agentEnabled;
-  }
-
   const fromEnv = process.env.NEXT_PUBLIC_AGENT_ENABLED?.trim().toLowerCase();
   if (fromEnv === 'true' || fromEnv === '1') {
     return true;
@@ -51,6 +47,6 @@ export function resolveAgentEnabled(settings: SiteSetting | null): boolean {
     return false;
   }
 
-  // Static deploy fallback when CMS site settings are unavailable
-  return true;
+  // Enabled by default; only hide when explicitly turned off in Site Settings
+  return settings?.agentEnabled !== false;
 }

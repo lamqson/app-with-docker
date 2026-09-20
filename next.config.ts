@@ -28,6 +28,26 @@ const nextConfig: NextConfig = {
         destination: '/agentic-procurement',
         permanent: true,
       },
+      {
+        source: '/:locale/about',
+        destination: '/:locale/company',
+        permanent: true,
+      },
+      {
+        source: '/about',
+        destination: '/company',
+        permanent: true,
+      },
+      {
+        source: '/:locale/rainsign',
+        destination: '/:locale/solutions/modules/rainsign',
+        permanent: true,
+      },
+      {
+        source: '/rainsign',
+        destination: '/solutions/modules/rainsign',
+        permanent: true,
+      },
     ];
   },
   images: {

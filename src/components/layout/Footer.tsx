@@ -7,6 +7,7 @@ import {
   getDemoCtaHref,
   getFooterLegal,
   getFooterSitemap,
+  getFooterSocial,
   getSignInHref,
   resolveNavLabel,
 } from '@/lib/payload/nav';
@@ -25,6 +26,7 @@ export async function Footer() {
 
   const footerSitemap = getFooterSitemap(settings);
   const footerLegal = getFooterLegal(settings);
+  const footerSocial = getFooterSocial(settings);
   const signInHref = getSignInHref(settings);
   const demoCtaHref = getDemoCtaHref(settings);
   const agentEnabled = resolveAgentEnabled(settings);
@@ -49,6 +51,22 @@ export async function Footer() {
                 </a>
               </p>
             </address>
+            {footerSocial.length ? (
+              <ul className="mt-6 flex flex-wrap gap-4 text-sm">
+                {footerSocial.map((link) => (
+                  <li key={link.url}>
+                    <a
+                      href={link.url}
+                      className="text-foreground-muted hover:text-foreground"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      {link.platform}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            ) : null}
           </div>
           <div>
             <h2 className="text-sm font-medium tracking-wide text-foreground uppercase">

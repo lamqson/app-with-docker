@@ -808,6 +808,29 @@ def pick_image(records: list[ImageRecord], role: str, index: int = 0) -> str | N
     return None
 
 
+def extract_home_intro_body(raw: str) -> str:
+    start = raw.find('Raindrop is built around')
+    end = raw.find('Agentic procurement for a transforming world')
+    if start == -1 or end == -1 or end <= start:
+        return ''
+    chunk = raw[start:end]
+    if not chunk.lstrip().startswith('<'):
+        chunk = f'<div>{chunk}</div>'
+    body = html_fragment_to_markdown(chunk)
+    body = re.sub(
+        r'\[i\]\([^)]+\)\s*\[ntake and orchestration\]\(([^)]+)\)',
+        r'[intake and orchestration](\1)',
+        body,
+    )
+    disambiguation = (
+        'Raindrop Systems, Inc. (raindrop.com) is a San Jose–based, AI-native source-to-pay (S2P) '
+        'spend management platform for mid-market and enterprise procurement and finance teams. '
+        'Founded in 2019. Raindrop Systems is not raindrop.io (bookmark manager) and not '
+        'raindrop.ai (AI agent monitoring).'
+    )
+    return f'{disambiguation}\n\n{body}'.strip()
+
+
 def extract_home_agentic_body(raw: str) -> str:
     start = raw.find('Agentic procurement for a transforming world')
     if start == -1:
@@ -819,7 +842,66 @@ def extract_home_agentic_body(raw: str) -> str:
         chunk,
         re.S,
     )
-    return html_fragment_to_markdown(match.group(1)) if match else ''
+    body = html_fragment_to_markdown(match.group(1)) if match else ''
+    return re.sub(r'\n*\[Learn More About Agentic[^\]]*\]\([^)]+\)\s*$', '', body).strip()
+
+
+def extract_home_guiding_values(raw: str, slug: str, records: list[ImageRecord]) -> list[dict[str, str]]:
+    start = raw.find('Our Guiding')
+    end = raw.find('TRUSTED BY', start)
+    if start == -1:
+        return []
+    chunk = raw[start : end if end != -1 else start + 12000]
+    items: list[dict[str, str]] = []
+    for match in re.finditer(
+        r'guiding-values.*?elementor-widget-heading.*?<h2[^>]*>(.*?)</h2>.*?'
+        r'widget-text-editor.*?<div class="elementor-widget-container">\s*(.*?)</div>.*?'
+        r'widget-image.*?(?:src="(https://raindrop.com/wp-content/uploads/[^"]+)"|<img[^>]+src="(https://raindrop.com/wp-content/uploads/[^"]+)")',
+        chunk,
+        re.S,
+    ):
+        title = clean_text(match.group(1))
+        description = html_fragment_to_markdown(match.group(2))
+        image_url = match.group(3) or match.group(4) or ''
+        if not title:
+            continue
+        item: dict[str, str] = {'title': title, 'description': description}
+        image_id = ensure_resource_image(slug, records, image_url, title)
+        if image_id:
+            item['image'] = image_id
+        items.append(item)
+    return items
+
+
+def extract_home_customer_testimonials(raw: str) -> list[dict[str, str]]:
+    start = raw.find('Home_WorldMarket')
+    if start == -1:
+        return []
+    end = raw.find("Don't Just Take", start)
+    if end == -1:
+        end = raw.find('Don&#8217;t Just Take', start)
+    chunk = raw[start - 800 : end if end != -1 else start + 8000]
+    items: list[dict[str, str]] = []
+    for match in re.finditer(
+        r'<div class="service_text"><div class="cz_wpe_content">(.*?)</div></div>',
+        chunk,
+        re.S,
+    ):
+        paragraphs = re.findall(r'<p[^>]*>(.*?)</p>', match.group(1), re.S)
+        if len(paragraphs) < 2:
+            continue
+        quote = clean_text(paragraphs[0]).strip('"\u201c\u201d')
+        author_line = clean_text(paragraphs[1])
+        if ',' in author_line:
+            author, role = author_line.split(',', 1)
+            author = author.strip()
+            role = role.strip()
+        else:
+            author = author_line
+            role = ''
+        if quote and author:
+            items.append({'quote': quote, 'author': author, 'role': role})
+    return items
 
 
 def extract_home_business_functions(raw: str) -> list[dict[str, str]]:
@@ -835,10 +917,14 @@ def extract_home_business_functions(raw: str) -> list[dict[str, str]]:
         chunk,
         re.S,
     ):
+        href = local_path_from_url(match.group(1))
         title = clean_text(match.group(2))
         description = html_fragment_to_markdown(match.group(3))
         if title:
-            items.append({'title': title, 'description': description})
+            item: dict[str, str] = {'title': title, 'description': description}
+            if href:
+                item['href'] = href
+            items.append(item)
     return items
 
 
@@ -858,7 +944,15 @@ def scrape_home_page_resources(raw: str, slug: str, records: list[ImageRecord]) 
             continue
         seen.add(href)
 
-        local_chunk = raw[match.start() : match.start() + 2500]
+        item_start = chunk.rfind('cz_grid_item', 0, match.start())
+        item_end = chunk.find('</div></div></div>', match.start())
+        if item_start == -1:
+            item_start = match.start()
+        if item_end == -1:
+            item_end = match.start() + 3500
+        else:
+            item_end += len('</div></div></div>')
+        local_chunk = chunk[item_start:item_end]
         img_match = re.search(r'src="(https://raindrop.com/wp-content/uploads/[^"]+)"', local_chunk)
         if img_match:
             image_url = img_match.group(1)
@@ -869,10 +963,13 @@ def scrape_home_page_resources(raw: str, slug: str, records: list[ImageRecord]) 
             )
             image_url = srcset_match.group(1).split()[0].split(',')[0].strip() if srcset_match else ''
 
+        cat_match = re.search(r'cz_data_cats[^>]*>.*?>([^<]+)<', local_chunk, re.S)
+        excerpt = clean_text(cat_match.group(1)) if cat_match else ''
+
         item: dict[str, str] = {
             'title': title,
             'href': local_path_from_url(href),
-            'excerpt': '',
+            'excerpt': excerpt,
         }
         image_id = ensure_resource_image(slug, records, image_url, title)
         if image_id:
@@ -906,24 +1003,27 @@ def layout_for_home(
     sections: list[Section], meta: dict[str, str], records: list[ImageRecord], raw: str, body: str
 ) -> list[dict]:
     slug = 'home'
-    values_items = []
-    value_titles = [
-        'Built for How You Want to Work',
-        'An Authentic Solution Guided by Innovators',
-        'Creating Value By Commitments, Not Just Costs',
-    ]
-    value_image_ids = [
-        next((r.id for r in records if 'guidingvalues-1built' in r.id or 'value-built' in r.src), None),
-        next((r.id for r in records if 'guidingvalues-2authentic' in r.id or 'value-authentic' in r.src), None),
-        next((r.id for r in records if 'guidingvalues-3commitments' in r.id or 'value-commitments' in r.src), None),
-    ]
-    for i, title in enumerate(value_titles):
-        item = {'title': title, 'description': ''}
-        if value_image_ids[i]:
-            item['image'] = value_image_ids[i]
-        values_items.append(item)
+    intro_body = extract_home_intro_body(raw)
+    values_items = extract_home_guiding_values(raw, slug, records)
+    if not values_items:
+        value_titles = [
+            'Built for How You Want to Work',
+            'An Authentic Solution Guided by Innovators',
+            'Creating Value By Commitments, Not Just Costs',
+        ]
+        value_image_ids = [
+            next((r.id for r in records if 'guidingvalues-1built' in r.id or 'value-built' in r.src), None),
+            next((r.id for r in records if 'guidingvalues-2authentic' in r.id or 'value-authentic' in r.src), None),
+            next((r.id for r in records if 'guidingvalues-3commitments' in r.id or 'value-commitments' in r.src), None),
+        ]
+        for i, title in enumerate(value_titles):
+            item = {'title': title, 'description': ''}
+            if value_image_ids[i]:
+                item['image'] = value_image_ids[i]
+            values_items.append(item)
 
     logos = [r.id for r in records if r.role == 'logo' and not r.reused][:12]
+    customer_testimonials = extract_home_customer_testimonials(raw)
     review_logos = extract_home_review_logos(raw, slug, records)
     business_functions = extract_home_business_functions(raw)
     if not business_functions:
@@ -942,28 +1042,50 @@ def layout_for_home(
             'variant': 'centered-stack',
             'eyebrow': 'MAKE IT RAINDROP',
             'headline': meta.get('h1') or 'Redefine Procurement with Agentic S2P',
-            'subheadline': meta.get('description', ''),
+            'subheadline': '',
             'primaryCta': {'label': 'Request a Demo', 'href': '/contact/get-started'},
             'secondaryCta': {'label': 'View Our Solutions', 'href': '/solutions'},
             'image': pick_image(records, 'hero') or pick_image(records, 'ui', 0),
         },
+    ]
+
+    if intro_body:
+        layout.append({'type': 'featureSplit', 'headline': '', 'body': intro_body, 'media': 'right'})
+
+    layout.append(
         {
             'type': 'featureSplit',
             'headline': 'Agentic procurement for a transforming world',
             'body': agentic_body,
             'media': 'right',
             'image': next((r.id for r in records if 'rain-base' in r.id), pick_image(records, 'ui', 1)),
-        },
+            'cta': {'label': 'Learn More About Agentic', 'href': '/agentic-procurement'},
+        }
+    )
+    layout.append(
         {
             'type': 'featureGrid',
             'columns': 3,
             'headline': 'Our Guiding Values',
             'items': values_items,
-        },
-    ]
+        }
+    )
 
     if logos:
         layout.append({'type': 'logoCloud', 'headline': 'Trusted by industry leaders', 'images': logos})
+
+    if customer_testimonials:
+        layout.append({'type': 'testimonials', 'items': customer_testimonials})
+        layout.append(
+            {
+                'type': 'cta',
+                'headline': '',
+                'primaryCta': {
+                    'label': 'Check Out Customer Success Stories',
+                    'href': '/resources/case-studies',
+                },
+            }
+        )
 
     if review_logos:
         layout.append(
@@ -983,6 +1105,13 @@ def layout_for_home(
             'items': business_functions,
         }
     )
+    layout.append(
+        {
+            'type': 'cta',
+            'headline': '',
+            'primaryCta': {'label': 'Explore Solutions by Function', 'href': '/solutions/by-business-function'},
+        }
+    )
 
     if latest_resources:
         layout.append(
@@ -998,7 +1127,7 @@ def layout_for_home(
         {
             'type': 'cta',
             'headline': 'Ready to Move Beyond Tracking Savings?',
-            'primaryCta': {'label': 'Request a Demo', 'href': '/contact/get-started'},
+            'primaryCta': {'label': "Let's Talk", 'href': '/contact/get-started'},
         }
     )
     return layout

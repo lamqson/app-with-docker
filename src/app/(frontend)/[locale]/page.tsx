@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 
 import { PageView } from '@/components/pages/PageView';
 import { resolveLocale } from '@/i18n/routing';
-import { buildPageMetadata } from '@/lib/payload/metadata';
+import { buildLocalizedPathname, buildPageMetadata } from '@/lib/payload/metadata';
 import { getPageBySlug } from '@/lib/payload/queries';
 
 type HomePageProps = {
@@ -20,7 +20,10 @@ export async function generateMetadata({ params }: HomePageProps): Promise<Metad
   ]);
 
   if (page) {
-    return buildPageMetadata(page, siteName);
+    return buildPageMetadata(page, siteName, {
+      locale,
+      pathname: buildLocalizedPathname(locale, 'home'),
+    });
   }
 
   return {

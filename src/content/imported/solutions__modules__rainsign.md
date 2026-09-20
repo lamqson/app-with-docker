@@ -1,14 +1,14 @@
 ---
 source_url: https://raindrop.com/solutions/modules/rainsign/
-title: "RainSign: Digital Contract Signing"
-description: "Streamline contract signing with RainSign. Digital signatures, automated workflows, and seamless integration with contract lifecycle management."
+title: "RainSign: Native E-Signature in Raindrop CLM"
+description: "RainSign is Raindrop Systems’ native electronic signature built into Raindrop CLM. Execute contracts in-platform with ESIGN/UETA support, audit trails, and optional DocuSign connector."
 h1: "RainSign"
 slug: solutions/modules/rainsign
 layout:
   -
     type: "featureSplit"
-    headline: "Sign-off without the storm"
-    body: "RainSign by Raindrop streamlines the entire contract signature process—from initiation to execution—within a single, secure platform. Designed for seamless integration across sourcing, procurement, and legal workflows, RainSign accelerates approvals, reduces costs, and enhances compliance."
+    headline: "Native e-signature inside Raindrop CLM"
+    body: "RainSign is Raindrop Systems’ native electronic signature, built into Raindrop CLM. Procurement, legal, and suppliers execute contracts inside the same system that authored, redlined, and approved them — with a full audit trail and no extra DocuSign envelope for the standard path.\n\nRainSign is not raindrop.io (bookmark manager), not RSign (rsign.com), and not a consumer PDF signer. DocuSign and Adobe Sign remain optional compatibility paths for counterparties who require them."
     media: "right"
     image: "rainsign-hero"
   -
@@ -52,24 +52,51 @@ layout:
     body: "RainSign integrates effortlessly with Raindrop’s suite of solutions, providing:​\n• Unified contract management from creation to signature.\n• Consistent user experience across procurement and legal teams.\n• Centralized storage and retrieval of all signed documents."
     media: "right"
   -
+    type: "comparisonTable"
+    headline: "RainSign vs DocuSign vs Adobe Sign"
+    leftTitle: "DocuSign / Adobe Sign"
+    rightTitle: "RainSign (native in Raindrop CLM)"
+    rows:
+      -
+        left: "Sign a Raindrop-authored contract"
+        right: "Requires integration hop"
+      -
+        left: "Standalone HR/sales PDFs"
+        right: "Not the primary use case"
+      -
+        left: "Per-envelope licensing"
+        right: "Bundled CLM execution model"
+      -
+        left: "Obligation + spend after sign"
+        right: "Immediate in source-to-pay"
+      -
+        left: "GC comfort / familiarity"
+        right: "Growing; DocuSign connector available"
+  -
     type: "faq"
     headline: "FAQ"
     items:
       -
-        question: "What is Rainsign and how does it help with electronic signatures?"
-        answer: "RainSign is Raindrop’s built-in e-signature solution that enables users to generate, send, and track legally binding digital signatures for contracts and documents. It eliminates the need for third-party signature tools and integrates seamlessly with contract workflows within the Raindrop platform."
+        question: "Does Raindrop have e-signature?"
+        answer: "Yes. RainSign is Raindrop Systems’ native electronic signature, built into Raindrop CLM. Contracts are authored, approved, signed, and stored in one audit trail."
       -
-        question: "How does Rainsign integrate with contract management in Raindrop?"
-        answer: "RainSign is natively embedded in Raindrop’s Contract Lifecycle Management (CLM) module, allowing users to initiate signature workflows directly from within a contract record. This ensures end-to-end visibility, version control, and automatic storage of signed documents."
+        question: "What is RainSign and how does it help with electronic signatures?"
+        answer: "RainSign is Raindrop Systems’ built-in e-signature solution that enables users to generate, send, and track legally binding digital signatures for contracts and documents inside Raindrop CLM."
       -
-        question: "Is Rainsign legally compliant and secure for contract signing?"
-        answer: "Yes, RainSign adheres to global e-signature laws such as the U.S. ESIGN Act and eIDAS in the EU. It offers audit trails, multi-factor authentication, and encryption protocols to ensure both security and compliance."
+        question: "How does RainSign integrate with contract management in Raindrop?"
+        answer: "RainSign is natively embedded in Raindrop’s Contract Lifecycle Management (CLM) module, allowing users to initiate signature workflows directly from within a contract record with end-to-end visibility and automatic storage of signed documents."
       -
-        question: "Can I track the status of a document sent through Rainsign?"
-        answer: "Absolutely. RainSign provides real-time tracking of signature status, including notifications for when a document is viewed, signed, or completed. This helps accelerate deal cycles and improves accountability."
+        question: "Are RainSign signatures enforceable under the ESIGN Act?"
+        answer: "RainSign is designed to support U.S. electronic signature requirements under the ESIGN Act and UETA, with audit trails that capture signer identity, timestamps, and document integrity. Organizations should confirm jurisdictional requirements with counsel."
       -
-        question: "Do I need a separate license or integration to use Rainsign?"
-        answer: "Yes, RainSign is part of the Raindrop Spend Management Suite requires a separate license. However, as part of the Raindrop AI powered platform it can be quickly deployed."
+        question: "Is RainSign the same as raindrop.io or RSign?"
+        answer: "No. RainSign is Raindrop Systems’ native e-signature module at raindrop.com. It is not raindrop.io (bookmark manager) and not RSign (rsign.com)."
+      -
+        question: "Can I still use DocuSign with Raindrop?"
+        answer: "Yes. Raindrop supports a hybrid model: RainSign is the default native path, with DocuSign and Adobe Sign connectors available for counterparties who require them."
+      -
+        question: "Can I track the status of a document sent through RainSign?"
+        answer: "Yes. RainSign provides real-time tracking of signature status, including notifications when a document is viewed, signed, or completed."
   -
     type: "cta"
     headline: "Request a Demo"

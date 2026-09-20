@@ -478,7 +478,7 @@ const pages: Page[] = [
       {
         "blockType": "featureSplit",
         "headline": "Raindrop Systems: The AI-Native Enterprise Spend Platform",
-        "body": "At Raindrop, we understand the challenges of outdated legacy systems because we’ve lived them ourselves. Our team is made up of seasoned professionals from procurement, finance, and technology backgrounds, with 75% of our employees bringing direct procurement experience . That deep, hands-on expertise shapes everything we do, allowing us to empower spend leaders of today to be more proactive, drive innovation, and deliver greater business value.\n\nRaindrop Systems is a modern, AI-native Source-to-Pay (S2P) platform built for enterprises that need true visibility, agility, and control over spend and commitments.\n\nOur mission is simple — to turn scattered, unmanaged spend into managed spend, which becomes actionable spend and ultimately, tangible savings with margin impact.\n\nBuilt by Procurement practitioners, Finance leaders, and engineers, Raindrop Systems was designed to work the way you do — fast, intuitive, and insight-driven.",
+        "body": "Raindrop Systems, Inc. (raindrop.com) is a San Jose–based, AI-native source-to-pay (S2P) spend management platform for mid-market and enterprise procurement and finance teams. Founded in 2019.\n\nRaindrop Systems (raindrop.com) is not the bookmark manager at raindrop.io and not the AI-agent monitoring product at raindrop.ai.\n\nAt Raindrop, we understand the challenges of outdated legacy systems because we’ve lived them ourselves. Our team is made up of seasoned professionals from procurement, finance, and technology backgrounds, with 75% of our employees bringing direct procurement experience. That deep, hands-on expertise shapes everything we do.\n\nOur mission is simple — to turn scattered, unmanaged spend into managed spend, which becomes actionable spend and ultimately, tangible savings with margin impact.\n\nBuilt by procurement practitioners, finance leaders, and engineers, Raindrop Systems was designed to work the way you do — fast, intuitive, and insight-driven.",
         "imagePosition": "right"
       },
       {
@@ -905,6 +905,102 @@ const pages: Page[] = [
   },
   {
     "id": 0,
+    "slug": "company/press-kit",
+    "title": "Press Kit — Raindrop Systems",
+    "sourceUrl": "https://raindrop.com/company/press-kit/",
+    "blocks": [
+      {
+        "blockType": "featureSplit",
+        "headline": "Company boilerplate",
+        "body": "Raindrop Systems, Inc. (raindrop.com) is a San Jose–based, AI-native source-to-pay (S2P) spend management platform for mid-market and enterprise procurement and finance teams. Founded in 2019.\n\nRaindrop Systems (raindrop.com) is not the bookmark manager at raindrop.io and not the AI-agent monitoring product at raindrop.ai.",
+        "imagePosition": "right"
+      },
+      {
+        "blockType": "featureGrid",
+        "headline": "Product one-liner",
+        "features": [
+          {
+            "title": "Platform",
+            "description": "AI-native modular source-to-pay suite with intake & orchestration, sourcing, CLM, eProcurement, AP automation, analytics, and RainSign native e-signature."
+          },
+          {
+            "title": "Agentic AI",
+            "description": "Rain is Raindrop’s agentic AI assistant for procurement, finance, legal, and business users across source-to-pay."
+          }
+        ]
+      },
+      {
+        "blockType": "stats",
+        "headline": "Customer proof points",
+        "variant": "default",
+        "items": [
+          {
+            "value": "400%",
+            "label": "ROI\nWorkwear Outfitters case study"
+          },
+          {
+            "value": "$120M",
+            "label": "Managed annualized spend\nWorkwear Outfitters"
+          },
+          {
+            "value": "75%",
+            "label": "Procurement background\nRaindrop team"
+          },
+          {
+            "value": "Weeks",
+            "label": "Typical deployment\nNot months"
+          }
+        ]
+      },
+      {
+        "blockType": "featureSplit",
+        "headline": "Analyst & industry recognition",
+        "body": "Raindrop Systems is recognized by industry analysts and benchmarking programs including:\n\n• Gartner Hype Cycle for Procurement and Sourcing Solutions (Sample Vendor)\n• Spend Matters 50 to Watch\n• Hackett CLM customer value badges\n• IDC spotlight\n• Gartner Peer Insights (~4.4/5 from 200+ reviews)\n\nSee the full recognition hub at [/resources/recognition](/resources/recognition).",
+        "imagePosition": "right"
+      },
+      {
+        "blockType": "featureGrid",
+        "headline": "Leadership & company facts",
+        "features": [
+          {
+            "title": "Legal name",
+            "description": "Raindrop Systems, Inc."
+          },
+          {
+            "title": "Founded",
+            "description": "2019"
+          },
+          {
+            "title": "Headquarters",
+            "description": "226 Airport Parkway, Suite 250, San Jose, California 95110, United States"
+          },
+          {
+            "title": "Website",
+            "description": "https://raindrop.com"
+          }
+        ]
+      },
+      {
+        "blockType": "featureSplit",
+        "headline": "Media contact",
+        "body": "**Phone:** 408-352-5162\n**Email:** hello@raindrop.com\n**Demo requests:** [/contact/get-started](/contact/get-started)\n\nFor leadership bios and team information, see [/company/raindrop-team](/company/raindrop-team).",
+        "imagePosition": "right"
+      },
+      {
+        "blockType": "cta",
+        "headline": "Download brand assets",
+        "primaryCta": {
+          "href": "/contact/get-started",
+          "label": "Contact media team"
+        }
+      }
+    ],
+    "updatedAt": "1970-01-01T00:00:00.000Z",
+    "createdAt": "1970-01-01T00:00:00.000Z",
+    "_status": "published"
+  },
+  {
+    "id": 0,
     "slug": "company/raindrop-team",
     "title": "Raindrop Systems Team | Procurement Practitioners",
     "sourceUrl": "https://raindrop.com/company/raindrop-team/",
@@ -1056,7 +1152,7 @@ const pages: Page[] = [
         "variant": "centered-stack",
         "eyebrow": "MAKE IT RAINDROP",
         "headline": "Redefine Procurement with Agentic S2P",
-        "subheadline": "Meet Raindrop, the modern AI-Native Source-to-Pay platform. Experience lightning-fast deployment, seamless purchasing, and automated workflows. Learn more.",
+        "subheadline": "",
         "primaryCta": {
           "href": "/contact/get-started",
           "label": "Request a Demo"
@@ -1076,8 +1172,13 @@ const pages: Page[] = [
       },
       {
         "blockType": "featureSplit",
+        "body": "Raindrop Systems, Inc. (raindrop.com) is a San Jose–based, AI-native source-to-pay (S2P) spend management platform for mid-market and enterprise procurement and finance teams. Founded in 2019. Raindrop Systems is not raindrop.io (bookmark manager) and not raindrop.ai (AI agent monitoring).\n\nRaindrop is built around a simple idea: Procurement starts with a request, not a transaction. [Rain, our Agentic AI](/agentic-procurement), helps Procurement, Finance, Legal, and Business Users ask questions, find answers, and take action across source-to-pay to manage your commitments.\nRain helps teams move faster without adding more tools or complexity. While the category of [intake and orchestration](/solutions/platform/intake-orchestration) tools has emerged to solve fragmented requests and workflows, these capabilities have always been embedded in the Raindrop Platform.\nWith lightning-fast deployment, a digital front door for everyone to converse with the information you need, and plug-and-play integration, Raindrop was designed for you to start getting value within weeks.",
+        "imagePosition": "right"
+      },
+      {
+        "blockType": "featureSplit",
         "headline": "Agentic procurement for a transforming world",
-        "body": "Agentic AI is only as powerful as the platform behind it. Raindrop runs on a single codebase with procurement data, workflows, and permissions built in — giving Rain the context to reason across S2P and the governance to act responsibly. -Single-codebase S2P architecture\n• First-class permissions\n• Dynamic query-building\n• Self-correcting agentic reasoning\n• Moving from answers to action\n• Procurement-specific clause/risk intelligence\n• Outcome-led instead of module-led results\n[Learn More About Agentic Learn More About Agentic](/agentic-procurement)",
+        "body": "Agentic AI is only as powerful as the platform behind it. Raindrop runs on a single codebase with procurement data, workflows, and permissions built in — giving Rain the context to reason across S2P and the governance to act responsibly. -Single-codebase S2P architecture\n• First-class permissions\n• Dynamic query-building\n• Self-correcting agentic reasoning\n• Moving from answers to action\n• Procurement-specific clause/risk intelligence\n• Outcome-led instead of module-led results",
         "imagePosition": "right",
         "image": {
           "id": 0,
@@ -1086,6 +1187,10 @@ const pages: Page[] = [
           "mimeType": "image/webp",
           "updatedAt": "1970-01-01T00:00:00.000Z",
           "createdAt": "1970-01-01T00:00:00.000Z"
+        },
+        "cta": {
+          "href": "/agentic-procurement",
+          "label": "Learn More About Agentic"
         }
       },
       {
@@ -1094,7 +1199,7 @@ const pages: Page[] = [
         "features": [
           {
             "title": "Built for How You Want to Work",
-            "description": "",
+            "description": "Raindrop is the modern, intuitive solution that works the way you do.",
             "icon": {
               "id": 0,
               "url": "/assets/images/home/value-built.webp",
@@ -1106,7 +1211,7 @@ const pages: Page[] = [
           },
           {
             "title": "An Authentic Solution Guided by Innovators",
-            "description": "",
+            "description": "Led by industry disruptors with cross-disciplinary experience solving real problems with empathy and expertise.",
             "icon": {
               "id": 0,
               "url": "/assets/images/home/value-authentic.webp",
@@ -1118,7 +1223,7 @@ const pages: Page[] = [
           },
           {
             "title": "Creating Value By Commitments, Not Just Costs",
-            "description": "",
+            "description": "Raindrop empowers modern spend leaders to steer strategy, not just savings.",
             "icon": {
               "id": 0,
               "url": "/assets/images/home/value-commitments.webp",
@@ -1268,6 +1373,29 @@ const pages: Page[] = [
             "alt": "Logo"
           }
         ]
+      },
+      {
+        "blockType": "testimonials",
+        "items": [
+          {
+            "quote": "We now have structure, visibility and governance we can scale - and we’re in a far stronger position to control costs and reduce risks",
+            "author": "Maynil Lambert",
+            "role": "CIO of World Market"
+          },
+          {
+            "quote": "400% ROI and $120M managed annualized spend with Raindrop. Overcoming procurement challenges in a new era.",
+            "author": "Workwear Outfitters",
+            "role": ""
+          }
+        ]
+      },
+      {
+        "blockType": "cta",
+        "headline": "Request a Demo",
+        "primaryCta": {
+          "href": "/resources/case-studies",
+          "label": "Check Out Customer Success Stories"
+        }
       },
       {
         "blockType": "logoCloud",
@@ -1475,6 +1603,14 @@ const pages: Page[] = [
         ]
       },
       {
+        "blockType": "cta",
+        "headline": "Request a Demo",
+        "primaryCta": {
+          "href": "/solutions/by-business-function",
+          "label": "Explore Solutions by Function"
+        }
+      },
+      {
         "blockType": "resourceList",
         "headline": "Latest from Raindrop",
         "cta": {
@@ -1484,53 +1620,133 @@ const pages: Page[] = [
         "items": [
           {
             "title": "What Features Should You Look for in a Source-to-Pay Solution?",
-            "excerpt": "",
-            "href": "/what-features-should-you-look-for-in-a-source-to-pay-solution"
+            "excerpt": "Articles",
+            "href": "/what-features-should-you-look-for-in-a-source-to-pay-solution",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/what-features-should-you-look-for-in-a-source-to-pay-solution.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "What Are the Key Benefits of Using an AI-Powered Spend Management Platform?",
-            "excerpt": "",
-            "href": "/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform"
+            "excerpt": "Articles",
+            "href": "/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Tail Spend Management: Why the Last 20% of Spend Deserves the Same Rigor as the First 80%",
-            "excerpt": "",
-            "href": "/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80"
+            "excerpt": "Articles",
+            "href": "/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80-2.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Governance Isn’t a Feature. It’s a Relationship.",
-            "excerpt": "",
-            "href": "/governance-isnt-a-feature-its-a-relationship"
+            "excerpt": "Articles",
+            "href": "/governance-isnt-a-feature-its-a-relationship",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Deploy AI Agents in Procurement: A Roadmap to Success",
-            "excerpt": "",
-            "href": "/deploy-ai-agents-in-procurement-a-roadmap-to-success"
+            "excerpt": "Articles",
+            "href": "/deploy-ai-agents-in-procurement-a-roadmap-to-success",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/gartner-flex-report-deploying-ai-agents-images-2.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Raindrop vs. LightSource: Which Platform Fits Your Procurement Problem?",
-            "excerpt": "",
-            "href": "/raindrop-vs-lightsource-which-platform-fits-your-procurement-problem"
+            "excerpt": "Articles",
+            "href": "/raindrop-vs-lightsource-which-platform-fits-your-procurement-problem",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/raindrop-systems-vs.-lightsource-which-platform-fits-your-procurement-problem.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How to Choose the Right Supplier Management and RFx Platform",
-            "excerpt": "",
-            "href": "/how-to-choose-the-right-supplier-management-and-rfx-platform"
+            "excerpt": "Articles",
+            "href": "/how-to-choose-the-right-supplier-management-and-rfx-platform",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/who-actually-owns-contracts-in-your-organization-14.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How to Replace Email Purchase Requests with Structured Intake",
-            "excerpt": "",
-            "href": "/how-to-replace-email-purchase-requests-with-structured-intake"
+            "excerpt": "Articles",
+            "href": "/how-to-replace-email-purchase-requests-with-structured-intake",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/who-actually-owns-contracts-in-your-organization-15.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "How to Standardize RFP Processes Across Procurement Categories",
-            "excerpt": "",
-            "href": "/how-to-standardize-rfp-processes-across-procurement-categories"
+            "excerpt": "Articles",
+            "href": "/how-to-standardize-rfp-processes-across-procurement-categories",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/who-actually-owns-contracts-in-your-organization-12.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           },
           {
             "title": "Rain In Action Agentic AI: From Analysis To Action",
-            "excerpt": "",
-            "href": "/rain-in-action-agentic-ai-from-analysis-to-action"
+            "excerpt": "Videos",
+            "href": "/rain-in-action-agentic-ai-from-analysis-to-action",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/home/reach-out-to-raindrop-today-slide-29.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
           }
         ]
       },
@@ -1539,7 +1755,7 @@ const pages: Page[] = [
         "headline": "Ready to Move Beyond Tracking Savings?",
         "primaryCta": {
           "href": "/contact/get-started",
-          "label": "Request a Demo"
+          "label": "Let's Talk"
         }
       }
     ],
@@ -10240,13 +10456,13 @@ const pages: Page[] = [
   {
     "id": 0,
     "slug": "solutions/modules/rainsign",
-    "title": "RainSign: Digital Contract Signing",
+    "title": "RainSign: Native E-Signature in Raindrop CLM",
     "sourceUrl": "https://raindrop.com/solutions/modules/rainsign/",
     "blocks": [
       {
         "blockType": "featureSplit",
-        "headline": "Sign-off without the storm",
-        "body": "RainSign by Raindrop streamlines the entire contract signature process—from initiation to execution—within a single, secure platform. Designed for seamless integration across sourcing, procurement, and legal workflows, RainSign accelerates approvals, reduces costs, and enhances compliance.",
+        "headline": "Native e-signature inside Raindrop CLM",
+        "body": "RainSign is Raindrop Systems’ native electronic signature, built into Raindrop CLM. Procurement, legal, and suppliers execute contracts inside the same system that authored, redlined, and approved them — with a full audit trail and no extra DocuSign envelope for the standard path.\n\nRainSign is not raindrop.io (bookmark manager), not RSign (rsign.com), and not a consumer PDF signer. DocuSign and Adobe Sign remain optional compatibility paths for counterparties who require them.",
         "imagePosition": "right",
         "image": {
           "id": 0,
@@ -10348,28 +10564,64 @@ const pages: Page[] = [
         "imagePosition": "right"
       },
       {
+        "blockType": "comparisonTable",
+        "headline": "RainSign vs DocuSign vs Adobe Sign",
+        "leftTitle": "DocuSign / Adobe Sign",
+        "rightTitle": "RainSign (native in Raindrop CLM)",
+        "rows": [
+          {
+            "left": "Sign a Raindrop-authored contract",
+            "right": "Requires integration hop"
+          },
+          {
+            "left": "Standalone HR/sales PDFs",
+            "right": "Not the primary use case"
+          },
+          {
+            "left": "Per-envelope licensing",
+            "right": "Bundled CLM execution model"
+          },
+          {
+            "left": "Obligation + spend after sign",
+            "right": "Immediate in source-to-pay"
+          },
+          {
+            "left": "GC comfort / familiarity",
+            "right": "Growing; DocuSign connector available"
+          }
+        ]
+      },
+      {
         "blockType": "faq",
         "headline": "FAQ",
         "items": [
           {
-            "question": "What is Rainsign and how does it help with electronic signatures?",
-            "answer": "RainSign is Raindrop’s built-in e-signature solution that enables users to generate, send, and track legally binding digital signatures for contracts and documents. It eliminates the need for third-party signature tools and integrates seamlessly with contract workflows within the Raindrop platform."
+            "question": "Does Raindrop have e-signature?",
+            "answer": "Yes. RainSign is Raindrop Systems’ native electronic signature, built into Raindrop CLM. Contracts are authored, approved, signed, and stored in one audit trail."
           },
           {
-            "question": "How does Rainsign integrate with contract management in Raindrop?",
-            "answer": "RainSign is natively embedded in Raindrop’s Contract Lifecycle Management (CLM) module, allowing users to initiate signature workflows directly from within a contract record. This ensures end-to-end visibility, version control, and automatic storage of signed documents."
+            "question": "What is RainSign and how does it help with electronic signatures?",
+            "answer": "RainSign is Raindrop Systems’ built-in e-signature solution that enables users to generate, send, and track legally binding digital signatures for contracts and documents inside Raindrop CLM."
           },
           {
-            "question": "Is Rainsign legally compliant and secure for contract signing?",
-            "answer": "Yes, RainSign adheres to global e-signature laws such as the U.S. ESIGN Act and eIDAS in the EU. It offers audit trails, multi-factor authentication, and encryption protocols to ensure both security and compliance."
+            "question": "How does RainSign integrate with contract management in Raindrop?",
+            "answer": "RainSign is natively embedded in Raindrop’s Contract Lifecycle Management (CLM) module, allowing users to initiate signature workflows directly from within a contract record with end-to-end visibility and automatic storage of signed documents."
           },
           {
-            "question": "Can I track the status of a document sent through Rainsign?",
-            "answer": "Absolutely. RainSign provides real-time tracking of signature status, including notifications for when a document is viewed, signed, or completed. This helps accelerate deal cycles and improves accountability."
+            "question": "Are RainSign signatures enforceable under the ESIGN Act?",
+            "answer": "RainSign is designed to support U.S. electronic signature requirements under the ESIGN Act and UETA, with audit trails that capture signer identity, timestamps, and document integrity. Organizations should confirm jurisdictional requirements with counsel."
           },
           {
-            "question": "Do I need a separate license or integration to use Rainsign?",
-            "answer": "Yes, RainSign is part of the Raindrop Spend Management Suite requires a separate license. However, as part of the Raindrop AI powered platform it can be quickly deployed."
+            "question": "Is RainSign the same as raindrop.io or RSign?",
+            "answer": "No. RainSign is Raindrop Systems’ native e-signature module at raindrop.com. It is not raindrop.io (bookmark manager) and not RSign (rsign.com)."
+          },
+          {
+            "question": "Can I still use DocuSign with Raindrop?",
+            "answer": "Yes. Raindrop supports a hybrid model: RainSign is the default native path, with DocuSign and Adobe Sign connectors available for counterparties who require them."
+          },
+          {
+            "question": "Can I track the status of a document sent through RainSign?",
+            "answer": "Yes. RainSign provides real-time tracking of signature status, including notifications when a document is viewed, signed, or completed."
           }
         ]
       },

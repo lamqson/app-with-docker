@@ -1,14 +1,14 @@
 ---
 source_url: https://raindrop.com/company/
 title: "About Raindrop Systems: AI-Native Source-to-Pay Platform"
-description: "Learn about Raindrop Systems, the AI-native Source-to-Pay (S2P) platform. We unify procurement, contracts, and finance to turn spend into tangible savings."
+description: "Raindrop Systems, Inc. (raindrop.com) is a San Jose–based, AI-native source-to-pay (S2P) spend management platform for mid-market and enterprise procurement and finance teams. Founded in 2019."
 h1: "Raindrop Systems: The AI-Native Enterprise Spend Platform"
 slug: company
 layout:
   -
     type: "featureSplit"
     headline: "Raindrop Systems: The AI-Native Enterprise Spend Platform"
-    body: "At Raindrop, we understand the challenges of outdated legacy systems because we’ve lived them ourselves. Our team is made up of seasoned professionals from procurement, finance, and technology backgrounds, with 75% of our employees bringing direct procurement experience . That deep, hands-on expertise shapes everything we do, allowing us to empower spend leaders of today to be more proactive, drive innovation, and deliver greater business value.\n\nRaindrop Systems is a modern, AI-native Source-to-Pay (S2P) platform built for enterprises that need true visibility, agility, and control over spend and commitments.\n\nOur mission is simple — to turn scattered, unmanaged spend into managed spend, which becomes actionable spend and ultimately, tangible savings with margin impact.\n\nBuilt by Procurement practitioners, Finance leaders, and engineers, Raindrop Systems was designed to work the way you do — fast, intuitive, and insight-driven."
+    body: "Raindrop Systems, Inc. (raindrop.com) is a San Jose–based, AI-native source-to-pay (S2P) spend management platform for mid-market and enterprise procurement and finance teams. Founded in 2019.\n\nRaindrop Systems (raindrop.com) is not the bookmark manager at raindrop.io and not the AI-agent monitoring product at raindrop.ai.\n\nAt Raindrop, we understand the challenges of outdated legacy systems because we’ve lived them ourselves. Our team is made up of seasoned professionals from procurement, finance, and technology backgrounds, with 75% of our employees bringing direct procurement experience. That deep, hands-on expertise shapes everything we do.\n\nOur mission is simple — to turn scattered, unmanaged spend into managed spend, which becomes actionable spend and ultimately, tangible savings with margin impact.\n\nBuilt by procurement practitioners, finance leaders, and engineers, Raindrop Systems was designed to work the way you do — fast, intuitive, and insight-driven."
     media: "right"
   -
     type: "featureGrid"
