@@ -83,7 +83,7 @@ export function AgentWidget({ endpoint }: AgentWidgetProps) {
 	}
 
 	return (
-		<div className="fixed right-4 bottom-4 z-50 flex flex-col items-end gap-3">
+		<div className="fixed right-10 bottom-16 z-50 flex flex-col items-end gap-3">
 			{open ? (
 				<div
 					id={panelId}

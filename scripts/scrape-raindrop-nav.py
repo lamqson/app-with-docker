@@ -4922,6 +4922,175 @@ def layout_for_eprocurement(
     return layout
 
 
+def record_id_by_hint(records: list[ImageRecord], *hints: str) -> str | None:
+    for record in records:
+        if record.download_failed:
+            continue
+        record_id = record.id.lower()
+        for hint in hints:
+            normalized = hint.lower().replace('_', '-').replace(' ', '-')
+            if normalized in record_id:
+                return record.id
+    return None
+
+
+def extract_h2_section_paragraphs(raw: str, headline_prefix: str) -> tuple[str, list[str]]:
+    match = re.search(
+        rf'<h2[^>]*>\s*([^<]*{re.escape(headline_prefix)}[^<]*)</h2>(.*?)(?=<h2[^>]*>|class="cz_related_post|\Z)',
+        raw,
+        re.S | re.I,
+    )
+    if not match:
+        return '', []
+
+    title = clean_text(html.unescape(match.group(1)))
+    chunk = match.group(2)
+    paragraphs: list[str] = []
+    seen: set[str] = set()
+    for paragraph_match in re.finditer(r'<p[^>]*>(.*?)</p>', chunk, re.S):
+        text = html_fragment_to_markdown(f'<p>{paragraph_match.group(1)}</p>')
+        if len(text) < 30 or text in seen:
+            continue
+        if 'download now' in text.lower():
+            continue
+        seen.add(text)
+        paragraphs.append(text)
+    return title, paragraphs
+
+
+def extract_article_intro(raw: str, meta: dict[str, str]) -> str:
+    match = re.search(
+        r'<h1[^>]*>.*?</h1>.*?widget-container">\s*<p[^>]*>(.*?)</p>',
+        raw,
+        re.S | re.I,
+    )
+    if match:
+        return html_fragment_to_markdown(f'<p>{match.group(1)}</p>')
+    return meta.get('description', '')
+
+
+def extract_related_posts_from_article(
+    raw: str, slug: str, records: list[ImageRecord]
+) -> list[dict[str, str]]:
+    items: list[dict[str, str]] = []
+    seen: set[str] = set()
+
+    for start in (match.start() for match in re.finditer(r'cz_related_post col', raw)):
+        block = raw[start : start + 2500]
+        href_match = re.search(r'cz_post_title[^>]*href="(https://raindrop.com/[^"#]+)"', block)
+        title_match = re.search(r'<h3[^>]*>([^<]+)</h3>', block)
+        image_match = re.search(r'src="(https://[^"]+uploads[^"]+)"', block)
+        category_match = re.search(r'category/[^"]+"[^>]*>([^<]+)', block)
+        if not href_match or not title_match:
+            continue
+
+        href = href_match.group(1).rstrip('/')
+        if href in seen:
+            continue
+        seen.add(href)
+
+        title = clean_text(html.unescape(title_match.group(1)))
+        item: dict[str, str] = {
+            'title': title,
+            'href': local_path_from_url(href),
+            'excerpt': clean_text(category_match.group(1)) if category_match else 'Articles',
+        }
+        if image_match:
+            image_id = ensure_resource_image(slug, records, image_match.group(1), title)
+            if image_id:
+                item['image'] = image_id
+        items.append(item)
+
+    return items
+
+
+def layout_for_hype_cycle_article(
+    meta: dict[str, str], records: list[ImageRecord], raw: str, body: str
+) -> list[dict]:
+    layout: list[dict] = []
+
+    intro = extract_article_intro(raw, meta)
+    if intro:
+        intro_block: dict = {
+            'type': 'featureSplit',
+            'headline': meta.get('h1') or meta.get('title', ''),
+            'body': intro,
+            'media': 'right',
+        }
+        hero_image = record_id_by_hint(records, 'agent-washing-social-post-5-1024')
+        if hero_image:
+            intro_block['image'] = hero_image
+        layout.append(intro_block)
+
+    for prefix, image_hint, media in (
+        ('Raindrop Positioned', 'screenshot-2026-07-22', 'right'),
+        ('Recognized by Customers', 'what-features-should', 'left'),
+    ):
+        title, paragraphs = extract_h2_section_paragraphs(raw, prefix)
+        if not paragraphs:
+            continue
+        split: dict = {
+            'type': 'featureSplit',
+            'headline': title,
+            'body': '\n\n'.join(paragraphs),
+            'media': media,
+        }
+        image_id = record_id_by_hint(records, image_hint)
+        if image_id:
+            split['image'] = image_id
+        layout.append(split)
+
+    download_paragraphs: list[str] = []
+    for section_match in re.finditer(
+        r'<h2[^>]*>\s*([^<]*Request to Download[^<]*)</h2>(.*?)(?=<h2[^>]*>|class="cz_related_post|\Z)',
+        raw,
+        re.S | re.I,
+    ):
+        for paragraph_match in re.finditer(r'<p[^>]*>(.*?)</p>', section_match.group(2), re.S):
+            text = html_fragment_to_markdown(f'<p>{paragraph_match.group(1)}</p>')
+            if len(text) >= 30 and text not in download_paragraphs:
+                download_paragraphs.append(text)
+
+    if download_paragraphs:
+        download_block: dict = {
+            'type': 'featureSplit',
+            'headline': 'Request to Download',
+            'body': '\n\n'.join(download_paragraphs),
+            'media': 'right',
+        }
+        image_id = record_id_by_hint(records, 'what-are-the-key-benefits')
+        if image_id:
+            download_block['image'] = image_id
+        layout.append(download_block)
+
+    _, disclaimer_paragraphs = extract_h2_section_paragraphs(raw, 'Gartner Disclaimer')
+    legal_paragraphs = [
+        paragraph
+        for paragraph in disclaimer_paragraphs
+        if any(keyword in paragraph for keyword in ('Gartner', 'GARTNER', 'This graphic'))
+    ]
+    if legal_paragraphs:
+        layout.append(
+            {
+                'type': 'featureSplit',
+                'headline': 'Gartner Disclaimer:',
+                'body': '\n\n'.join(legal_paragraphs[:4]),
+                'media': 'right',
+            }
+        )
+
+    related_posts = extract_related_posts_from_article(
+        raw, meta.get('slug', 'hype-cycle-for-procurement-sourcing-2026'), records
+    )
+    if related_posts:
+        layout.append({'type': 'resourceList', 'headline': 'Related Posts', 'items': related_posts})
+
+    if layout:
+        return layout
+
+    return layout_without_hero(generic_layout([], meta, records, raw, body))
+
+
 FOOTER_MARKERS = (
     '## Contact Us',
     '### Contact Us',
@@ -4931,6 +5100,8 @@ FOOTER_MARKERS = (
     '### Sitemap',
     '## READY TO SEE THE DIFFERENCE',
     '### Frequently Asked Questions',
+    '#### Related Posts',
+    'Comments are disabled',
 )
 
 
@@ -5277,6 +5448,8 @@ def build_layout(
         return layout_for_home(sections, meta, records, raw, body)
     if slug == 'agentic-procurement':
         return layout_for_agentic_procurement(meta, records, raw, body)
+    if slug == 'hype-cycle-for-procurement-sourcing-2026':
+        return layout_for_hype_cycle_article(meta, records, raw, body)
     if slug == 'solutions/modules/contract-lifecycle-management':
         return layout_for_clm(sections, meta, records, raw, body)
     if slug == 'solutions/modules/rainsign':
@@ -5398,7 +5571,9 @@ def main() -> int:
     paths = NAV_PATHS
     if len(sys.argv) > 1:
         selected = set(sys.argv[1:])
+        nav_slugs = {path_to_slug(path) for path in NAV_PATHS}
         paths = [path for path in NAV_PATHS if path_to_slug(path) in selected]
+        paths.extend(f'/{slug}' for slug in sorted(selected - nav_slugs))
         if not paths:
             print(f'No matching slugs in: {", ".join(sys.argv[1:])}', file=sys.stderr)
             return 1

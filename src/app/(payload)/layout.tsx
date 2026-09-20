@@ -1,31 +1,21 @@
-/* THIS FILE WAS GENERATED AUTOMATICALLY BY PAYLOAD. */
-/* DO NOT MODIFY IT BECAUSE IT COULD BE REWRITTEN AT ANY TIME. */
-import config from '@payload-config';
-import '@payloadcms/next/css';
-import type { ServerFunctionClient } from 'payload';
-import { handleServerFunctions, RootLayout } from '@payloadcms/next/layouts';
-import React from 'react';
+import type { ReactNode } from 'react';
 
-import { importMap } from './admin/importMap.js';
-import './custom.css';
+import { isDatabaseConfigured } from '@/payload/database';
+import '@/styles/globals.css';
 
 type Args = {
-  children: React.ReactNode;
+  children: ReactNode;
 };
 
-const serverFunction: ServerFunctionClient = async function (args) {
-  'use server';
-  return handleServerFunctions({
-    ...args,
-    config,
-    importMap,
-  });
-};
+export default async function Layout({ children }: Args) {
+  if (!isDatabaseConfigured()) {
+    return (
+      <html lang="en">
+        <body className="min-h-screen bg-background text-foreground">{children}</body>
+      </html>
+    );
+  }
 
-const Layout = ({ children }: Args) => (
-  <RootLayout config={config} importMap={importMap} serverFunction={serverFunction}>
-    {children}
-  </RootLayout>
-);
-
-export default Layout;
+  const { default: PayloadAdminLayout } = await import('./PayloadAdminLayout');
+  return <PayloadAdminLayout>{children}</PayloadAdminLayout>;
+}

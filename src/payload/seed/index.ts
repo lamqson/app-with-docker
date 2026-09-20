@@ -177,6 +177,23 @@ async function seed() {
       agentEnabled: true,
       logoLight: mediaByPath.get('images/raindrop_full_logo.svg'),
       logoDark: mediaByPath.get('images/raindrop_full_logo_white.svg'),
+      topBanner: [
+        {
+          label: 'Raindrop Recognized As A Sample Vendor In 2026 Gartner Hype Cycle',
+          href: '/hype-cycle-for-procurement-sourcing-2026',
+          openInNewTab: false,
+        },
+        {
+          label: 'Understanding Agentic AI & Its Role In Procurement',
+          href: '/understanding-agentic-ai-and-its-role-in-procurement',
+          openInNewTab: false,
+        },
+        {
+          label: 'Contracts that flag their own renewals. Meet Agentic CLM.',
+          href: '/solutions/modules/contract-lifecycle-management',
+          openInNewTab: false,
+        },
+      ],
       headerNav,
       footerSitemap,
       footerLegal,

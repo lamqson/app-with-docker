@@ -53,3 +53,37 @@ export function navLinksField(name: string, label: string): Field {
     fields: navLinkArrayFields,
   };
 }
+
+const bannerLinkFields: Field[] = [
+  {
+    name: 'label',
+    type: 'text',
+    localized: true,
+    required: true,
+  },
+  {
+    name: 'href',
+    type: 'text',
+    required: true,
+    admin: {
+      description: 'Internal path (/solutions/...) or full URL (https://...).',
+    },
+  },
+  {
+    name: 'openInNewTab',
+    type: 'checkbox',
+    defaultValue: false,
+  },
+];
+
+export function bannerLinksField(name: string, label: string): Field {
+  return {
+    name,
+    label,
+    type: 'array',
+    admin: {
+      description: 'Rotating announcement links shown above the header.',
+    },
+    fields: bannerLinkFields,
+  };
+}

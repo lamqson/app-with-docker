@@ -1,4 +1,5 @@
 import {
+  DEFAULT_TOP_BANNER,
   FOOTER_LEGAL,
   FOOTER_SITEMAP,
   HEADER_LINKS,
@@ -11,6 +12,12 @@ export type NavLinkItem = {
   href: string;
   key?: string | null;
   label: string;
+};
+
+export type TopBannerItem = {
+  href: string;
+  label: string;
+  openInNewTab?: boolean;
 };
 
 export function resolveNavLabel(
@@ -83,4 +90,27 @@ export function getSignInHref(settings: SiteSetting | null): string {
 
 export function getDemoCtaHref(settings: SiteSetting | null): string {
   return settings?.demoCtaHref?.trim() || '/contact/get-started';
+}
+
+export function getTopBannerItems(settings: SiteSetting | null): TopBannerItem[] {
+  if (settings?.topBanner?.length) {
+    return settings.topBanner.flatMap((item) => {
+      const label = item.label?.trim();
+      const href = item.href?.trim();
+
+      if (!label || !href) {
+        return [];
+      }
+
+      return [
+        {
+          label,
+          href,
+          openInNewTab: item.openInNewTab ?? false,
+        },
+      ];
+    });
+  }
+
+  return DEFAULT_TOP_BANNER.map((item) => ({ ...item }));
 }

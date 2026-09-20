@@ -18,6 +18,26 @@ export const FOOTER_SITEMAP = [
   { href: '/contact', key: 'contact' },
 ] as const;
 
+export const DEFAULT_TOP_BANNER = [
+  {
+    label: 'Raindrop Recognized As A Sample Vendor In 2026 Gartner Hype Cycle',
+    href: '/hype-cycle-for-procurement-sourcing-2026',
+    openInNewTab: false,
+  },
+  {
+    label: 'Understanding Agentic AI & Its Role In Procurement',
+    href: '/understanding-agentic-ai-and-its-role-in-procurement',
+    openInNewTab: false,
+  },
+  {
+    label: 'Contracts that flag their own renewals. Meet Agentic CLM.',
+    href: '/solutions/modules/contract-lifecycle-management',
+    openInNewTab: false,
+  },
+] as const;
+
+export const TOP_BANNER_SLUGS = DEFAULT_TOP_BANNER.map((item) => item.href.replace(/^\//, ''));
+
 export const FOOTER_LEGAL = [
   { href: '/legal', key: 'legal' },
   { href: '/security', key: 'security' },

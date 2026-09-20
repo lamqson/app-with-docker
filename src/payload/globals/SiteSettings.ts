@@ -1,6 +1,6 @@
 import type { GlobalConfig } from 'payload';
 
-import { navLinksField } from '../fields/link';
+import { bannerLinksField, navLinksField } from '../fields/link';
 
 export const SiteSettings: GlobalConfig = {
   slug: 'site-settings',
@@ -58,6 +58,7 @@ export const SiteSettings: GlobalConfig = {
         {
           label: 'Navigation',
           fields: [
+            bannerLinksField('topBanner', 'Top announcement banner'),
             navLinksField('headerNav', 'Header navigation'),
             {
               name: 'signInUrl',

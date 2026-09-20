@@ -1205,6 +1205,14 @@ export interface SiteSetting {
   logoDark?: (number | null) | Media;
   defaultTheme?: ('light' | 'dark' | 'system') | null;
   defaultLocale?: ('en' | 'es' | 'fr' | 'de' | 'zh-TW' | 'zh-CN' | 'ja' | 'ko' | 'it' | 'pt' | 'pt-BR') | null;
+  topBanner?:
+    | {
+        label: string;
+        href: string;
+        openInNewTab?: boolean | null;
+        id?: string | null;
+      }[]
+    | null;
   headerNav?:
     | {
         /**
@@ -1272,6 +1280,14 @@ export interface SiteSettingsSelect<T extends boolean = true> {
   logoDark?: T;
   defaultTheme?: T;
   defaultLocale?: T;
+  topBanner?:
+    | T
+    | {
+        label?: T;
+        href?: T;
+        openInNewTab?: T;
+        id?: T;
+      };
   headerNav?:
     | T
     | {

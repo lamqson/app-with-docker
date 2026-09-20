@@ -1549,6 +1549,163 @@ const pages: Page[] = [
   },
   {
     "id": 0,
+    "slug": "hype-cycle-for-procurement-sourcing-2026",
+    "title": "Raindrop Gartner Hype Cycle",
+    "sourceUrl": "https://raindrop.com/hype-cycle-for-procurement-sourcing-2026/",
+    "blocks": [
+      {
+        "blockType": "featureSplit",
+        "headline": "Hype Cycle for Procurement & Sourcing, 2026",
+        "body": "Procurement organizations are under pressure to modernize faster than ever, as agentic AI reshapes what's possible across sourcing, contracts, and payments. This Hype Cycle identifies the technologies enabling that shift. Raindrop is proud to be recognized as a Sample Vendor in the 2026 Gartner® Hype Cycle™ for Procurement and Sourcing Solutions — our fifth consecutive year of inclusion in a Gartner Hype Cycle.",
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/hype-cycle-for-procurement-sourcing-2026/agent-washing-social-post-5-1024x576.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
+      },
+      {
+        "blockType": "featureSplit",
+        "headline": "Raindrop Positioned in the Following Categories:",
+        "body": "Raindrop is recognized as a Sample Vendor in two categories: Operations and Savings Management, and Source-to-Pay Suites.\n\nOperations and Savings Management solutions help organizations manage, track, and report projects across the procurement organization. This typically focuses on savings initiatives from sourcing and other cost-reduction activities. Chief procurement officers gain comprehensive oversight of all ongoing procurement projects. This strategic visibility allows them to effectively allocate resources and balance workloads, enhancing team productivity. At the same time, such visibility increases financial outlook accuracy while also promoting objective individual job performance metrics. Properly calculated savings and reliable forecasting will vastly increase the credibility and strategic impact of the procurement department.\n\nSource-to-Pay Suites manage a wide breadth of sourcing and procurement processes in a single, supplier-integrated set of modules. These suites address both strategic and operational processes that help organizations manage spend and suppliers. S2P suites offer an integrated platform with a normalized data model, analytics, standardized UI, and best-practice workflows. The potential for end-to-end visibility and traceability from sourcing to payment allows for tighter business controls and policy compliance. Increased cost savings can be realized by using spend analysis and e-sourcing, as procurement professionals spend more time executing insights provided by an S2P tool.\n\n[Raindrop is a modern, AI-native Source-to-Pay platform](/why-raindrop/ai-powered) that empowers procurement and finance teams to optimize costs, improve visibility, and drive strategic outcomes. Recognized by Gartner in multiple Hype Cycles for five consecutive years, Raindrop helps organizations adapt quickly with speed, clarity, and intelligence.",
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/hype-cycle-for-procurement-sourcing-2026/screenshot-2026-07-22-at-10.11.45-am-1024x456.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
+      },
+      {
+        "blockType": "featureSplit",
+        "headline": "Recognized by Customers, Too",
+        "body": "Gartner’s analysts aren’t the only ones taking note. On Gartner Peer Insights, customers are saying the same thing directly — including a 5-star review from a Director of Strategic Sourcing in Travel and Hospitality, who called out Raindrop’s ability to customize the platform around their specific needs. [See our reviews on Gartner Peer Insights.]",
+        "imagePosition": "left",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/hype-cycle-for-procurement-sourcing-2026/what-features-should-you-look-for-in-a-source-to-pay-solution-1024x576.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
+      },
+      {
+        "blockType": "featureSplit",
+        "headline": "Request to Download",
+        "body": "We believe Raindrop’s continued inclusion reflects growing recognition for platforms that deliver AI-powered decision support, intake orchestration, and modern, modular capabilities across the source-to-pay journey.\n\nRaindrop is [AI-enabled](/why-raindrop/ai-powered) by design, leveraging the power of agentic AI to deliver real, tangible value — not empty hype. From Rain, our agentic AI layer, to embedded intake and orchestration and GenAI contract management, Raindrop is guided by a clear set of founding principles. We prioritize transparency and security, ensuring our AI solutions are actionable, reliable, and built to empower procurement and finance teams.\n\nWe believe Raindrop’s inclusion reflects growing recognition for platforms that deliver AI-powered decision support, intake orchestration, and modern, modular capabilities across the source-to-pay journey.\n\nRaindrop is [AI-enabled](/why-raindrop/ai-powered) by design, leveraging the power of AI to deliver real, tangible value — not empty hype. From AI ingestion for AP to GenAI Contract Management, Raindrop is guided by a clear set of founding principles. We prioritize transparency and security, ensuring our AI solutions are actionable, reliable, and built to empower",
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/hype-cycle-for-procurement-sourcing-2026/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform-1024x576.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
+      },
+      {
+        "blockType": "featureSplit",
+        "headline": "Gartner Disclaimer:",
+        "body": "Gartner, Hype Cycle for Strategic Cost Optimization, 2026, Lynne Phelan, Martin Shreffler, Chaithanya Paradarami, Magnus Bergfors, Alex  Brady, August  2026.\n\nGARTNER is a registered trademark and service mark of Gartner, Inc. and/or its affiliates in the U.S. and internationally, and HYPE CYCLE is a registered trademark of Gartner, Inc. and/or its affiliates and are used herein with permission. All rights reserved.\n\nGartner does not endorse any vendor, product or service depicted in our research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s research organization and should not be construed as statements of fact. Gartner® disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.\n\nThis graphic was published by Gartner, Inc. as part of a larger research document and should be evaluated in the context of the entire document. The Gartner document is available upon request from Raindrop.",
+        "imagePosition": "right"
+      },
+      {
+        "blockType": "resourceList",
+        "headline": "Related Posts",
+        "items": [
+          {
+            "title": "What Features Should You Look for in a Source-to-Pay Solution?",
+            "excerpt": "Articles",
+            "href": "/what-features-should-you-look-for-in-a-source-to-pay-solution",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/hype-cycle-for-procurement-sourcing-2026/what-features-should-you-look-for-in-a-source-to-pay-solution-1024x576.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
+          },
+          {
+            "title": "What Are the Key Benefits of Using an AI-Powered Spend Management Platform?",
+            "excerpt": "Articles",
+            "href": "/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/hype-cycle-for-procurement-sourcing-2026/what-are-the-key-benefits-of-using-an-ai-powered-spend-management-platform-1024x576.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
+          },
+          {
+            "title": "Tail Spend Management: Why the Last 20% of Spend Deserves the Same Rigor as the First 80%",
+            "excerpt": "Articles",
+            "href": "/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/hype-cycle-for-procurement-sourcing-2026/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80-2-1024x576.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
+          },
+          {
+            "title": "Governance Isn’t a Feature. It’s a Relationship.",
+            "excerpt": "Articles",
+            "href": "/governance-isnt-a-feature-its-a-relationship",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/hype-cycle-for-procurement-sourcing-2026/tail-spend-management-why-the-last-20-of-spend-deserves-the-same-rigor-as-the-first-80-1024x576.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
+          },
+          {
+            "title": "Deploy AI Agents in Procurement: A Roadmap to Success",
+            "excerpt": "Articles",
+            "href": "/deploy-ai-agents-in-procurement-a-roadmap-to-success",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/hype-cycle-for-procurement-sourcing-2026/gartner-flex-report-deploying-ai-agents-images-2-1024x576.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
+          },
+          {
+            "title": "Raindrop vs. LightSource: Which Platform Fits Your Procurement Problem?",
+            "excerpt": "Articles",
+            "href": "/raindrop-vs-lightsource-which-platform-fits-your-procurement-problem",
+            "image": {
+              "id": 0,
+              "url": "/assets/imported/hype-cycle-for-procurement-sourcing-2026/raindrop-systems-vs.-lightsource-which-platform-fits-your-procurement-problem-1024x576.webp",
+              "alt": "Ui",
+              "mimeType": "image/webp",
+              "updatedAt": "1970-01-01T00:00:00.000Z",
+              "createdAt": "1970-01-01T00:00:00.000Z"
+            }
+          }
+        ]
+      }
+    ],
+    "updatedAt": "1970-01-01T00:00:00.000Z",
+    "createdAt": "1970-01-01T00:00:00.000Z",
+    "_status": "published"
+  },
+  {
+    "id": 0,
     "slug": "legal",
     "title": "Legal & Privacy Policy",
     "sourceUrl": "https://raindrop.com/legal/",
@@ -11320,6 +11477,211 @@ const pages: Page[] = [
         "blockType": "cta",
         "headline": "Ready to Transform Your Data Integration?",
         "description": "Raindrop connects to NetSuite, SAP, Oracle, Dynamics 365, Workday, and more, no rip-and-replace ERP project. Modules go live in as little as 1 week.",
+        "primaryCta": {
+          "href": "/contact/get-started",
+          "label": "Request a Demo"
+        }
+      }
+    ],
+    "updatedAt": "1970-01-01T00:00:00.000Z",
+    "createdAt": "1970-01-01T00:00:00.000Z",
+    "_status": "published"
+  },
+  {
+    "id": 0,
+    "slug": "understanding-agentic-ai-and-its-role-in-procurement",
+    "title": "Understanding Agentic AI in Procurement",
+    "sourceUrl": "https://raindrop.com/understanding-agentic-ai-and-its-role-in-procurement/",
+    "blocks": [
+      {
+        "blockType": "featureSplit",
+        "headline": "Understanding Agentic AI and Its Role in Procurement",
+        "body": "Enterprise technology is at a turning point, largely driven by advances in artificial intelligence (AI). Over the last decade, what used to be basic automation tools have now become powerful systems that are capable of analyzing data and generating content; these systems learn and adapt, growing in importance to teams. Each evolution of AI has expanded what an organization can do with it, yet the limitations of AI still remain a consideration. We've created this Agentic Guide into a series of rainbursts as well as an [Agentic Glossary of Terms](/agentic-glossary-of-terms) to help you learn, understand, and navigate your way through the emerging agentic landscape for Procurement and Finance.",
+        "imagePosition": "right"
+      },
+      {
+        "blockType": "featureSplit",
+        "headline": "Understanding Agentic AI and Its Role in Procurement",
+        "body": "We've created this Agentic Guide into a series of rainbursts as well as an [Agentic Glossary of Terms](/agentic-glossary-of-terms) to help you learn, understand, and navigate your way through the emerging agentic landscape for Procurement and Finance.\n\nScroll below to get started!\n\n[01Agentic AI: The Next Evolution of Artificial Intelligence in Enterprise Software](#section-1)\n\n[02What to Know About Agentic AI](#section-2)\n\n[03The Technology Behind Agentic AI](#section-3)\n\n[04Why Procurement is Ideal for Agentic AI](#section-4)\n\n[05Examining Core Use Cases for Agentic AI in Procurement and Finance](#section-5)\n\n[06The Operating Model of Agentic Procurement](#section-6)\n\n[07The Architecture Required to Enable Agentic AI](#section-7)\n\n[08Limitations of Agentic AI and Why We Still Need Humans](#section-8)\n\n[09How Raindrop Enables Agentic Procurement](#section-9)\n\n[10Are You Ready for Agentic Procurement?](#section-10)\n\nPlus: [Frequently Asked Questions](#ebook-faq) · [Agentic Glossary of Terms](/agentic-glossary-of-terms)\n\nAI is moving away from providing insight and moving toward planning and acting on necessary tasks.\n\nAgentic AI introduces the potential for autonomous workflows with minimal human interaction.\n\nProcurement’s process-driven, cross-system, decision-heavy, complex nature is what makes it uniquely suited to work with agentic AI systems.",
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/understanding-agentic-ai-and-its-role-in-procurement/cover-image-agentic-ebook.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
+      },
+      {
+        "blockType": "featureSplit",
+        "headline": "Our Ten Part Series to Take You through Agentic",
+        "body": "Enterprise technology is at a turning point, largely driven by advances in artificial intelligence (AI). Over the last decade, what used to be basic automation tools have now become powerful systems that are capable of analyzing data and generating content; these systems learn and adapt, growing in importance to teams. Each evolution of AI has expanded what an organization can do with it, yet the limitations of AI still remain a consideration. We've created this Agentic Guide into a series of rainbursts as well as an [Agentic Glossary of Terms](/agentic-glossary-of-terms) to help you learn, understand, and navigate your way through the emerging agentic landscape for Procurement and Finance. Scroll below to get started!",
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/understanding-agentic-ai-and-its-role-in-procurement/agentic-ai-ebook_01-1024x264.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
+      },
+      {
+        "blockType": "featureSplit",
+        "headline": "Table of Contents",
+        "body": "[01Agentic AI: The Next Evolution of Artificial Intelligence in Enterprise Software](#section-1) [02What to Know About Agentic AI](#section-2) [03The Technology Behind Agentic AI](#section-3) [04Why Procurement is Ideal for Agentic AI](#section-4) [05Examining Core Use Cases for Agentic AI in Procurement and Finance](#section-5) [06The Operating Model of Agentic Procurement](#section-6) [07The Architecture Required to Enable Agentic AI](#section-7) [08Limitations of Agentic AI and Why We Still Need Humans](#section-8) [09How Raindrop Enables Agentic Procurement](#section-9) [10Are You Ready for Agentic Procurement?](#section-10) Plus: [Frequently Asked Questions](#ebook-faq) · [Agentic Glossary of Terms](/agentic-glossary-of-terms)",
+        "imagePosition": "left",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/understanding-agentic-ai-and-its-role-in-procurement/agentic-ai-ebook_02b-1024x602.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
+      },
+      {
+        "blockType": "featureGrid",
+        "headline": "Key Takeaways",
+        "features": [
+          {
+            "title": "Section 1",
+            "description": ""
+          },
+          {
+            "title": "Agentic AI: The Next Evolution of Artificial Intelligence in Enterprise Software",
+            "description": "Artificial intelligence has moved quickly from cautious experimentation to everyday business use. What began as rules-based automation evolved into predictive analytics, then generative AI, and now agentic AI - systems that can not only analyze and recommend, but plan, act, and improve over time. This shift matters because most enterprise AI has historically stopped short of execution. It could summarize data, surface trends, or answer questions, but still required humans to decide what came next and initiate the work. · Agentic AI changes that model. By connecting AI models to real systems, workflows, permissions, and business data, organizations can move from insight to action. For procurement, this is especially powerful. Procurement sits at the center of suppliers, contracts, invoices, approvals, sourcing events, risk, and spend decisions. It is data-rich, process-heavy, and full of repeatable decisions that require context. Agentic AI helps turn that complexity into coordinated action while keeping humans in control. · AI is no longer just answering questions. It is starting to take action. See why agentic AI is becoming the next major shift in enterprise software."
+          },
+          {
+            "title": "[Read the Complete Section 1 Read the Complete Section 1](/section-1-agentic-ai-the-next-evolution-of-artificial-intelligence-in-enterprise-software)Section 2",
+            "description": ""
+          },
+          {
+            "title": "What to know about Agentic AI",
+            "description": "Agentic AI refers to AI systems built around autonomous software agents that can pursue goals, reason through problems, make decisions, and execute tasks across digital systems with limited human oversight. Unlike traditional automation, which follows predefined rules, or generative AI, which creates content based on prompts, agentic AI is designed to work toward outcomes. · At its core, agentic AI combines three capabilities: autonomy, reasoning, and execution. It can understand context, determine goals, plan actions, execute tasks, and learn from the results. That makes it especially useful in dynamic business environments where conditions change and workflows span multiple systems. · In procurement, this distinction is critical. A traditional automation might route an invoice for approval when it exceeds a threshold. An agentic AI system could detect supplier risk, assess the contract impact, recommend alternatives, and launch the appropriate workflow. It does not simply wait for a trigger; it proactively identifies what needs attention and helps move work forward. · Automation follows instructions. Agentic AI works toward outcomes. Learn the difference — and why it matters for procurement."
+          },
+          {
+            "title": "[Read The Complete Section 2 Read The Complete Section 2](/section-2-what-to-know-about-agentic-ai)Section 3",
+            "description": ""
+          },
+          {
+            "title": "The Technology Behind Agentic AI",
+            "description": "Agentic AI is not one single technology. It is an ecosystem of models, memory, orchestration, tools, integrations, and governance layers working together to support autonomous workflows. Large Language Models provide the reasoning foundation, allowing agents to understand natural language, interpret context, and determine possible next steps. But LLMs alone are not enough. Without access to enterprise systems, workflows, data, and permissions, they can generate recommendations but cannot execute meaningful work. · That is why integrations and orchestration are essential. Agents need access to procurement systems, ERPs, contracts, supplier records, invoices, and workflow data. They also need memory and context so they can maintain continuity across multi-step processes. Orchestration ensures that tasks happen in the right sequence, with the right approvals and controls. · Emerging standards like Model Context Protocol may also help AI systems connect securely with external tools and data sources. Together, these components allow agentic AI to move beyond chat and become operational — capable of acting across real enterprise workflows. · Agentic AI is more than a smart model. See the technology stack that turns AI from an assistant into an operator."
+          },
+          {
+            "title": "[Read The Complete Section 3 Read The Complete Section 3](/section-3-the-technology-behind-agentic-ai)Section 4",
+            "description": ""
+          },
+          {
+            "title": "Why Procurement is Ideal for Agentic AI and the Benefits",
+            "description": "Procurement is one of the strongest use cases for agentic AI because it is complex, process-driven, and deeply connected to enterprise operations. Most procurement teams manage fragmented systems, manual workflows, disconnected data, slow cycle times, limited visibility, and significant operational overhead. As organizations grow, these challenges become harder to manage with spreadsheets, email, and disconnected tools. · Agentic AI is well-suited to this environment because procurement work often involves structured workflows, repeated decisions, cross-functional coordination, and data spread across multiple systems. Supplier onboarding, contract management, sourcing, invoice processing, and approval routing all require context, timing, and coordination. These are exactly the types of workflows where AI agents can help. · By working across systems in real time, agentic AI can identify supplier risks, monitor contracts, validate invoices, initiate workflows, and surface opportunities before they are missed. Instead of reacting after issues occur, procurement teams can anticipate risks and act faster with better information. · Procurement is where complexity, data, decisions, and workflows collide — making it a natural home for agentic AI."
+          },
+          {
+            "title": "[Read The Complete Section 4 Read The Complete Section 4](/section-4-why-procurement-is-ideal-for-agentic-ai)Section 5 - Examining Core use Cases for agentic AI in Procurement",
+            "description": "Agentic AI can create value across the full procurement lifecycle by embedding intelligence directly into workflows. In procurement intake, agents can interpret incoming requests, classify them, gather missing information, and route work to the right process. In supplier onboarding, they can collect documentation, monitor compliance requirements, track progress, and flag missing or risky information. · Contract lifecycle management is another strong use case. Agents can monitor renewal dates, identify contract risks, surface conflicting terms, and notify teams before obligations are missed. In sourcing, agents can support supplier discovery, prepare RFx documents, summarize responses, and recommend suppliers based on evaluation criteria. In accounts payable, agents can validate invoices, detect duplicates, flag anomalies, compare invoices to contracts and purchase orders, and trigger approval workflows. · Across these use cases, the common thread is context-driven execution. Agentic AI does not simply automate repetitive tasks. It interprets inputs, makes decisions within approved parameters, and coordinates workflows in real time — helping procurement teams focus on higher-value work."
+          },
+          {
+            "title": "[Read The Complete Section 5 Read The Complete Section 5](/section-5-examining-core-use-cases-for-agentic-ai-in-procurement-and-finance)Section 6",
+            "description": ""
+          },
+          {
+            "title": "The Operating Model of Agentic Procurement",
+            "description": "Agentic AI does more than improve procurement workflows. It changes the operating model. Traditional procurement often depends on manual coordination across emails, spreadsheets, approval queues, and disconnected systems. Teams spend significant time chasing updates, routing requests, validating information, and managing status rather than focusing on strategy. · Agentic procurement introduces a different model: AI-managed workflows, automated coordination, continuous monitoring, and faster execution across connected systems. Agents can track progress, identify issues, route work, surface risks, and trigger next steps. This allows humans to move out of the middle of every task and into a higher-value role focused on strategy, governance, exceptions, supplier relationships, and business decisions. · The goal is not to remove humans from procurement. It is to remove unnecessary manual work so procurement professionals can apply their judgment where it matters most. The future of procurement is not fewer people; it is fewer repetitive tasks and more strategic capacity."
+          },
+          {
+            "title": "[Read The Complete Section 6 Read The Complete Section 6](/section-6-the-operating-model-of-agentic-procurement)Section 7",
+            "description": ""
+          },
+          {
+            "title": "The Architecture Required to Enable Agentic AI",
+            "description": "Agentic AI cannot deliver meaningful procurement outcomes without the right architecture. It requires more than an intelligent interface layered on top of existing tools. To act effectively, agents need access to unified data, connected workflows, real-time system integrations, and clear governance controls. · First, procurement data must be unified. Agents need visibility into contracts, suppliers, sourcing events, invoices, purchase orders, and financial systems. Without a connected data model, AI cannot make accurate, contextual decisions. Second, workflows must be orchestrated so agents can manage sequences, dependencies, approvals, and business rules. Third, agents must integrate with enterprise systems such as ERP, procure-to-pay, and contract lifecycle management platforms so they can update records, trigger workflows, and execute tasks. · Finally, security and governance must be built in from the start. Role-based permissions, audit trails, monitoring, and policy enforcement are essential. Without this foundation, AI can assist — but it cannot reliably operate."
+          },
+          {
+            "title": "[Read The Complete Section 7 Read The Complete Section 7](/section-7-the-architecture-required-to-enable-agentic-ai)Section 8 - Limitations of Agentic AI and Why we still need humans",
+            "description": "Agentic AI is powerful, but it is not flawless. Its effectiveness depends on four major constraints: reliability, context, execution, and governance. Because many AI systems are non-deterministic, their outputs can vary even with similar inputs. In multi-step workflows, small errors can compound into larger operational, financial, or compliance risks. Reliability requires validation layers, structured workflows, guardrails, and normalized data. · Context is equally important. If procurement data is fragmented, incomplete, or outdated, the AI’s understanding will be limited. Execution also requires the right infrastructure. LLMs cannot act inside enterprise systems on their own; they need platforms, APIs, workflow engines, and permissions. Governance is the final requirement. As agents gain access to contracts, suppliers, transactions, and sensitive information, organizations need role-based access, audit trails, monitoring, and policy controls. · For these reasons, humans remain essential. They provide oversight, validate decisions, manage exceptions, and ensure AI systems stay aligned with business goals."
+          },
+          {
+            "title": "[Read The Complete Section 8 Read The Complete Section 8](/section-8-limitations-of-agentic-ai-and-why-we-still-need-humans)Section 9 - How Raindrop Enables Agentic Procurement",
+            "description": "Raindrop enables agentic procurement through an AI-native Source-to-Pay platform designed to connect workflows, data, permissions, and execution across the procurement lifecycle. Rather than relying on fragmented systems, Raindrop brings intake, sourcing, supplier management, contracts, purchasing, accounts payable, analytics, workflows, and AI into one connected environment. · At the center is Rain, Raindrop’s unified AI layer. Rain supports conversational intelligence, workflow execution, and proactive orchestration. Query Agents help users answer procurement questions across spend, contracts, sourcing, suppliers, and performance data. Action Agents move from answers to execution by helping create sourcing events, recommend award scenarios, identify contract overlap, and initiate workflows. Proactive Agents monitor for risks and opportunities in real time, such as high-risk renewals, tail spend opportunities, or market pricing shifts. · With Raindrop, a user can ask a question, receive a contextual answer, and initiate the right workflow from the same environment. Procurement work moves from manual coordination to AI-enabled outcomes."
+          },
+          {
+            "title": "[Read The Complete Section 9 Read The Complete Section 9](/section-9-how-raindrop-enables-agentic-procurement)Section 10 - Define your Business's Future in Procurement with Agentic AI",
+            "description": "Agentic procurement is not just a technology shift. It is an operating model shift. In this final section, we introduce the RAIN readiness framework — Ready, Able, Invested, and Nurturing — to help organizations assess whether they have the leadership alignment, data foundation, digital processes, resources, and change mindset needed to take the next step. · Most procurement teams are not fully ready yet, and that is exactly the point. Before agentic AI can transform source-to-pay, organizations need the right foundation in place. Raindrop helps teams get there with one unified platform, AI built in from the start, and Rain connected across sourcing, contracts, procurement, AP, and payments. When your organization is RAIN ready, Raindrop gives you the platform, intelligence, and momentum to turn readiness into measurable results."
+          },
+          {
+            "title": "[Read The Complete Chapter 10 Read The Complete Chapter 10](/section-10-are-you-ready-for-agentic-procurement)FAQ",
+            "description": "What is agentic AI in procurement?Agentic AI in procurement refers to AI systems that can reason, plan, make decisions, and take action across procurement workflows with limited human intervention. Instead of only answering questions or generating content, agentic AI can help move work forward across sourcing, supplier management, contracts, purchasing, invoices, approvals, and analytics. · How is agentic AI different from generative AI?Generative AI creates content, summaries, responses, and recommendations. Agentic AI goes further by connecting intelligence to systems, data, workflows, and permissions. That means it can help turn an answer into an action, such as routing an approval, flagging a contract risk, initiating a sourcing event, or creating a task for review. · How is agentic AI different from traditional automation?Traditional automation follows predefined rules: when something happens, the system performs a specific action. Agentic AI is more flexible. It can interpret context, evaluate options, recommend next steps, and act within approved workflows and guardrails. Put simply: automation follows instructions; agentic AI works toward outcomes. · Why is procurement a strong use case for agentic AI?Procurement is process-heavy, data-rich, and highly cross-functional. Teams work across suppliers, contracts, purchase requests, sourcing events, invoices, budgets, approvals, and business stakeholders. Because so much procurement work depends on context, coordination, and repeatable decision-making, it is well suited for agentic AI. · What can agentic AI help procurement teams do?Agentic AI can help procurement teams ask questions in natural language, analyze data across workflows, identify risks and savings opportunities, recommend next steps, and initiate approved actions. Common use cases include intake, supplier onboarding, sourcing support, contract monitoring, invoice validation, approval routing, and spend analysis. · Does agentic AI replace procurement professionals?No. Agentic AI is not about replacing procurement teams. It is about reducing repetitive manual work so people can focus on higher-value activities such as supplier strategy, negotiation, risk management, business alignment, governance, and exception handling. Humans still provide judgment, oversight, and control. · What are Query Agents, Action Agents, and Proactive Agents?Query Agents help users answer questions and understand procurement data. Action Agents move beyond answers by helping execute work, such as creating sourcing events, initiating workflows, or identifying contract overlap. Proactive Agents monitor activity in real time and surface risks or opportunities before users ask. · What technology is needed for agentic AI to work?Agentic AI needs more than a large language model. It requires unified procurement data, workflow orchestration, system integrations, permissions, governance, and security controls. Without this foundation, AI may be able to assist or recommend, but it cannot reliably execute work across enterprise procurement systems. · Why does data quality matter for agentic AI?Agentic AI depends on accurate, connected, and contextual data. If supplier, contract, invoice, sourcing, or financial data is fragmented across systems, the AI may lack the context needed to make reliable recommendations or take appropriate action. Clean data, structured metadata, and connected workflows are essential. · What are the risks or limitations of agentic AI?Agentic AI systems can produce variable outputs, especially when working across complex, multi-step workflows. They need the right context, integrations, execution layers, and governance controls. Human oversight, audit trails, role-based permissions, validation layers, and policy enforcement help ensure AI operates safely and reliably. · How does Raindrop enable agentic procurement?Raindrop enables agentic procurement through an AI-native Source-to-Pay platform that connects procurement data, workflows, approvals, and execution in one environment. Rain, Raindrop’s AI layer, brings together conversational intelligence, workflow execution, and proactive orchestration so teams can move from asking questions to taking action. · What is the future of procurement with agentic AI?The future of procurement is faster, more connected, and more strategic. Agentic AI helps teams move beyond manual coordination and disconnected tools toward intelligent orchestration across the Source-to-Pay lifecycle. Procurement teams can spend less time chasing tasks and more time driving outcomes, managing risk, and creating business value."
+          }
+        ]
+      },
+      {
+        "blockType": "featureSplit",
+        "headline": "Build the business case with your own numbers.",
+        "body": "Run the payback math on your spend, then see what Raindrop Systems customers actually achieved. The ROI is realized, not projected. [SEE THE CLM PLATFORM](/solutions/modules/contract-lifecycle-management)[REQUEST A DEMO](/contact/get-started)",
+        "imagePosition": "right",
+        "image": {
+          "id": 0,
+          "url": "/assets/imported/understanding-agentic-ai-and-its-role-in-procurement/agentic-ai-ebook_section3_modelcontextprotocol-1-1024x479.webp",
+          "alt": "Ui",
+          "mimeType": "image/webp",
+          "updatedAt": "1970-01-01T00:00:00.000Z",
+          "createdAt": "1970-01-01T00:00:00.000Z"
+        }
+      },
+      {
+        "blockType": "faq",
+        "headline": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "How is agentic AI different from generative AI?",
+            "answer": "Generative AI creates content, summaries, responses, and recommendations. Agentic AI goes further by connecting intelligence to systems, data, workflows, and permissions. That means it can help turn an answer into an action, such as routing an approval, flagging a contract risk, initiating a sourcing event, or creating a task for review."
+          },
+          {
+            "question": "How is agentic AI different from traditional automation?",
+            "answer": "Traditional automation follows predefined rules: when something happens, the system performs a specific action. Agentic AI is more flexible. It can interpret context, evaluate options, recommend next steps, and act within approved workflows and guardrails. Put simply: automation follows instructions; agentic AI works toward outcomes."
+          },
+          {
+            "question": "Why is procurement a strong use case for agentic AI?",
+            "answer": "Procurement is process-heavy, data-rich, and highly cross-functional. Teams work across suppliers, contracts, purchase requests, sourcing events, invoices, budgets, approvals, and business stakeholders. Because so much procurement work depends on context, coordination, and repeatable decision-making, it is well suited for agentic AI."
+          },
+          {
+            "question": "What can agentic AI help procurement teams do?",
+            "answer": "Agentic AI can help procurement teams ask questions in natural language, analyze data across workflows, identify risks and savings opportunities, recommend next steps, and initiate approved actions. Common use cases include intake, supplier onboarding, sourcing support, contract monitoring, invoice validation, approval routing, and spend analysis."
+          },
+          {
+            "question": "Does agentic AI replace procurement professionals?",
+            "answer": "No. Agentic AI is not about replacing procurement teams. It is about reducing repetitive manual work so people can focus on higher-value activities such as supplier strategy, negotiation, risk management, business alignment, governance, and exception handling. Humans still provide judgment, oversight, and control."
+          },
+          {
+            "question": "What are Query Agents, Action Agents, and Proactive Agents?",
+            "answer": "Query Agents help users answer questions and understand procurement data. Action Agents move beyond answers by helping execute work, such as creating sourcing events, initiating workflows, or identifying contract overlap. Proactive Agents monitor activity in real time and surface risks or opportunities before users ask."
+          },
+          {
+            "question": "What technology is needed for agentic AI to work?",
+            "answer": "Agentic AI needs more than a large language model. It requires unified procurement data, workflow orchestration, system integrations, permissions, governance, and security controls. Without this foundation, AI may be able to assist or recommend, but it cannot reliably execute work across enterprise procurement systems."
+          },
+          {
+            "question": "Why does data quality matter for agentic AI?",
+            "answer": "Agentic AI depends on accurate, connected, and contextual data. If supplier, contract, invoice, sourcing, or financial data is fragmented across systems, the AI may lack the context needed to make reliable recommendations or take appropriate action. Clean data, structured metadata, and connected workflows are essential."
+          },
+          {
+            "question": "What are the risks or limitations of agentic AI?",
+            "answer": "Agentic AI systems can produce variable outputs, especially when working across complex, multi-step workflows. They need the right context, integrations, execution layers, and governance controls. Human oversight, audit trails, role-based permissions, validation layers, and policy enforcement help ensure AI operates safely and reliably."
+          },
+          {
+            "question": "How does Raindrop enable agentic procurement?",
+            "answer": "Raindrop enables agentic procurement through an AI-native Source-to-Pay platform that connects procurement data, workflows, approvals, and execution in one environment. Rain, Raindrop’s AI layer, brings together conversational intelligence, workflow execution, and proactive orchestration so teams can move from asking questions to taking action."
+          },
+          {
+            "question": "What is the future of procurement with agentic AI?",
+            "answer": "The future of procurement is faster, more connected, and more strategic. Agentic AI helps teams move beyond manual coordination and disconnected tools toward intelligent orchestration across the Source-to-Pay lifecycle. Procurement teams can spend less time chasing tasks and more time driving outcomes, managing risk, and creating business value. ## Build the business case with your own numbers."
+          }
+        ]
+      },
+      {
+        "blockType": "cta",
+        "headline": "Request a Demo",
         "primaryCta": {
           "href": "/contact/get-started",
           "label": "Request a Demo"
