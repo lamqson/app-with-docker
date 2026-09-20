@@ -1,0 +1,13 @@
+[build]
+  command = "npm run ci"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NPM_FLAGS = "--include=dev --legacy-peer-deps"
+  # Turbopack cache embeds server env vars; omit internal cache from secrets scanning
+  SECRETS_SCAN_OMIT_PATHS = ".netlify/.next/cache"
+  # Set in Netlify UI (Site configuration → Environment variables):
+  # PAYLOAD_SECRET, DATABASE_URL, NEXT_PUBLIC_SITE_URL
+
+# Next.js 13.5+ is detected automatically; Netlify installs the OpenNext adapter on each build.

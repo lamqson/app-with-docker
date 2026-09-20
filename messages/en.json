@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "siteName": "Raindrop",
+    "homeTitle": "Redefine Procurement with Agentic S2P",
+    "homeDescription": "Raindrop is built around a simple idea: Procurement starts with a request, not a transaction. Rain, our Agentic AI, helps teams ask questions, find answers, and take action across source-to-pay."
+  },
+  "nav": {
+    "main": "Primary",
+    "whyRaindrop": "Why Raindrop?",
+    "solutions": "Solutions",
+    "company": "Company",
+    "resources": "Resources",
+    "contact": "Contact",
+    "signIn": "Login",
+    "bookDemo": "Request a Demo",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "expandSection": "Expand section",
+    "collapseSection": "Collapse section",
+    "switchLanguage": "Switch language",
+    "toggleTheme": "Toggle color theme",
+    "useLightTheme": "Use light theme",
+    "useDarkTheme": "Use dark theme",
+    "skipToContent": "Skip to content",
+    "menu": {
+      "agenticAi": "Agentic AI",
+      "aiNativeProcurement": "AI Native Procurement",
+      "aiPowered": "AI Powered",
+      "ourExpertise": "Our Expertise",
+      "customerSuccess": "Customer Success",
+      "recognition": "Recognition",
+      "keyComponents": "Key Components",
+      "integrations": "Integrations",
+      "intakeOrchestration": "Intake & Orchestration",
+      "supplierManagement": "Supplier Management",
+      "sourcing": "Sourcing",
+      "clm": "Contract Lifecycle Management",
+      "eprocurement": "eProcurement",
+      "eInvoicing": "E-Invoicing",
+      "apAutomation": "AP Automation",
+      "rainpay": "RainPay",
+      "analytics": "Analytics",
+      "rainsign": "RainSign",
+      "executives": "Executives",
+      "finance": "Finance",
+      "procurement": "Procurement",
+      "itCompliance": "IT and Compliance",
+      "legal": "Legal",
+      "leadershipTeam": "Leadership Team",
+      "advisoryBoard": "Advisory Board",
+      "partners": "Partners",
+      "articles": "Articles",
+      "raindropNews": "Raindrop News",
+      "videos": "Videos",
+      "podcasts": "Podcasts"
+    },
+    "sections": {
+      "platform": "Platform",
+      "modules": "Modules",
+      "byBusinessFunction": "By Business Function"
+    }
+  },
+  "footer": {
+    "tagline": "Agentic AI-native Source-to-Pay for modern spend leaders.",
+    "sitemap": "Sitemap",
+    "legal": "Legal",
+    "security": "Security - SOC 2 Compliance",
+    "privacy": "Privacy Policy",
+    "address": "226 Airport Parkway, Suite 250, San Jose, CA 95110",
+    "phone": "408-352-5162",
+    "email": "hello@raindrop.com",
+    "copyright": "© 2026, raindrop.com. All rights reserved."
+  },
+  "locale": {
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French",
+    "de": "German",
+    "zh-TW": "Traditional Chinese",
+    "zh-CN": "Simplified Chinese",
+    "ja": "Japanese",
+    "ko": "Korean",
+    "it": "Italian",
+    "pt": "Portuguese",
+    "pt-BR": "Brazilian Portuguese"
+  },
+  "notFound": {
+    "title": "This page is not here.",
+    "body": "The route is missing or the locale is unknown. Try the homepage.",
+    "back": "Back to home"
+  },
+  "home": {
+    "announcement": "Raindrop Recognized As A Sample Vendor In 2026 Gartner Hype Cycle",
+    "tagline": "MAKE IT RAINDROP",
+    "title": "Redefine Procurement with Agentic S2P",
+    "subtitle": "Raindrop is built around a simple idea: Procurement starts with a request, not a transaction. Rain, our Agentic AI, helps Procurement, Finance, Legal, and Business Users ask questions, find answers, and take action across source-to-pay to manage your commitments.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "View Our Solutions",
+    "videoLabel": "Play video: RAIN In Action, Agentic AI for Spend Management",
+    "introTitle": "Rain helps teams move faster without adding more tools or complexity",
+    "introBody": "With lightning-fast deployment, a digital front door for",
+    "introLinkIntake": "intake and orchestration",
+    "introLinkPlatform": "Raindrop Platform",
+    "agenticTitle": "Agentic procurement for a transforming world",
+    "agenticBody": "Agentic AI is only as powerful as the platform behind it. Raindrop runs on a single codebase with procurement data, workflows, and permissions built in from day one.",
+    "agenticBullets": [
+      "First-class permissions across every workflow",
+      "Dynamic query-building for spend intelligence",
+      "Self-correcting agentic reasoning",
+      "Moving from answers to action",
+      "Procurement-specific clause and risk intelligence",
+      "Outcome-led instead of module-led results"
+    ],
+    "agenticCta": "Learn More About Agentic",
+    "valuesTitle": "Guiding values",
+    "values": [
+      {
+        "title": "Built for How You Want to Work",
+        "body": "Raindrop is the modern, intuitive solution that works the way you do."
+      },
+      {
+        "title": "An Authentic Solution Guided by Innovators",
+        "body": "Led by industry disruptors with cross-disciplinary experience solving real problems with empathy and expertise."
+      },
+      {
+        "title": "Creating Value By Commitments, Not Just Costs",
+        "body": "Raindrop empowers modern spend leaders to steer strategy, not just savings."
+      }
+    ],
+    "trustedTitle": "Trusted by industry leaders",
+    "quoteText": "We now have structure, visibility and governance we can scale across the organization.",
+    "quoteAuthor": "Maynil Lambert",
+    "quoteRole": "CIO of World Market",
+    "caseStat": "400% ROI",
+    "caseDetail": "$120M managed annualized spend — Workwear Outfitters",
+    "reviewsTitle": "Don't Just Take Our Word for It",
+    "reviewsCta": "Check Out Customer Success Stories",
+    "solutionsTitle": "Tailored solutions for every business function",
+    "solutions": [
+      {
+        "title": "Procurement",
+        "body": "Streamline Spend Management with an intuitive AI-powered platform."
+      },
+      {
+        "title": "Finance",
+        "body": "Gain real-time spend visibility and control over fiscal commitments."
+      },
+      {
+        "title": "Legal",
+        "body": "Automate contract lifecycle management and ensure compliance."
+      },
+      {
+        "title": "Technology",
+        "body": "Integrate seamlessly with existing systems for enhanced efficiency."
+      }
+    ],
+    "solutionsCta": "Explore Solutions by Function",
+    "resourcesTitle": "Latest from Raindrop",
+    "resources": [
+      "What Features Should You Look for in a Source-to-Pay Solution?",
+      "Tail Spend Management: How AI Agents Find Hidden Savings",
+      "Deploy AI Agents in Procurement Without Rip-and-Replace",
+      "Rain In Action: Agentic AI From Analysis To Action",
+      "Platform Overview"
+    ],
+    "resourcesCta": "View All Resources",
+    "ctaTitle": "Ready to Move Beyond Tracking Savings?",
+    "ctaButton": "Let's Talk"
+  },
+  "form": {
+    "name": "Full name",
+    "email": "Work email",
+    "company": "Company",
+    "message": "How can we help?",
+    "submit": "Send message",
+    "submitting": "Sending…",
+    "success": "Thanks — we received your message.",
+    "error": "Something went wrong. Please try again."
+  },
+  "agent": {
+    "open": "Ask",
+    "openButtonLabel": "Ask Rain",
+    "close": "Close",
+    "title": "Rain",
+    "panelLabel": "Rain agent chat",
+    "welcome": "Hi — I am Rain, your source-to-pay copilot. Ask about intake, sourcing, contracts, or suppliers.",
+    "demoMode": "Demo mode",
+    "liveMode": "Connected to GraphQL",
+    "placeholder": "Ask Rain anything…",
+    "inputLabel": "Message Rain",
+    "send": "Send",
+    "thinking": "Rain is thinking…",
+    "error": "I could not reach the agent API. Try again or request a demo."
+  }
+}
